@@ -1,0 +1,227 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\playwright.config.ts",
+    "rootDir": "C:/Users/PSHCPU003/Documents/Automation Playwright/Smokevana ERP/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/PSHCPU003/Documents/Automation Playwright/Smokevana ERP/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/PSHCPU003/Documents/Automation Playwright/Smokevana ERP/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "line",
+        null
+      ],
+      [
+        "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 5,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "NewSalesorder.test.ts",
+      "file": "NewSalesorder.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Smokevana ERP - Sales Order Automation",
+          "file": "NewSalesorder.test.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Scenario One: Create a new Sales Order",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 25179,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Point 1-3: Launching browser and logging in...\n"
+                        },
+                        {
+                          "text": "Filling username: admin...\n"
+                        },
+                        {
+                          "text": "Filling password...\n"
+                        },
+                        {
+                          "text": "Clicking Sign in...\n"
+                        },
+                        {
+                          "text": "Closed Application Tour modal.\n"
+                        },
+                        {
+                          "text": "Point 4-5: Navigating to Sales Order via Sidebar...\n"
+                        },
+                        {
+                          "text": "Navigated to Sales Order list page.\n"
+                        },
+                        {
+                          "text": "Point 5.5: Clicking Add Sales Order button...\n"
+                        },
+                        {
+                          "text": "Point 6: Waiting for Sales Order creation form to load...\n"
+                        },
+                        {
+                          "text": "Sales Order creation form loaded.\n"
+                        },
+                        {
+                          "text": "Point 7: Opening Customer dropdown...\n"
+                        },
+                        {
+                          "text": "Point 8: Searching for customer 'HarshaVC'...\n"
+                        },
+                        {
+                          "text": "Point 9: Clicking Enable Matrix toggle...\n"
+                        },
+                        {
+                          "text": "Point 10: Searching for product 'THCA'...\n"
+                        },
+                        {
+                          "text": "Point 11: Selecting first product result...\n"
+                        },
+                        {
+                          "text": "Point 12: Filling quantity[0] = 1...\n"
+                        },
+                        {
+                          "text": "Point 13: Filling quantity[1] = 1...\n"
+                        },
+                        {
+                          "text": "Point 14: Filling quantity[2] = 1...\n"
+                        },
+                        {
+                          "text": "Point 15: Clicking Add Matrix button...\n"
+                        },
+                        {
+                          "text": "Point 16: Clicking Save button...\n"
+                        },
+                        {
+                          "text": "Point 17: Clicking Confirm button...\n"
+                        },
+                        {
+                          "text": "Verifying success message...\n"
+                        },
+                        {
+                          "text": "Scenario One: Completed successfully.\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-26T21:40:03.440Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\NewSalesorder-Smokevana-ER-0d76a-ne-Create-a-new-Sales-Order-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\NewSalesorder-Smokevana-ER-0d76a-ne-Create-a-new-Sales-Order-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\NewSalesorder-Smokevana-ER-0d76a-ne-Create-a-new-Sales-Order-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "01ff17f9bd165d3ae97c-46bfc4784e09ccec0063",
+              "file": "NewSalesorder.test.ts",
+              "line": 8,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-02-26T21:40:02.666Z",
+    "duration": 26914.784,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

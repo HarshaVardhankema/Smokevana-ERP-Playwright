@@ -1,0 +1,22 @@
+{
+    "name": "smokevana/subscription",
+    "description": "Prime Customer Subscription module for Smokevana ERP",
+    "authors": [
+        {
+            "name": "Smokevana Development",
+            "email": "dev@smokevana.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Subscription\\Providers\\SubscriptionServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Subscription\\": ""
+        }
+    }
+}

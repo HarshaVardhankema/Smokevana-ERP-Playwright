@@ -1,0 +1,16 @@
+{
+  "name": "smokevana-erp-playwright",
+  "version": "1.0.0",
+  "description": "Smokevana ERP Test Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^20.0.0",
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^3.4.5",
+    "typescript": "^5.0.0"
+  }
+}

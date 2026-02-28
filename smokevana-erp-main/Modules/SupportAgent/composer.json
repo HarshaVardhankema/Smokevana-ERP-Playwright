@@ -1,0 +1,26 @@
+{
+    "name": "modules/supportagent",
+    "description": "AI-powered Support Agent module that helps users understand and use system features using LLM and MCP integration.",
+    "type": "laravel-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Smokevana",
+            "email": "support@smokevana.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Modules\\SupportAgent\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SupportAgent\\Providers\\SupportAgentServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}

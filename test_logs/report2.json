@@ -1,0 +1,212 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\playwright.config.ts",
+    "rootDir": "C:/Users/PSHCPU003/Documents/Automation Playwright/Smokevana ERP/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/PSHCPU003/Documents/Automation Playwright/Smokevana ERP/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/PSHCPU003/Documents/Automation Playwright/Smokevana ERP/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 5,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Salesinvoice.test.ts",
+      "file": "Salesinvoice.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Smokevana ERP Sales Invoice Automation",
+          "file": "Salesinvoice.test.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Create Sales Invoice with Matrix, Discount, and Submit",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 120079,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 120000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 120000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 120000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "message": "Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, open 'C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\.playwright-artifacts-0\\traces\\9c485b6c1cb794c4520a-41939ec0b0e6fcca0ecd.trace'"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\Sales\\Salesinvoicepage.ts",
+                            "column": 36,
+                            "line": 91
+                          },
+                          "message": "Error: locator.waitFor: Test ended.\nCall log:\n\u001b[2m  - waiting for locator('table#pos_table tbody tr').first().locator('select.row_discount_type').first() to be visible\u001b[22m\n\u001b[2m    191 × locator resolved to hidden <select class=\"form-control row_discount_type\" name=\"products[1][line_discount_type]\">…</select>\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\Sales\\Salesinvoicepage.ts:91\n\n\u001b[0m \u001b[90m 89 |\u001b[39m\n \u001b[90m 90 |\u001b[39m         \u001b[36mconst\u001b[39m discountTypeDropdown \u001b[33m=\u001b[39m row\u001b[33m.\u001b[39mlocator(\u001b[32m'select.discount-type-sel'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 91 |\u001b[39m         \u001b[36mawait\u001b[39m discountTypeDropdown\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 92 |\u001b[39m         \u001b[36mawait\u001b[39m discountTypeDropdown\u001b[33m.\u001b[39mselectOption(discountType)\u001b[33m;\u001b[39m\n \u001b[90m 93 |\u001b[39m\n \u001b[90m 94 |\u001b[39m         \u001b[36mconst\u001b[39m discountInput \u001b[33m=\u001b[39m row\u001b[33m.\u001b[39mlocator(\u001b[32m'input.discount-amt'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SalesInvoicePage.addDiscount (C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\Sales\\Salesinvoicepage.ts:91:36)\u001b[22m\n\u001b[2m    at C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\Salesinvoice.test.ts:67:32\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Launching browser and logging in...\n"
+                        },
+                        {
+                          "text": "Filling username: admin...\n"
+                        },
+                        {
+                          "text": "Filling password...\n"
+                        },
+                        {
+                          "text": "Clicking Sign in...\n"
+                        },
+                        {
+                          "text": "Closed Application Tour modal.\n"
+                        },
+                        {
+                          "text": "Navigating to Add Sale Invoice (SI) via sidebar...\n"
+                        },
+                        {
+                          "text": "Sales Invoice creation page loaded.\n"
+                        },
+                        {
+                          "text": "Selecting Customer...\n"
+                        },
+                        {
+                          "text": "Selecting customer HarshaVC...\n"
+                        },
+                        {
+                          "text": "Enabling Matrix...\n"
+                        },
+                        {
+                          "text": "Enabling matrix...\n"
+                        },
+                        {
+                          "text": "Searching Product...\n"
+                        },
+                        {
+                          "text": "Searching for product THCA ...\n"
+                        },
+                        {
+                          "text": "Filling Matrix Quantities...\n"
+                        },
+                        {
+                          "text": "Filling matrix quantity for index 0: 2\n"
+                        },
+                        {
+                          "text": "Filling matrix quantity for index 1: 1\n"
+                        },
+                        {
+                          "text": "Clicking Add Matrix...\n"
+                        },
+                        {
+                          "text": "Clicking Matrix Add button...\n"
+                        },
+                        {
+                          "text": "Applying fixed discount of $5 to the first row...\n"
+                        },
+                        {
+                          "text": "Adding fixed discount of 5 to row 0...\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-26T20:42:06.278Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\Salesinvoice-Smokevana-ERP-15de2--Matrix-Discount-and-Submit-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\Salesinvoice-Smokevana-ERP-15de2--Matrix-Discount-and-Submit-chromium\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\Salesinvoice-Smokevana-ERP-15de2--Matrix-Discount-and-Submit-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9c485b6c1cb794c4520a-41939ec0b0e6fcca0ecd",
+              "file": "Salesinvoice.test.ts",
+              "line": 8,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-02-26T20:42:05.529Z",
+    "duration": 121339.623,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

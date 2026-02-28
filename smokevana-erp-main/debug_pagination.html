@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pagination Debug</title>
+</head>
+<body>
+    <h1>Pagination Debug Script</h1>
+    <p>Open the browser console on http://localhost:8000/sales-order and paste this script:</p>
+    <pre id="script"></pre>
+    <button onclick="copyScript()">Copy Script to Clipboard</button>
+    
+    <script>
+        const scriptContent = `(function() {
+    var paginate = document.querySelector('.dataTables_paginate');
+    if (!paginate) return 'No .dataTables_paginate found';
+    
+    var result = {
+        outerHTML: paginate.outerHTML,
+        children: []
+    };
+    
+    for (var i = 0; i < paginate.children.length; i++) {
+        var child = paginate.children[i];
+        result.children.push({
+            tagName: child.tagName,
+            className: child.className,
+            id: child.id,
+            textContent: child.textContent.trim(),
+            innerHTML: child.innerHTML,
+            display: window.getComputedStyle(child).display,
+            visibility: window.getComputedStyle(child).visibility,
+            width: window.getComputedStyle(child).width,
+            border: window.getComputedStyle(child).border,
+            childrenCount: child.children.length
+        });
+    }
+    
+    return JSON.stringify(result, null, 2);
+})()`;
+
+        document.getElementById('script').textContent = scriptContent;
+        
+        function copyScript() {
+            navigator.clipboard.writeText(scriptContent).then(() => {
+                alert('Script copied to clipboard! Now:\n1. Navigate to http://localhost:8000/sales-order\n2. Open browser console (F12)\n3. Paste and press Enter\n4. Copy the result and share it');
+            });
+        }
+    </script>
+</body>
+</html>

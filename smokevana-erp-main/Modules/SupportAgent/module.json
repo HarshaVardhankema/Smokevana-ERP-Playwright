@@ -1,0 +1,14 @@
+{
+    "name": "SupportAgent",
+    "alias": "supportagent",
+    "description": "AI-powered Support Agent module that helps users understand and use system features using LLM and MCP integration.",
+    "keywords": ["ai", "support", "llm", "mcp", "help"],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\SupportAgent\\Providers\\SupportAgentServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": []
+}

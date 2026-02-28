@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShipStation Integration User Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .section h3 {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .section h4 {
+            color: #555;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .step {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .step-number {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .info-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .success-box {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .code-block {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        table th {
+            background: #667eea;
+            color: white;
+        }
+
+        table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .feature-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-top: 4px solid #667eea;
+        }
+
+        .feature-card h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .toc {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .toc h3 {
+            margin-top: 0;
+            color: #667eea;
+        }
+
+        .toc ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .toc li {
+            margin: 8px 0;
+        }
+
+        .toc a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .toc a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚢 ShipStation Integration Guide</h1>
+            <p>Complete User Manual for Managing Shipping Operations</p>
+        </header>
+
+        <div class="content">
+            <div class="toc">
+                <h3>📑 Table of Contents</h3>
+                <ul>
+                    <li><a href="#introduction">1. Introduction</a></li>
+                    <li><a href="#prerequisites">2. Prerequisites</a></li>
+                    <li><a href="#getting-started">3. Getting Started</a></li>
+                    <li><a href="#configuration">4. Warehouse Configuration</a></li>
+                    <li><a href="#carrier-services">5. Carrier & Services Setup</a></li>
+                    <li><a href="#using-features">6. Using ShipStation Features</a></li>
+                    <li><a href="#troubleshooting">7. Troubleshooting</a></li>
+                    <li><a href="#best-practices">8. Best Practices</a></li>
+                </ul>
+            </div>
+
+            <section id="introduction" class="section">
+                <h2>1. Introduction</h2>
+                <p>Welcome to the ShipStation Integration Guide! This document will help you set up and use ShipStation's powerful shipping management features within your ERP system.</p>
+                
+                <div class="info-box">
+                    <strong>What is ShipStation?</strong><br>
+                    ShipStation is a web-based shipping solution that helps you manage orders, print shipping labels, and track shipments from multiple carriers all in one place. Our integration allows you to seamlessly connect your ERP system with ShipStation's API.
+                </div>
+
+                <h3>Key Features Available:</h3>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>🏢 Warehouse Management</h4>
+                        <p>Configure multiple warehouses with different shipping priorities and locations.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>📦 Carrier Integration</h4>
+                        <p>Connect with multiple shipping carriers and configure their services.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>💰 Rate Estimation</h4>
+                        <p>Get real-time shipping rates before creating shipments.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>🏷️ Label Creation</h4>
+                        <p>Generate shipping labels directly from your sales orders.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>✅ Address Validation</h4>
+                        <p>Automatically validate and clean shipping addresses.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>❌ Shipment Voiding</h4>
+                        <p>Cancel shipments and void labels when needed.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="prerequisites" class="section">
+                <h2>2. Prerequisites</h2>
+                <p>Before you begin, make sure you have the following:</p>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>ShipStation Account</strong>
+                    <p>You need an active ShipStation account. If you don't have one, sign up at <a href="https://www.shipstation.com" target="_blank">shipstation.com</a></p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>API Key (V2)</strong>
+                    <p>You'll need your ShipStation API Key (V2) to connect your ERP system. Here's how to get it:</p>
+                    <ol>
+                        <li>Log in to your ShipStation account</li>
+                        <li>Go to <strong>Settings</strong> → <strong>Account</strong> → <strong>API Settings</strong></li>
+                        <li>Click on <strong>Generate API Key</strong> (if you don't have one)</li>
+                        <li>Copy your <strong>API Key</strong> - you'll need this in the next steps</li>
+                    </ol>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>Carrier Accounts</strong>
+                    <p>Make sure you have active accounts with shipping carriers (USPS, FedEx, UPS, etc.) connected in your ShipStation account.</p>
+                </div>
+
+                <div class="warning-box">
+                    <strong>⚠️ Important:</strong> Keep your API key secure and never share it publicly. The API key gives full access to your ShipStation account.
+                </div>
+            </section>
+
+            <section id="getting-started" class="section">
+                <h2>3. Getting Started</h2>
+                <p>Follow these steps to access the ShipStation configuration in your ERP system:</p>
+
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Navigate to ShipStation Settings</strong>
+                    <p>In your ERP system, go to the main menu and look for <strong>"ShipStation"</strong> or <strong>"ShipStationAPI Configuration"</strong>.</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Access the Configuration Page</strong>
+                    <p>You should see a page titled "ShipStationAPI Configuration" with a table listing your warehouses (if any) and an <strong>"Add"</strong> button.</p>
+                </div>
+
+                <div class="info-box">
+                    <strong>💡 Tip:</strong> If you don't see the ShipStation option in your menu, contact your system administrator. You need the "business_settings.access" permission to configure ShipStation.
+                </div>
+            </section>
+
+            <section id="configuration" class="section">
+                <h2>4. Warehouse Configuration</h2>
+                <p>Each warehouse represents a physical location from which you ship products. You can configure multiple warehouses with different priorities.</p>
+
+                <h3>4.1 Adding a New Warehouse</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Click the "Add" Button</strong>
+                    <p>On the ShipStation configuration page, click the <strong>"Add"</strong> button (usually in the top right corner).</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Fill in Warehouse Details</strong>
+                    <p>A form will appear. Fill in the following information:</p>
+                    
+                    <table>
+                        <tr>
+                            <th>Field</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Warehouse</strong></td>
+                            <td>Select a warehouse name (Warehouse-1, Warehouse-2, or Warehouse-3)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Your Api-Key (V2)</strong></td>
+                            <td>Paste your ShipStation API Key here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Priority</strong></td>
+                            <td>Set priority number (higher numbers = higher priority). Used when multiple warehouses are available.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Usable</strong></td>
+                            <td>Check this box to make the warehouse active and available for shipping</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Contact Name</strong></td>
+                            <td>Name of the contact person at this warehouse</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Phone</strong></td>
+                            <td>Contact phone number</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Company Name</strong></td>
+                            <td>Company name for this warehouse</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Address 1</strong></td>
+                            <td>Street address of the warehouse</td>
+                        </tr>
+                        <tr>
+                            <td><strong>City/Locality</strong></td>
+                            <td>City where the warehouse is located</td>
+                        </tr>
+                        <tr>
+                            <td><strong>State/Province</strong></td>
+                            <td>State or province code (e.g., CA, NY, TX)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Postal Code</strong></td>
+                            <td>ZIP or postal code</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Country Code</strong></td>
+                            <td>Two-letter country code (e.g., US, CA, GB)</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>Save the Warehouse</strong>
+                    <p>Click the <strong>"Save"</strong> button to create your warehouse configuration.</p>
+                </div>
+
+                <div class="success-box">
+                    <strong>✅ Success!</strong> Your warehouse has been added. You should now see it in the warehouse list.
+                </div>
+
+                <h3>4.2 Verifying Your Warehouse Connection</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Find Your Warehouse</strong>
+                    <p>In the warehouse list, locate the warehouse you just created.</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Click "Verify"</strong>
+                    <p>Click the <strong>"Verify"</strong> button next to your warehouse. This will test the connection to ShipStation using your API key.</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>Check the Result</strong>
+                    <p>You should see a message indicating whether the connection was successful or failed.</p>
+                    <ul>
+                        <li><strong>Success:</strong> "Connection Test Successful" - Your API key is valid and working.</li>
+                        <li><strong>Failed:</strong> "Connection Test Failed" - Check your API key and try again.</li>
+                    </ul>
+                </div>
+
+                <div class="warning-box">
+                    <strong>⚠️ Note:</strong> If verification fails, double-check that:
+                    <ul>
+                        <li>Your API key is correct (no extra spaces)</li>
+                        <li>Your ShipStation account is active</li>
+                        <li>You have an internet connection</li>
+                    </ul>
+                </div>
+
+                <h3>4.3 Editing a Warehouse</h3>
+                <p>To modify an existing warehouse:</p>
+                <ol>
+                    <li>Find the warehouse in the list</li>
+                    <li>Click the <strong>"Edit"</strong> button</li>
+                    <li>Update the fields you want to change</li>
+                    <li>Click <strong>"Save"</strong></li>
+                </ol>
+
+                <h3>4.4 Deleting a Warehouse</h3>
+                <p>To remove a warehouse:</p>
+                <ol>
+                    <li>Find the warehouse in the list</li>
+                    <li>Click the <strong>"Delete"</strong> button</li>
+                    <li>Confirm the deletion</li>
+                </ol>
+
+                <div class="warning-box">
+                    <strong>⚠️ Warning:</strong> Deleting a warehouse will remove all its configuration. Make sure you don't need it anymore before deleting.
+                </div>
+            </section>
+
+            <section id="carrier-services" class="section">
+                <h2>5. Carrier & Services Setup</h2>
+                <p>After creating a warehouse, you need to configure which carriers and shipping services are available from that warehouse.</p>
+
+                <h3>5.1 Accessing Carrier Settings</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Open Settings</strong>
+                    <p>In the warehouse list, click the <strong>"Settings"</strong> button (gear icon) next to the warehouse you want to configure.</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>View Available Carriers</strong>
+                    <p>A settings window will open showing all carriers available in your ShipStation account. This includes carriers like:</p>
+                    <ul>
+                        <li>USPS (United States Postal Service)</li>
+                        <li>FedEx</li>
+                        <li>UPS</li>
+                        <li>DHL</li>
+                        <li>And other carriers you've connected to ShipStation</li>
+                    </ul>
+                </div>
+
+                <h3>5.2 Selecting Carriers</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Choose Carriers</strong>
+                    <p>Check the boxes next to the carriers you want to use from this warehouse. You can select multiple carriers.</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Select Services</strong>
+                    <p>For each selected carrier, choose which shipping services you want to offer:</p>
+                    <ul>
+                        <li><strong>USPS:</strong> Priority Mail, First Class, Express Mail, etc.</li>
+                        <li><strong>FedEx:</strong> Ground, Express, 2Day, Overnight, etc.</li>
+                        <li><strong>UPS:</strong> Ground, 2nd Day Air, Next Day Air, etc.</li>
+                    </ul>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>Select Package Types</strong>
+                    <p>For each carrier, also select the package types you'll use:</p>
+                    <ul>
+                        <li>Letter</li>
+                        <li>Package</li>
+                        <li>Flat Rate Envelope</li>
+                        <li>Flat Rate Box</li>
+                        <li>And other carrier-specific options</li>
+                    </ul>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">4</span>
+                    <strong>Save Configuration</strong>
+                    <p>Click <strong>"Save"</strong> to store your carrier and service selections.</p>
+                </div>
+
+                <div class="info-box">
+                    <strong>💡 Tip:</strong> You can always come back and modify these settings later. It's a good idea to start with your most commonly used services and add more as needed.
+                </div>
+
+                <div class="success-box">
+                    <strong>✅ Configuration Complete!</strong> Your warehouse is now ready to use. The selected carriers and services will be available when creating shipments from this warehouse.
+                </div>
+            </section>
+
+            <section id="using-features" class="section">
+                <h2>6. Using ShipStation Features</h2>
+                <p>Now that your warehouse is configured, here's how to use ShipStation features in your daily operations:</p>
+
+                <h3>6.1 Getting Shipping Rate Estimates</h3>
+                <p>Before creating a shipment, you can get rate estimates to compare shipping costs:</p>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Access Rate Estimation</strong>
+                    <p>When processing an order or creating a shipment, look for the rate estimation feature (usually in the shipping/packing section).</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Enter Shipping Details</strong>
+                    <p>Provide the following information:</p>
+                    <ul>
+                        <li><strong>From Address:</strong> Your warehouse address (usually auto-filled)</li>
+                        <li><strong>To Address:</strong> Customer's shipping address</li>
+                        <li><strong>Package Weight:</strong> Total weight of the package</li>
+                        <li><strong>Package Dimensions:</strong> Length, width, and height</li>
+                    </ul>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>View Rates</strong>
+                    <p>The system will display available shipping rates from all configured carriers and services, allowing you to choose the best option.</p>
+                </div>
+
+                <h3>6.2 Creating Shipping Labels</h3>
+                <p>Once you've selected a shipping method, you can create a shipping label:</p>
+
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Select Shipping Method</strong>
+                    <p>From the rate estimates, choose the carrier and service you want to use.</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Verify Address</strong>
+                    <p>The system can automatically validate and clean the shipping address to ensure it's correct.</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>Create Label</strong>
+                    <p>Click the button to create the shipping label. The system will:</p>
+                    <ul>
+                        <li>Generate the label through ShipStation</li>
+                        <li>Store the tracking information</li>
+                        <li>Link the shipment to your order</li>
+                    </ul>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">4</span>
+                    <strong>Download Label</strong>
+                    <p>Download and print the shipping label. The label will be in PDF format, ready for printing.</p>
+                </div>
+
+                <h3>6.3 Voiding a Shipment</h3>
+                <p>If you need to cancel a shipment (e.g., customer canceled order, wrong address):</p>
+
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <strong>Find the Order</strong>
+                    <p>Locate the order with the shipment you want to void.</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <strong>Void Shipment</strong>
+                    <p>Click the <strong>"Void Shipment"</strong> button (usually in the order details or shipping section).</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <strong>Confirm</strong>
+                    <p>Confirm that you want to void the shipment. The system will:</p>
+                    <ul>
+                        <li>Cancel the shipment with the carrier</li>
+                        <li>Remove the shipping label</li>
+                        <li>Update the order status</li>
+                    </ul>
+                </div>
+
+                <div class="warning-box">
+                    <strong>⚠️ Important:</strong> Not all shipments can be voided. Some carriers have time limits (usually within 24 hours) for voiding shipments. After that, you may need to process a return instead.
+                </div>
+
+                <h3>6.4 Viewing Shipment List</h3>
+                <p>You can view all shipments created through ShipStation:</p>
+                <ul>
+                    <li>Navigate to the shipment list feature</li>
+                    <li>View shipments from all active warehouses</li>
+                    <li>See tracking information and shipment status</li>
+                </ul>
+            </section>
+
+            <section id="troubleshooting" class="section">
+                <h2>7. Troubleshooting</h2>
+                <p>Here are common issues and their solutions:</p>
+
+                <h3>7.1 Connection Issues</h3>
+                
+                <div class="info-box">
+                    <strong>Problem:</strong> "Connection Test Failed" when verifying warehouse<br><br>
+                    <strong>Solutions:</strong>
+                    <ul>
+                        <li>Verify your API key is correct (no extra spaces before or after)</li>
+                        <li>Check that your ShipStation account is active</li>
+                        <li>Ensure you're using the V2 API key (not an old V1 key)</li>
+                        <li>Check your internet connection</li>
+                        <li>Try regenerating your API key in ShipStation</li>
+                    </ul>
+                </div>
+
+                <h3>7.2 No Carriers Available</h3>
+                
+                <div class="info-box">
+                    <strong>Problem:</strong> No carriers show up in the settings<br><br>
+                    <strong>Solutions:</strong>
+                    <ul>
+                        <li>Make sure you have carriers connected in your ShipStation account</li>
+                        <li>Verify your carrier accounts are active in ShipStation</li>
+                        <li>Check that your API key has the correct permissions</li>
+                        <li>Try verifying the warehouse connection again</li>
+                    </ul>
+                </div>
+
+                <h3>7.3 Rate Estimation Not Working</h3>
+                
+                <div class="info-box">
+                    <strong>Problem:</strong> Can't get shipping rate estimates<br><br>
+                    <strong>Solutions:</strong>
+                    <ul>
+                        <li>Make sure the warehouse has carriers and services configured</li>
+                        <li>Verify all address fields are filled correctly</li>
+                        <li>Check that package weight and dimensions are valid</li>
+                        <li>Ensure the warehouse is marked as "Usable"</li>
+                    </ul>
+                </div>
+
+                <h3>7.4 Label Creation Fails</h3>
+                
+                <div class="info-box">
+                    <strong>Problem:</strong> Can't create shipping labels<br><br>
+                    <strong>Solutions:</strong>
+                    <ul>
+                        <li>Verify all required address fields are complete</li>
+                        <li>Check that the selected carrier and service are available</li>
+                        <li>Ensure package dimensions and weight are within carrier limits</li>
+                        <li>Verify your ShipStation account has sufficient credits/funds</li>
+                        <li>Check that the warehouse API key is still valid</li>
+                    </ul>
+                </div>
+
+                <h3>7.5 Can't Void Shipment</h3>
+                
+                <div class="info-box">
+                    <strong>Problem:</strong> Shipment voiding fails<br><br>
+                    <strong>Solutions:</strong>
+                    <ul>
+                        <li>Check if the shipment is still within the void time window (usually 24 hours)</li>
+                        <li>Some carriers don't allow voiding after the package is in transit</li>
+                        <li>Verify the shipment ID is correct</li>
+                        <li>Check that the warehouse API key is still valid</li>
+                    </ul>
+                </div>
+
+                <h3>Getting Additional Help</h3>
+                <p>If you continue to experience issues:</p>
+                <ol>
+                    <li>Check the ShipStation status page: <a href="https://status.shipstation.com" target="_blank">status.shipstation.com</a></li>
+                    <li>Review ShipStation's API documentation</li>
+                    <li>Contact your system administrator</li>
+                    <li>Reach out to ShipStation support if the issue is with their service</li>
+                </ol>
+            </section>
+
+            <section id="best-practices" class="section">
+                <h2>8. Best Practices</h2>
+                <p>Follow these recommendations for optimal ShipStation usage:</p>
+
+                <h3>8.1 Security</h3>
+                <ul>
+                    <li><strong>Protect Your API Key:</strong> Never share your API key or leave it visible in screenshots</li>
+                    <li><strong>Regular Updates:</strong> Regenerate your API key periodically for security</li>
+                    <li><strong>Access Control:</strong> Only give ShipStation configuration access to trusted users</li>
+                </ul>
+
+                <h3>8.2 Warehouse Management</h3>
+                <ul>
+                    <li><strong>Clear Naming:</strong> Use descriptive warehouse names (e.g., "Main Warehouse - New York")</li>
+                    <li><strong>Priority Settings:</strong> Set higher priorities for warehouses you use most frequently</li>
+                    <li><strong>Complete Information:</strong> Fill in all warehouse address fields for accurate rate calculations</li>
+                    <li><strong>Regular Verification:</strong> Periodically verify warehouse connections to ensure they're working</li>
+                </ul>
+
+                <h3>8.3 Carrier Configuration</h3>
+                <ul>
+                    <li><strong>Selective Services:</strong> Only enable services you actually use to avoid confusion</li>
+                    <li><strong>Package Types:</strong> Configure package types that match your actual packaging</li>
+                    <li><strong>Regular Review:</strong> Periodically review and update your carrier/service selections</li>
+                </ul>
+
+                <h3>8.4 Shipping Operations</h3>
+                <ul>
+                    <li><strong>Verify Addresses:</strong> Always use address validation before creating labels</li>
+                    <li><strong>Accurate Dimensions:</strong> Enter correct package dimensions for accurate rate calculations</li>
+                    <li><strong>Weight Accuracy:</strong> Use accurate weights to avoid carrier adjustments</li>
+                    <li><strong>Label Storage:</strong> Save shipping labels and tracking numbers for your records</li>
+                </ul>
+
+                <h3>8.5 Monitoring</h3>
+                <ul>
+                    <li><strong>Check Shipments:</strong> Regularly review your shipment list for any issues</li>
+                    <li><strong>Track Performance:</strong> Monitor which carriers and services you use most</li>
+                    <li><strong>Error Review:</strong> Address any shipping errors promptly</li>
+                </ul>
+
+                <div class="success-box">
+                    <strong>✅ Remember:</strong> Proper configuration and regular maintenance will ensure smooth shipping operations and help you save time and money!
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>9. Quick Reference</h2>
+                <p>Quick access to important information:</p>
+
+                <table>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Location</th>
+                        <th>Required</th>
+                    </tr>
+                    <tr>
+                        <td>Add Warehouse</td>
+                        <td>ShipStation → Add Button</td>
+                        <td>API Key, Warehouse Name, Priority</td>
+                    </tr>
+                    <tr>
+                        <td>Verify Connection</td>
+                        <td>ShipStation → Verify Button</td>
+                        <td>Valid API Key</td>
+                    </tr>
+                    <tr>
+                        <td>Configure Carriers</td>
+                        <td>ShipStation → Settings Button</td>
+                        <td>Verified Warehouse</td>
+                    </tr>
+                    <tr>
+                        <td>Get Rate Estimates</td>
+                        <td>Order/Packing → Rate Estimation</td>
+                        <td>Configured Warehouse, Address, Package Info</td>
+                    </tr>
+                    <tr>
+                        <td>Create Label</td>
+                        <td>Order/Packing → Create Shipment</td>
+                        <td>Selected Shipping Method, Valid Address</td>
+                    </tr>
+                    <tr>
+                        <td>Void Shipment</td>
+                        <td>Order Details → Void Shipment</td>
+                        <td>Active Shipment (within time limit)</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 ShipStation Integration Guide | For support, contact your system administrator</p>
+            <p style="margin-top: 10px; font-size: 0.9em; opacity: 0.8;">
+                This guide is provided for informational purposes. Features may vary based on your system configuration.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
