@@ -20,13 +20,14 @@ test.describe("Smokevana ERP Sales Order Automation", () => {
         await page.screenshot({ path: 'screenshots/login_attempt.png' });
 
         // Handle possible tour modal
+        const endTour = page.locator('button:has-text("End tour")');
         try {
-            const tourClose = page.locator('button.tw-dw-btn-primary:has-text("End Tour"), button.tw-dw-btn-primary:has-text("Skip")').first();
-            if (await tourClose.isVisible({ timeout: 5000 })) {
-                await tourClose.click({ force: true });
-                console.log("Closed Application Tour modal.");
-            }
-        } catch (e) { }
+            await endTour.waitFor({ state: 'visible', timeout: 5000 });
+            await endTour.click();
+            console.log("Closed Application Tour modal.");
+        } catch (e) {
+            console.log("End tour modal not found or already closed.");
+        }
 
         // 4-5. Navigate via Sidebar (Optional but requested)
         console.log("Point 4-5: Navigating to Sales Order via Sidebar...");
@@ -46,16 +47,16 @@ test.describe("Smokevana ERP Sales Order Automation", () => {
         console.log("Sales Order creation page loaded.");
 
         // 7-9. Customer Selection
-        console.log("Point 7-9: Selecting Customer 'HarshaVC'...");
-        await salesCreatePage.selectCustomer("HarshaVC");
+        console.log(`Point 7-9: Selecting Customer '${testData.salesOrder.customer}'...`);
+        await salesCreatePage.selectCustomer(testData.salesOrder.customer);
 
         // 10. Enable Matrix
         console.log("Point 10: Enabling Matrix...");
         await salesCreatePage.clickEnableMatrix();
 
         // 11-13. Product Search
-        console.log("Point 11-13: Searching Product 'THCA '...");
-        await salesCreatePage.searchProduct("THCA ");
+        console.log(`Point 11-13: Searching Product '${testData.salesOrder.product}'...`);
+        await salesCreatePage.searchProduct(testData.salesOrder.product);
 
         // 14-16. Matrix Quantities
         console.log("Point 14-16: Filling Matrix Quantities...");

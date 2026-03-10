@@ -40,16 +40,16 @@ test.describe("Smokevana ERP Sales Invoice Automation", () => {
         console.log("Sales Invoice creation page loaded.");
 
         // 5. Customer Selection
-        console.log("Selecting Customer...");
-        await salesInvoicePage.selectCustomer("HarshaVC");
+        console.log(`Selecting Customer '${testData.salesOrder.customer}'...`);
+        await salesInvoicePage.selectCustomer(testData.salesOrder.customer);
 
         // 6. Enable Matrix
         console.log("Enabling Matrix...");
         await salesInvoicePage.clickEnableMatrix();
 
         // 7. Product Search
-        console.log("Searching Product...");
-        await salesInvoicePage.searchProduct("THCA ");
+        console.log(`Searching Product '${testData.salesOrder.product}'...`);
+        await salesInvoicePage.searchProduct(testData.salesOrder.product);
 
         // 8. Matrix Quantities
         console.log("Filling Matrix Quantities...");

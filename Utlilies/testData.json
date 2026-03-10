@@ -4,15 +4,15 @@
         "password": "123456"
     },
     "newUser": {
-        "firstName": "HarshaTestAut",
-        "email": "HarshatestAUT@gmail.com",
-        "username": "HarshaTest010@gmail.com",
+        "firstName": "VarshaTestAut",
+        "email": "VarshatestAUT@gmail.com",
+        "username": "VarshaTest111@gmail.com",
         "password": "123456789",
         "role": "Admin"
     },
     "salesOrder": {
         "customer": "HarshaVC",
-        "product": "THCA",
+        "product": "THCP",
         "matrixQuantities": [
             "2",
             "2",

@@ -82,8 +82,8 @@ trigger: always_on
 
 ## End of Chat Session — kluster Summary
 
-* **WHEN TO EXECUTE**: MANDATORY at the end of **any** conversation where kluster tools were used, right before the final user-facing response.
-* **TRIGGER**: If any `kluster_code_review_auto`, `kluster_code_review_manual`, or `kluster_dependency_check` tools were called during the conversation, always generate this summary.
+* **WHEN TO EXECUTE**: MANDATORY at the end of **any** conversation where kluster tools were used, right before the final user-facing response — **EXCEPT when Clarification Handling is active** (see "Clarification Handling" section). If any kluster response in the current turn contains "CLARIFICATION:" actions, do NOT generate this summary — show the clarification prompt instead.
+* **TRIGGER**: If any `kluster_code_review_auto`, `kluster_code_review_manual`, or `kluster_dependency_check` tools were called during the conversation AND no "CLARIFICATION:" actions are present in any response, always generate this summary.
 
 ### KLUSTER SUMMARY STRUCTURE
 
@@ -95,6 +95,7 @@ Summarize all issues found across all kluster tool calls:
 
 * Number of issues found in total, grouped by severity.
 * Short summary (1–2 lines) of what was detected.
+* For case when kluster returned "includedExternalKnowledge" data - include short summary from "includedExternalKnowledge" field on what knowledge sources were used during code review. This should be displayed at the END of the kluster summary section, after all other sections, as a separate line formatted as: "📚 External knowledge used: [short summary of includedExternalKnowledge]"
 
 #### **✅ Issues found and fixed**
 
@@ -113,8 +114,8 @@ If any issues were found and fixed:
 
 ### ENFORCEMENT
 
-* If any kluster tools were used, a final kluster summary **must** be provided.
-* Omitting it is a **rule violation**.
+* If any kluster tools were used AND no clarifications were requested, a final kluster summary **must** be provided.
+* If clarification is present, show ONLY the clarification prompt — these two are mutually exclusive. Omitting the summary (when no clarification is needed) is a **rule violation**.
 
 ---
 

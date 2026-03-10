@@ -1,0 +1,500 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - complementary [ref=e4]:
+        - link "Smokevana Prime" [ref=e5] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/home
+          - paragraph
+          - img "Smokevana Prime" [ref=e8]
+          - paragraph
+        - generic [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/home
+            - img [ref=e11]
+            - generic [ref=e16]: Home
+          - link "Advertisement Approvals" [ref=e17] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/dropship/advertisements
+            - img [ref=e18]
+            - generic [ref=e21]: Advertisement Approvals
+          - link "User Management" [ref=e23] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e24]
+            - generic [ref=e31]: User Management
+            - img [ref=e32]
+          - link "Sales Commission" [ref=e36] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e37]
+            - generic [ref=e41]: Sales Commission
+            - img [ref=e42]
+          - generic [ref=e45]:
+            - link "Sale" [ref=e46] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e47]
+              - generic [ref=e52]: Sale
+              - img [ref=e53]
+            - generic [ref=e57]:
+              - link "Manage Order" [ref=e58] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/order-fulfillment
+                - img [ref=e59]
+                - generic [ref=e64]: Manage Order
+              - link "Sales Order (SO)" [ref=e65] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/sales-order
+                - img [ref=e66]
+                - generic [ref=e70]: Sales Order (SO)
+              - link "Sales Invoice (SI)" [ref=e71] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/sells
+                - img [ref=e72]
+                - generic [ref=e76]: Sales Invoice (SI)
+              - link "Add Sale Invoice (SI)" [ref=e77] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/sells/create
+                - img [ref=e78]
+                - generic [ref=e82]: Add Sale Invoice (SI)
+              - link "List Sell Return(CN)" [ref=e83] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/sell-return
+                - img [ref=e84]
+                - generic [ref=e89]: List Sell Return(CN)
+              - link "Sell Return Ecom (EC)" [ref=e90] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/sell-return-ecom
+                - img [ref=e91]
+                - generic [ref=e96]: Sell Return Ecom (EC)
+              - link "Subscriptions" [ref=e97] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/sells/subscriptions
+                - img [ref=e98]
+                - generic [ref=e104]: Subscriptions
+          - link "Customer Care" [ref=e106] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e107]
+            - generic [ref=e112]: Customer Care
+            - img [ref=e113]
+          - link "Products" [ref=e117] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e118]
+            - generic [ref=e125]: Products
+            - img [ref=e126]
+          - link "Vendor Care" [ref=e130] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e131]
+            - generic [ref=e136]: Vendor Care
+            - img [ref=e137]
+          - link "Prime Subscriptions" [ref=e141] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e142]
+            - generic [ref=e145]: Prime Subscriptions
+            - img [ref=e146]
+          - link "Dropshipping" [ref=e150] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e151]
+            - generic [ref=e159]: Dropshipping
+            - img [ref=e160]
+          - link "Stock Transfers" [ref=e164] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e165]
+            - generic [ref=e171]: Stock Transfers
+            - img [ref=e172]
+          - link "Stock Adjustment" [ref=e176] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e177]
+            - generic [ref=e183]: Stock Adjustment
+            - img [ref=e184]
+          - link "Expenses" [ref=e188] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e189]
+            - generic [ref=e194]: Expenses
+            - img [ref=e195]
+          - link "Payment Accounts" [ref=e199] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e200]
+            - generic [ref=e204]: Payment Accounts
+            - img [ref=e205]
+          - link "Bookkeeping" [ref=e209] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e210]
+            - generic [ref=e213]: Bookkeeping
+            - img [ref=e214]
+          - link "Reports" [ref=e218] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e219]
+            - generic [ref=e227]: Reports
+            - img [ref=e228]
+          - link " Orders" [ref=e231] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/modules/orders
+            - generic [ref=e232]: 
+            - generic [ref=e233]: Orders
+          - link "Notification Templates" [ref=e234] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/notification-templates
+            - img [ref=e235]
+            - generic [ref=e240]: Notification Templates
+          - link "Settings" [ref=e242] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e243]
+            - generic [ref=e248]: Settings
+            - img [ref=e249]
+          - link "Ecom" [ref=e253] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e254]
+            - generic [ref=e256]: Ecom
+            - img [ref=e257]
+          - link "AI Support" [ref=e260] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/support-agent
+            - img [ref=e261]
+            - generic [ref=e266]: AI Support
+      - main [ref=e267]:
+        - generic [ref=e270]:
+          - generic [ref=e271]:
+            - button "Collapse Sidebar" [ref=e272] [cursor=pointer]:
+              - generic [ref=e273]: Collapse Sidebar
+              - img [ref=e274]
+            - button "Go Back" [ref=e278] [cursor=pointer]:
+              - generic [ref=e279]: Go Back
+              - img [ref=e280]
+            - button "Refresh Page" [ref=e284] [cursor=pointer]:
+              - generic [ref=e285]: Refresh Page
+              - img [ref=e286]
+            - button "Go Forward" [ref=e290] [cursor=pointer]:
+              - generic [ref=e291]: Go Forward
+              - img [ref=e292]
+          - generic [ref=e297]:
+            - img [ref=e299]
+            - textbox "Search... (Invoice, Customer, Product)" [ref=e302]
+            - button "Bookmark this page" [ref=e303] [cursor=pointer]:
+              - img [ref=e304]
+          - button "Quick Actions" [ref=e307] [cursor=pointer]:
+            - generic [ref=e308]: Quick Actions
+            - img [ref=e309]
+          - generic [ref=e312]:
+            - button "Order Statistics" [ref=e314] [cursor=pointer]:
+              - generic [ref=e315]: Order Statistics
+              - img [ref=e316]
+            - group [ref=e320]:
+              - img [ref=e322] [cursor=pointer]
+            - button [ref=e325] [cursor=pointer]:
+              - generic [ref=e326]: Calculator
+              - img [ref=e327]
+            - button "Today's Profit" [ref=e331] [cursor=pointer]:
+              - generic [ref=e332]: Today's Profit
+              - img [ref=e333]
+            - button "03/11/2026" [ref=e337] [cursor=pointer]
+            - listitem [ref=e338]:
+              - generic [ref=e339]:
+                - generic [ref=e340]: Notifications
+                - img [ref=e341]
+            - group [ref=e345]:
+              - generic "Utkarsh Shukla" [ref=e346] [cursor=pointer]:
+                - generic [ref=e347]: Utkarsh Shukla
+                - img [ref=e348]
+        - generic [ref=e353]:
+          - generic [ref=e354]:
+            - generic [ref=e355]:
+              - generic [ref=e356]:
+                - heading " Sales Order" [level=1] [ref=e357]:
+                  - generic [ref=e358]: 
+                  - text: Sales Order
+                - paragraph [ref=e359]: Create a new sale invoice. Add customer, products, and payment details.
+              - generic [ref=e360]:
+                - button "Hide/Show Prices" [ref=e361] [cursor=pointer]:
+                  - img [ref=e362]
+                - button "Save" [ref=e365] [cursor=pointer]:
+                  - img [ref=e366]
+                  - text: Save
+                - button "Save & Print" [ref=e370] [cursor=pointer]:
+                  - img [ref=e371]
+                  - text: Save & Print
+            - generic [ref=e376]:
+              - generic [ref=e377]:
+                - generic [ref=e378]:
+                  - generic [ref=e379]: Customer *
+                  - generic [ref=e380]:
+                    - combobox [ref=e381]
+                    - combobox "Harsha VC (CO01208)" [ref=e384] [cursor=pointer]:
+                      - generic "Harsha VC (CO01208)" [ref=e385]
+                    - button "" [ref=e386] [cursor=pointer]:
+                      - generic [ref=e387]: 
+                  - generic [ref=e388]:
+                    - strong [ref=e389]: "Due:"
+                    - text: $ -97,326,462.25
+                - generic [ref=e390]:
+                  - generic [ref=e391]: Billing Address
+                  - generic [ref=e392]:
+                    - text: HarshaVC,
+                    - text: Harsha VC (CO01208),
+                    - text: New Hampshire 111,
+                    - text: 2 Nd floor,
+                    - text: Nashua, NH, US,
+                    - text: "03060"
+                - generic [ref=e393]:
+                  - generic [ref=e394]: Shipping Address
+                  - generic [ref=e395]:
+                    - text: HarshaVC,
+                    - text: Harsha VC (CO01208),
+                    - text: Pittsburgh Mills Blvd Pittsburgh PA 15084 United States
+                - generic [ref=e396]:
+                  - generic [ref=e397]: Pay Term *
+                  - generic [ref=e398]:
+                    - spinbutton [ref=e399]
+                    - combobox [ref=e400]:
+                      - option "Due on Receipt"
+                      - option "Net 15"
+                      - option "Net 30"
+                      - option "Net 45"
+                      - option "Net 60"
+                      - option "Consignment"
+                - generic [ref=e401]:
+                  - generic [ref=e402]: Sale Date *
+                  - generic [ref=e403]:
+                    - generic [ref=e405]: 
+                    - textbox [ref=e406]: 03/11/2026 00:51
+                - generic [ref=e407]:
+                  - generic [ref=e408]: Order Type *
+                  - combobox [ref=e409]:
+                    - option "Shipping" [selected]
+                    - option "Pickup"
+                - generic [ref=e410]:
+                  - generic [ref=e411]: Sales Rep
+                  - generic [ref=e412]: Utkarsh Shukla
+              - generic [ref=e413]:
+                - generic [ref=e415]:
+                  - button "" [ref=e417] [cursor=pointer]:
+                    - generic [ref=e418]: 
+                  - textbox "Enter Product name / SKU / Scan bar code" [ref=e419]: THCA
+                  - button [ref=e421] [cursor=pointer]:
+                    - img [ref=e422]
+                - generic [ref=e425]:
+                  - generic [ref=e428] [cursor=pointer]: Enable Matrix
+                  - generic [ref=e430]:
+                    - img [ref=e431]
+                    - combobox [disabled] [ref=e434]:
+                      - option "Smokevana Prime B2B (BL0001)" [selected]
+                      - option "Smokevana Prime B2C (BL00002)"
+              - table [ref=e437]:
+                - rowgroup [ref=e438]:
+                  - row "Product Qty Available Quantity Unit Price Discount Tax Per Unit Subtotal Action" [ref=e439]:
+                    - columnheader "Product" [ref=e440]
+                    - columnheader "Qty Available" [ref=e441]
+                    - columnheader "Quantity" [ref=e442]
+                    - columnheader "Unit Price" [ref=e443]
+                    - columnheader "Discount" [ref=e444]
+                    - columnheader "Tax Per Unit" [ref=e445]
+                    - columnheader "Subtotal" [ref=e446]
+                    - columnheader "Action" [ref=e447]
+                - rowgroup
+              - generic [ref=e448]:
+                - generic [ref=e449]:
+                  - generic [ref=e450]:
+                    - generic [ref=e451]: Sales Notes
+                    - textbox [ref=e452]
+                  - generic [ref=e453]:
+                    - generic [ref=e454]: Shipping Charges
+                    - generic [ref=e455]:
+                      - generic [ref=e457]: 
+                      - textbox "0.00" [ref=e458]
+                  - generic [ref=e460] [cursor=pointer]:
+                    - checkbox "Exempt Tax" [ref=e461]
+                    - generic [ref=e462]: Exempt Tax
+                - generic [ref=e463]:
+                  - generic [ref=e464]:
+                    - generic [ref=e465]: Items
+                    - generic [ref=e466]: "0"
+                  - generic [ref=e467]:
+                    - generic [ref=e468]: Total
+                    - generic [ref=e469]: $0.00
+          - text:                                                   
+      - dialog [ref=e470]:
+        - generic [ref=e471]:
+          - generic [ref=e472]:
+            - img [ref=e473]
+            - heading [level=2] [ref=e475]: Quick Actions
+          - button [ref=e476] [cursor=pointer]:
+            - img [ref=e477]
+        - generic [ref=e480]:
+          - generic [ref=e481]:
+            - heading [level=3] [ref=e482]: Pinned
+            - paragraph [ref=e483]: Select items from search results to add to Quick Actions
+          - link [ref=e485] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/contacts?type=customer&open_create=1
+            - img [ref=e487]
+            - generic [ref=e489]: Add a new contact
+            - img [ref=e490]
+          - link [ref=e492] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/products/create
+            - img [ref=e494]
+            - generic [ref=e496]: Add new product
+            - img [ref=e497]
+          - link [ref=e499] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/sells/create?sale_type=sales_order
+            - img [ref=e501]
+            - generic [ref=e503]: Add Sales Order
+            - img [ref=e504]
+          - link [ref=e506] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/sells/create
+            - img [ref=e508]
+            - generic [ref=e510]: Add sales invoice
+            - img [ref=e511]
+          - link [ref=e513] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/custom-discounts
+            - img [ref=e515]
+            - generic [ref=e517]: Add Discount
+            - img [ref=e518]
+          - link [ref=e520] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/brands?open_create=1
+            - img [ref=e522]
+            - generic [ref=e524]: Add brand
+            - img [ref=e525]
+          - link [ref=e527] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/taxonomies?type=product&open_create=1
+            - img [ref=e529]
+            - generic [ref=e531]: Add Category
+            - img [ref=e532]
+      - dialog [ref=e534]:
+        - document [ref=e535]:
+          - generic [ref=e536]:
+            - generic [ref=e537]:
+              - button "Close" [ref=e538] [cursor=pointer]: ×
+              - heading "Black Market THC – Exotic THCA Flower 3.5g" [level=4] [ref=e539]
+            - generic [ref=e540]:
+              - generic [ref=e541]:
+                - generic [ref=e542]:
+                  - generic [ref=e543]:
+                    - text: "SKU: 0008"
+                    - text: "Tax Values: ML: 10 & CT: 10 & type"
+                    - text: "Brand: Black Market THC"
+                    - text: "Unit: Pc(s)"
+                    - text: "Barcode Type: C128"
+                    - strong [ref=e544]: "Available in locations:"
+                    - text: Smokevana Prime B2B
+                  - generic [ref=e545]:
+                    - text: "Category: THCA Flower"
+                    - text: "Sub category: --"
+                    - text: "Web category: THCA Flower, Customers Frequently Viewed"
+                    - text: "Manage Stock?: Yes"
+                    - text: "Alert quantity: --"
+                  - generic [ref=e546]:
+                    - text: "Expires in: Not Applicable"
+                    - text: "Applicable Tax: None"
+                    - text: "Selling Price Tax Type: Exclusive"
+                    - text: "Product Type: Variable"
+                - img "Product image" [ref=e550]
+              - generic [ref=e551]:
+                - heading "Variations:" [level=4] [ref=e553]
+                - table [ref=e556]:
+                  - rowgroup [ref=e557]:
+                    - row "SKU/Barcode No Variations Price Available Stock Quantity Needed" [ref=e558]:
+                      - columnheader "SKU/Barcode No" [ref=e559]
+                      - columnheader "Variations" [ref=e560]
+                      - columnheader "Price" [ref=e561]
+                      - columnheader "Available Stock" [ref=e562]
+                      - columnheader "Quantity Needed" [ref=e563]
+                  - rowgroup [ref=e564]:
+                    - row "000801 Black Runtz (Indica) 90.00 4 Pc(s)" [ref=e565]:
+                      - cell "000801" [ref=e566]: "000801"
+                      - cell "Black Runtz (Indica)" [ref=e567]
+                      - cell "90.00" [ref=e568]
+                      - cell "4 Pc(s)" [ref=e569]
+                      - cell [ref=e570]:
+                        - spinbutton [ref=e571]: "1"
+                    - row "000802 Ferrari Runtz (Sativa) 90.00 12 Pc(s)" [ref=e572]:
+                      - cell "000802" [ref=e573]: "000802"
+                      - cell "Ferrari Runtz (Sativa)" [ref=e574]
+                      - cell "90.00" [ref=e575]
+                      - cell "12 Pc(s)" [ref=e576]
+                      - cell [ref=e577]:
+                        - spinbutton [ref=e578]: "1"
+                    - row "000803 Godfather OG (Indica) 90.00 17 Pc(s)" [ref=e579]:
+                      - cell "000803" [ref=e580]: "000803"
+                      - cell "Godfather OG (Indica)" [ref=e581]
+                      - cell "90.00" [ref=e582]
+                      - cell "17 Pc(s)" [ref=e583]
+                      - cell [ref=e584]:
+                        - spinbutton [active] [ref=e585]: "1"
+                    - row "000804 Hulk Berry (Sativa) 90.00 50 Pc(s)" [ref=e586]:
+                      - cell "000804" [ref=e587]: "000804"
+                      - cell "Hulk Berry (Sativa)" [ref=e588]
+                      - cell "90.00" [ref=e589]
+                      - cell "50 Pc(s)" [ref=e590]
+                      - cell [ref=e591]:
+                        - spinbutton [ref=e592]
+                    - row "000805 Lemon Cherry Gelato (Hybrid) 90.00 50 Pc(s)" [ref=e593]:
+                      - cell "000805" [ref=e594]: "000805"
+                      - cell "Lemon Cherry Gelato (Hybrid)" [ref=e595]
+                      - cell "90.00" [ref=e596]
+                      - cell "50 Pc(s)" [ref=e597]
+                      - cell [ref=e598]:
+                        - spinbutton [ref=e599]
+                    - row "000806 Oreoz (Hybrid) 90.00 50 Pc(s)" [ref=e600]:
+                      - cell "000806" [ref=e601]: "000806"
+                      - cell "Oreoz (Hybrid)" [ref=e602]
+                      - cell "90.00" [ref=e603]
+                      - cell "50 Pc(s)" [ref=e604]
+                      - cell [ref=e605]:
+                        - spinbutton [ref=e606]
+                    - row "000807 Black Runtz (Indica) 90.00 50 Pc(s)" [ref=e607]:
+                      - cell "000807" [ref=e608]: "000807"
+                      - cell "Black Runtz (Indica)" [ref=e609]
+                      - cell "90.00" [ref=e610]
+                      - cell "50 Pc(s)" [ref=e611]
+                      - cell [ref=e612]:
+                        - spinbutton [ref=e613]
+                    - row "000808 Blue Gelato (Indica) 90.00 50 Pc(s)" [ref=e614]:
+                      - cell "000808" [ref=e615]: "000808"
+                      - cell "Blue Gelato (Indica)" [ref=e616]
+                      - cell "90.00" [ref=e617]
+                      - cell "50 Pc(s)" [ref=e618]
+                      - cell [ref=e619]:
+                        - spinbutton [ref=e620]
+                    - row "000809 Candyland (Sativa) 90.00 50 Pc(s)" [ref=e621]:
+                      - cell "000809" [ref=e622]: "000809"
+                      - cell "Candyland (Sativa)" [ref=e623]
+                      - cell "90.00" [ref=e624]
+                      - cell "50 Pc(s)" [ref=e625]
+                      - cell [ref=e626]:
+                        - spinbutton [ref=e627]
+                    - row "000810 Ferrari Runtz (Sativa) 90.00 50 Pc(s)" [ref=e628]:
+                      - cell "000810" [ref=e629]: "000810"
+                      - cell "Ferrari Runtz (Sativa)" [ref=e630]
+                      - cell "90.00" [ref=e631]
+                      - cell "50 Pc(s)" [ref=e632]
+                      - cell [ref=e633]:
+                        - spinbutton [ref=e634]
+                    - row "000811 Godfather OG (Indica) 90.00 50 Pc(s)" [ref=e635]:
+                      - cell "000811" [ref=e636]: "000811"
+                      - cell "Godfather OG (Indica)" [ref=e637]
+                      - cell "90.00" [ref=e638]
+                      - cell "50 Pc(s)" [ref=e639]
+                      - cell [ref=e640]:
+                        - spinbutton [ref=e641]
+                    - row "000812 Hulk Berry (Sativa) 90.00 50 Pc(s)" [ref=e642]:
+                      - cell "000812" [ref=e643]: "000812"
+                      - cell "Hulk Berry (Sativa)" [ref=e644]
+                      - cell "90.00" [ref=e645]
+                      - cell "50 Pc(s)" [ref=e646]
+                      - cell [ref=e647]:
+                        - spinbutton [ref=e648]
+                    - row "000813 Lemon Cherry Gelato (Hybrid) 90.00 50 Pc(s)" [ref=e649]:
+                      - cell "000813" [ref=e650]: "000813"
+                      - cell "Lemon Cherry Gelato (Hybrid)" [ref=e651]
+                      - cell "90.00" [ref=e652]
+                      - cell "50 Pc(s)" [ref=e653]
+                      - cell [ref=e654]:
+                        - spinbutton [ref=e655]
+                    - row "000814 Oreoz (Hybrid) 90.00 50 Pc(s)" [ref=e656]:
+                      - cell "000814" [ref=e657]: "000814"
+                      - cell "Oreoz (Hybrid)" [ref=e658]
+                      - cell "90.00" [ref=e659]
+                      - cell "50 Pc(s)" [ref=e660]
+                      - cell [ref=e661]:
+                        - spinbutton [ref=e662]
+            - generic [ref=e663]:
+              - generic [ref=e664]: "Total Qty: 3"
+              - button "Print" [ref=e665] [cursor=pointer]: Add
+              - button "Close" [ref=e666] [cursor=pointer]
+    - contentinfo [ref=e667]:
+      - generic [ref=e670]:
+        - generic [ref=e671]: Smokevana (ERP Suit)
+        - generic [ref=e672]: "- V6.4"
+        - generic [ref=e673]: ·
+        - generic [ref=e674]: Copyright © 2026 All rights reserved.
+  - status [ref=e675]:
+    - generic [ref=e676]: 67 results are available, use up and down arrow keys to navigate.
+```
