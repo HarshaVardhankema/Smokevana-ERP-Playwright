@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="97.41485500000044">
-<testsuite name="Listreturn.test.ts" timestamp="2026-03-16T21:12:13.845Z" hostname="chromium" tests="1" failures="0" skipped="0" time="94.6" errors="0">
-<testcase name="Smokevana ERP List Return Automation › Scenario Three: Create List Return for existing invoice" classname="Listreturn.test.ts" time="94.6">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="23.159363999999997">
+<testsuite name="Listreturn.test.ts" timestamp="2026-03-16T23:17:56.303Z" hostname="chromium" tests="1" failures="0" skipped="0" time="20.477" errors="0">
+<testcase name="Smokevana ERP List Return Automation › Scenario Three: Create List Return for existing invoice" classname="Listreturn.test.ts" time="20.477">
 <system-out>
 <![CDATA[Point 1-3: Launching browser and logging in...
 Filling username: admin...
