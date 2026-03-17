@@ -1,0 +1,58 @@
+
+Running 1 test using 1 worker
+
+LOG: Login...
+Filling username: admin...
+Filling password...
+Clicking Sign in...
+LOG: Navigating to Add Product page...
+LOG: Filling Basic Info for TEST-THCPA-1773780344554...
+LOG: Filling product name: TEST-THCPA-1773780344554
+LOG: Filling SKU: SKU-1773780344554
+LOG: Selecting brand: 4 KINGS Test
+LOG: Selecting category: THCA
+  ✘  1 [chromium] › tests\AddProduct.test.ts:30:9 › Smokevana ERP Product Automation › Scenario: Add New Variable Product - Success Flow (2.0m)
+
+
+  1) [chromium] › tests\AddProduct.test.ts:30:9 › Smokevana ERP Product Automation › Scenario: Add New Variable Product - Success Flow 
+
+    [31mTest timeout of 120000ms exceeded.[39m
+
+    Error: locator.getAttribute: Test timeout of 120000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('select#product_visibility').first()[22m
+
+
+       at ..\Products\ProductsPage.ts:171
+
+      169 |             return;
+      170 |         } catch (e) {
+    > 171 |             const id = await locator.first().getAttribute('id');
+          |                                              ^
+      172 |             const container = this.page.locator(`span#select2-${id}-container, span[aria-labelledby="select2-${id}-container"]`).first();
+      173 |             
+      174 |             await container.click({ force: true });
+        at ProductsPage.select2Option (C:\Users\PSHCPU003\Documents\Automation Playwright\Smokevana ERP\Products\ProductsPage.ts:171:46)
+        at ProductsPage.fillBasicInfo (C:\Users\PSHCPU003\Documents\Automation Playwright\Smokevana ERP\Products\ProductsPage.ts:98:30)
+        at C:\Users\PSHCPU003\Documents\Automation Playwright\Smokevana ERP\tests\AddProduct.test.ts:40:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests\AddProduct.test.ts:30:9 › Smokevana ERP Product Automation › Scenario: Add New Variable Product - Success Flow 

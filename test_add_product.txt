@@ -1,0 +1,77 @@
+
+Running 1 test using 1 worker
+
+LOG: Login...
+Filling username: admin...
+Filling password...
+Clicking Sign in...
+LOG: Navigating to Add Product page...
+LOG: Filling Basic Info for TEST-THCPA-1773781825417...
+LOG: Filling product name: TEST-THCPA-1773781825417
+LOG: Filling SKU: SKU-1773781825417
+LOG: Selecting brand: 4 KINGS Test
+LOG: Selecting category: THCA
+LOG: Setting Additional Info...
+LOG: Configuring Variable Product details...
+LOG: Selecting Variation Template: Flavor
+LOG: Filling Variation 0 details...
+LOG: Filling Variation 1 details...
+LOG: Adding Lab Report...
+LOG: Saving product...
+LOG: Verifying product creation...
+  ✘  1 [chromium] › tests\AddProduct.test.ts:30:9 › Smokevana ERP Product Automation › Scenario: Add New Variable Product - Success Flow (2.0m)
+
+
+  1) [chromium] › tests\AddProduct.test.ts:30:9 › Smokevana ERP Product Automation › Scenario: Add New Variable Product - Success Flow 
+
+    [31mTest timeout of 120000ms exceeded.[39m
+
+    Error: locator.fill: Test timeout of 120000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('input[type="search"]').first()[22m
+    [2m    - locator resolved to <input type="search" placeholder="Search ..." class="form-control input-sm" aria-controls="product_table"/>[22m
+    [2m    - fill("TEST-THCPA-1773781825417")[22m
+    [2m  - attempting fill action[22m
+    [2m    2 × waiting for element to be visible, enabled and editable[22m
+    [2m      - element is not visible[22m
+    [2m    - retrying fill action[22m
+    [2m    - waiting 20ms[22m
+    [2m    2 × waiting for element to be visible, enabled and editable[22m
+    [2m      - element is not visible[22m
+    [2m    - retrying fill action[22m
+    [2m      - waiting 100ms[22m
+    [2m    203 × waiting for element to be visible, enabled and editable[22m
+    [2m        - element is not visible[22m
+    [2m      - retrying fill action[22m
+    [2m        - waiting 500ms[22m
+
+
+      91 |         
+      92 |         const searchInput = page.locator('input[type="search"]').first();
+    > 93 |         await searchInput.fill(productName);
+         |                           ^
+      94 |         await page.keyboard.press('Enter');
+      95 |         await page.waitForTimeout(3000);
+      96 |
+        at C:\Users\PSHCPU003\Documents\Automation Playwright\Smokevana ERP\tests\AddProduct.test.ts:93:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests\AddProduct.test.ts:30:9 › Smokevana ERP Product Automation › Scenario: Add New Variable Product - Success Flow 

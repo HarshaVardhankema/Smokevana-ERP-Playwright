@@ -1,8 +1,60 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="1" errors="0" time="6.187548">
-<testsuite name="Customers.test.ts" timestamp="2026-03-17T18:33:40.463Z" hostname="chromium" tests="1" failures="0" skipped="1" time="5.041" errors="0">
-<testcase name="Smokevana ERP Customer Care Automation › Scenario: Create a new Customer" classname="Customers.test.ts" time="5.041">
-<skipped>
-</skipped>
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="24.665017">
+<testsuite name="test_visibility.test.ts" timestamp="2026-03-17T20:59:59.909Z" hostname="chromium" tests="1" failures="1" skipped="0" time="23.399" errors="0">
+<testcase name="find id" classname="test_visibility.test.ts" time="23.399">
+<failure message="test_visibility.test.ts:3:5 find id" type="FAILURE">
+<![CDATA[  [chromium] › test_visibility.test.ts:3:5 › find id ───────────────────────────────────────────────
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('.sidebar-menu')
+    Expected: visible
+    Timeout: 15000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" with timeout 15000ms
+      - waiting for locator('.sidebar-menu')
+
+
+       8 |     
+       9 |     // Wait for dashboard
+    > 10 |     await expect(page.locator('.sidebar-menu')).toBeVisible({ timeout: 15000 });
+         |                                                 ^
+      11 |     
+      12 |     await page.goto('https://smokevanaerp.phantasm-agents.ai/products/create');
+      13 |     await expect(page.locator('form#product_add_form')).toBeVisible({ timeout: 15000 });
+        at C:\Users\PSHCPU003\Documents\Automation Playwright\Smokevana ERP\tests\test_visibility.test.ts:10:49
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\test_visibility-find-id-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\test_visibility-find-id-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\test_visibility-find-id-chromium\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\test_visibility-find-id-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\test_visibility-find-id-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\test_visibility-find-id-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\test_visibility-find-id-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\test_visibility-find-id-chromium\error-context.md]]
+
+[[ATTACHMENT|test-results\test_visibility-find-id-chromium\trace.zip]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
 </testsuites>

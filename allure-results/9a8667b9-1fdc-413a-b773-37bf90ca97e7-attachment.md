@@ -1,0 +1,1535 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - complementary [ref=e4]:
+        - link "Smokevana Prime" [ref=e5] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/home
+          - paragraph
+          - img "Smokevana Prime" [ref=e8]
+          - paragraph
+        - generic [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/home
+            - img [ref=e11]
+            - generic [ref=e16]: Home
+          - link "Advertisement Approvals" [ref=e17] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/dropship/advertisements
+            - img [ref=e18]
+            - generic [ref=e21]: Advertisement Approvals
+          - link "User Management" [ref=e23] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e24]
+            - generic [ref=e31]: User Management
+            - img [ref=e32]
+          - link "Sales Commission" [ref=e36] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e37]
+            - generic [ref=e41]: Sales Commission
+            - img [ref=e42]
+          - link "Sale" [ref=e46] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e47]
+            - generic [ref=e52]: Sale
+            - img [ref=e53]
+          - link "Customer Care" [ref=e57] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e58]
+            - generic [ref=e63]: Customer Care
+            - img [ref=e64]
+          - generic [ref=e67]:
+            - link "Products" [ref=e68] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e69]
+              - generic [ref=e76]: Products
+              - img [ref=e77]
+            - generic [ref=e81]:
+              - link "List Products" [ref=e82] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/products
+                - img [ref=e83]
+                - generic [ref=e87]: List Products
+              - link "Add Product" [ref=e88] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/products/create
+                - img [ref=e89]
+                - generic [ref=e92]: Add Product
+              - link "Print Labels" [ref=e93] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/labels/show
+                - img [ref=e94]
+                - generic [ref=e99]: Print Labels
+              - link "Import Products" [ref=e100] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/import-products
+                - img [ref=e101]
+                - generic [ref=e105]: Import Products
+              - link "Edit Selling Price" [ref=e106] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/products/edit-selling-price
+                - img [ref=e107]
+                - generic [ref=e111]: Edit Selling Price
+              - link "Manage Stock" [ref=e112] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/products/manage-stock
+                - img [ref=e113]
+                - generic [ref=e117]: Manage Stock
+              - link "Sale Limit Control" [ref=e118] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/products/sale-limit-control/get-all
+                - img [ref=e119]
+                - generic [ref=e123]: Sale Limit Control
+              - link "Search Collections" [ref=e124] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/search-collections
+                - img [ref=e125]
+                - generic [ref=e128]: Search Collections
+              - link "Categories" [ref=e129] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/taxonomies?type=product
+                - img [ref=e130]
+                - generic [ref=e133]: Categories
+              - link "Brands" [ref=e134] [cursor=pointer]:
+                - /url: https://smokevanaerp.phantasm-agents.ai/brands
+                - img [ref=e135]
+                - generic [ref=e138]: Brands
+          - link "Vendor Care" [ref=e140] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e141]
+            - generic [ref=e146]: Vendor Care
+            - img [ref=e147]
+          - link "Prime Subscriptions" [ref=e151] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e152]
+            - generic [ref=e155]: Prime Subscriptions
+            - img [ref=e156]
+          - link "Dropshipping" [ref=e160] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e161]
+            - generic [ref=e169]: Dropshipping
+            - img [ref=e170]
+          - link "Stock Transfers" [ref=e174] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e175]
+            - generic [ref=e181]: Stock Transfers
+            - img [ref=e182]
+          - link "Stock Adjustment" [ref=e186] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e187]
+            - generic [ref=e193]: Stock Adjustment
+            - img [ref=e194]
+          - link "Payment Accounts" [ref=e198] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e199]
+            - generic [ref=e203]: Payment Accounts
+            - img [ref=e204]
+          - link "Bookkeeping" [ref=e208] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e209]
+            - generic [ref=e212]: Bookkeeping
+            - img [ref=e213]
+          - link "Advanced Reports" [ref=e216] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/advanced-reports
+            - img [ref=e217]
+            - generic [ref=e221]: Advanced Reports
+          - link "Reports" [ref=e223] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e224]
+            - generic [ref=e232]: Reports
+            - img [ref=e233]
+          - link "Notification Templates" [ref=e236] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/notification-templates
+            - img [ref=e237]
+            - generic [ref=e242]: Notification Templates
+          - link "Settings" [ref=e244] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e245]
+            - generic [ref=e250]: Settings
+            - img [ref=e251]
+          - link "Ecom" [ref=e255] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e256]
+            - generic [ref=e258]: Ecom
+            - img [ref=e259]
+          - link "AI Support" [ref=e262] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/support-agent
+            - img [ref=e263]
+            - generic [ref=e268]: AI Support
+      - main [ref=e269]:
+        - generic [ref=e272]:
+          - generic [ref=e273]:
+            - button "Collapse Sidebar" [ref=e274] [cursor=pointer]:
+              - generic [ref=e275]: Collapse Sidebar
+              - img [ref=e276]
+            - button "Go Back" [ref=e280] [cursor=pointer]:
+              - generic [ref=e281]: Go Back
+              - img [ref=e282]
+            - button "Refresh Page" [ref=e286] [cursor=pointer]:
+              - generic [ref=e287]: Refresh Page
+              - img [ref=e288]
+            - button "Go Forward" [ref=e292] [cursor=pointer]:
+              - generic [ref=e293]: Go Forward
+              - img [ref=e294]
+          - generic [ref=e299]:
+            - img [ref=e301]
+            - textbox "Search... (Invoice, Customer, Product)" [ref=e304]
+            - button "Bookmark this page" [ref=e305] [cursor=pointer]:
+              - img [ref=e306]
+          - button "Quick Actions" [ref=e309] [cursor=pointer]:
+            - generic [ref=e310]: Quick Actions
+            - img [ref=e311]
+          - generic [ref=e314]:
+            - button "Order Statistics" [ref=e316] [cursor=pointer]:
+              - generic [ref=e317]: Order Statistics
+              - img [ref=e318]
+            - group [ref=e322]:
+              - img [ref=e324] [cursor=pointer]
+            - button [ref=e327] [cursor=pointer]:
+              - generic [ref=e328]: Calculator
+              - img [ref=e329]
+            - button "Today's Profit" [ref=e333] [cursor=pointer]:
+              - generic [ref=e334]: Today's Profit
+              - img [ref=e335]
+            - button "03/18/2026" [ref=e339] [cursor=pointer]
+            - listitem [ref=e340]:
+              - generic [ref=e341]:
+                - generic [ref=e342]: Notifications
+                - img [ref=e343]
+            - group [ref=e347]:
+              - generic "Utkarsh Shukla" [ref=e348] [cursor=pointer]:
+                - generic [ref=e349]: Utkarsh Shukla
+                - img [ref=e350]
+        - generic [ref=e356]:
+          - generic [ref=e358]:
+            - generic [ref=e359]:
+              - heading " Add new product" [level=1] [ref=e360]:
+                - generic [ref=e361]: 
+                - text: Add new product
+              - paragraph [ref=e362]: Fill in the product details below to add a new product to your inventory.
+            - link " Back" [ref=e363] [cursor=pointer]:
+              - /url: https://smokevanaerp.phantasm-agents.ai/products
+              - generic [ref=e364]: 
+              - text: Back
+          - generic [ref=e367]:
+            - generic [ref=e368]:
+              - heading " Basic Information" [level=3] [ref=e370]:
+                - generic [ref=e371]: 
+                - text: Basic Information
+              - generic [ref=e374]:
+                - paragraph [ref=e375]: Fill in the product details below to add a new product to your inventory.
+                - generic [ref=e376]:
+                  - heading [level=4]
+                  - generic [ref=e379]:
+                    - generic [ref=e380]: Product Name:*
+                    - textbox "Product Name:*" [ref=e381]:
+                      - /placeholder: Product Name
+                      - text: TEST-THCPA-1773779258486
+                  - generic [ref=e382]:
+                    - generic [ref=e383]: Product type
+                    - generic [ref=e384]:
+                      - generic [ref=e385] [cursor=pointer]:
+                        - generic [ref=e386]:
+                          - checkbox "Tobacco product" [ref=e387]
+                          - insertion [ref=e388]
+                        - text: Tobacco product
+                      - generic [ref=e389] [cursor=pointer]:
+                        - generic [ref=e390]:
+                          - checkbox "Ecom" [checked] [ref=e391]
+                          - insertion [ref=e392]
+                        - text: Ecom
+                      - generic [ref=e393] [cursor=pointer]:
+                        - generic [ref=e394]:
+                          - checkbox "Gift card" [ref=e395]
+                          - insertion [ref=e396]
+                        - text: Gift card
+                  - generic [ref=e397]:
+                    - generic [ref=e399]:
+                      - generic [ref=e400]:
+                        - generic [ref=e401]: "SKU:"
+                        - generic [ref=e402]: 
+                      - textbox "SKU:" [active] [ref=e403]:
+                        - /placeholder: SKU
+                        - text: SKU-1773779258486
+                    - generic [ref=e405]:
+                      - generic [ref=e406]: "CT Value:"
+                      - spinbutton "CT Value:" [ref=e407]
+                    - generic [ref=e409]:
+                      - generic [ref=e410]: "Brand:"
+                      - generic [ref=e411]:
+                        - combobox [ref=e412]
+                        - combobox "4 KINGS Test" [ref=e415] [cursor=pointer]:
+                          - generic "4 KINGS Test" [ref=e416]
+                        - button "" [ref=e418] [cursor=pointer]:
+                          - generic [ref=e419]: 
+                    - generic [ref=e421]:
+                      - generic [ref=e422]: "Product Visibility:"
+                      - combobox [ref=e423]
+                      - combobox "Public Product" [ref=e426] [cursor=pointer]:
+                        - generic "Public Product" [ref=e427]
+                  - generic [ref=e428]:
+                    - generic [ref=e430]:
+                      - generic [ref=e431]: "Category:"
+                      - combobox [ref=e432]
+                      - combobox "THCA" [ref=e435] [cursor=pointer]:
+                        - generic "THCA" [ref=e436]
+                    - generic [ref=e438]:
+                      - generic [ref=e439]: "Sub category:"
+                      - combobox [ref=e440]
+                      - combobox "None" [ref=e443] [cursor=pointer]:
+                        - generic "None" [ref=e444]
+                    - generic [ref=e446]:
+                      - generic [ref=e447]: "Web categories:"
+                      - listbox [ref=e448]:
+                        - option [ref=e449]: Other Categories
+                        - option [ref=e450]: Disposable
+                        - option [ref=e451]: Hydroxy Tablets
+                        - option [ref=e452]: THCA Flower
+                        - option [ref=e453]: Pre Rolls
+                        - option [ref=e454]: Gummies
+                        - option [ref=e455]: Pet Treats
+                        - option [ref=e456]: THCP FLOWER
+                        - option [ref=e457]: THCA BLUNTZ
+                        - option [ref=e458]: THCP Disposable
+                        - option [ref=e459]: Gummies
+                        - option [ref=e460]: THCP Flower
+                        - option [ref=e461]: THCP Flowers
+                        - option [ref=e462]: THCP Disposable
+                        - option [ref=e463]: Pre Rolls
+                        - option [ref=e464]: Pet Treats
+                        - option [ref=e465]: Hydroxy tablets
+                        - option [ref=e466]: THCA FLOWER
+                        - option [ref=e467]: featured
+                        - option [ref=e468]: preroll sub
+                        - option [ref=e469]: THCA BLUNTZ
+                        - option [ref=e470]: New Arrivals
+                        - option [ref=e471]: Electronics
+                        - option [ref=e472]: Mobile Phones
+                        - option [ref=e473]: T-Shirts
+                        - option [ref=e474]: Beverages
+                        - option [ref=e475]: Soft Drinks
+                        - option [ref=e476]: Footwear
+                        - option [ref=e477]: Sports Shoes
+                        - option [ref=e478]: New Arrival
+                        - option [ref=e479]: Bites
+                        - option [ref=e480]: Catridges
+                        - option [ref=e481]: Gummies
+                        - option [ref=e482]: Catridge
+                        - option [ref=e483]: ACCESSORIES
+                        - option [ref=e484]: DISPOSABLES
+                        - option [ref=e485]: EDIBLES
+                        - option [ref=e486]: KRATOM
+                        - option [ref=e487]: FLOWER
+                        - option [ref=e488]: ADULT NOVELTY
+                        - option [ref=e489]: ROLLING PAPERS
+                        - option [ref=e490]: CARTRIDGE
+                        - option [ref=e491]: TOBACCO
+                        - option [ref=e492]: CBD
+                        - option [ref=e493]: BATTERIES
+                        - option [ref=e494]: CIGARS
+                        - option [ref=e495]: CARTRIDGES
+                        - option [ref=e496]: FLOWERS
+                        - option [ref=e497]: Need To add
+                        - option [ref=e498]: DABS
+                        - option [ref=e499]: KRATOM ROOTS HIGH QUALITY NANO KRATOM 350CAPS/BAG (TRAINWRECK)
+                        - option [ref=e500]: KRATOM ROOTS HIGH QUALITY NANO KRATOM 1500CAPS/BAG (GREEN MAENG DA)
+                        - option [ref=e501]: KRATOM ROOTS HIGH QUALITY NANO KRATOM 1500CAPS/BAG (RED MAENG DA)
+                        - option [ref=e502]: KRATOM ROOTS HIGH QUALITY NANO KRATOM 1500CAPS/BAG (WHITE MAENG DA)
+                        - option [ref=e503]: DETOX
+                        - option [ref=e504]: Hempookah
+                        - option [ref=e505]: E-Liquids
+                        - option [ref=e506]: Detox Drinks
+                        - option [ref=e507]: Gummy
+                        - option [ref=e508]: Cookies
+                        - option [ref=e509]: Hookah Tobacco
+                        - option [ref=e510]: Nicotine Pouches / Smokeless Tobacco
+                        - option [ref=e511]: Cigars / Tobacco Products
+                        - option [ref=e512]: Snacks / Chips
+                        - option [ref=e513]: Candy / Chocolate Bars
+                        - option [ref=e514]: Tobacco Products / Cigarettes
+                        - option [ref=e515]: Tobacco Products / Mini Cigarettes
+                        - option [ref=e516]: Candy / Chewing Gum
+                        - option [ref=e517]: Candy / Chocolate Products
+                        - option [ref=e518]: Cookies / Snacks
+                        - option [ref=e519]: Health & Wellness / Detox Products
+                        - option [ref=e520]: Cannabis / Marijuana Products
+                        - option [ref=e521]: Tobacco Products
+                        - option [ref=e522]: Cannabis / Vaping Products
+                        - option [ref=e523]: Snacks / Gum
+                        - option [ref=e524]: Snacks / Candy
+                        - option [ref=e525]: Smoking Accessories
+                        - option [ref=e526]: Snacks / Chocolate
+                        - option [ref=e527]: Cigarettes / Tobacco Products
+                        - option [ref=e528]: Smoking Accessories / Tobacco Products
+                        - option [ref=e529]: Disposable Vapes / E?Cigarettes
+                        - option [ref=e530]: Disposable Vapes / E‑Cigarettes
+                        - option [ref=e531]: Top quantity discounts for you
+                        - option [ref=e532]: Customers Frequently Viewed
+                        - option [ref=e533]: Item Also Bought
+                        - option [ref=e534]: FRAGRANCE
+                        - option [ref=e535]: Soft Drinks
+                        - option [ref=e536]: Trending Recommendations for You
+                        - option [ref=e537]: Consider these items
+                        - option [ref=e538]: more frequently bought items
+                        - option [ref=e539]: dispensary
+                        - option [ref=e540]: Best Sellers
+                        - option [ref=e541]: Top Picks
+                        - option [ref=e542]: specialty store
+                        - option [ref=e543]: close out deals
+                        - option [ref=e544]: Today's featured deals
+                        - option [ref=e545]: Deals on most-loved products
+                        - option [ref=e546]: Highly rated items for you
+                        - option [ref=e547]: Top picks in Pre-rolls
+                        - option [ref=e548]: Featured Hydroxy Tablets
+                        - option [ref=e549]: Top Cartridges
+                        - option [ref=e550]: Popular THCP Disposables
+                        - option [ref=e551]: Vaping Pods
+                        - option [ref=e552]: Grinders
+                        - option [ref=e553]: Nicotine Pouches
+                        - option [ref=e554]: Vaporizers
+                        - option [ref=e555]: Slush Drinks
+                        - option [ref=e556]: Cigar Wraps
+                        - option [ref=e557]: Lighters
+                        - option [ref=e558]: Charcoal Coals
+                        - option [ref=e559]: Hemp Drinks
+                        - option [ref=e560]: Pre-Rolls
+                        - option [ref=e561]: THC Gummies
+                        - option [ref=e562]: THCP Concentrates
+                        - option [ref=e563]: Vape Batteries
+                        - option [ref=e564]: Disposable Vape Pens
+                        - option [ref=e565]: Vape Kits
+                        - option [ref=e566]: Disposable Vape Pods
+                        - option [ref=e567]: Disposable Vape Devices
+                        - option [ref=e568]: THCP Pre-Rolls
+                        - option [ref=e569]: THCP Cartridges
+                        - option [ref=e570]: Rechargeable Disposable Vape Devices
+                        - option [ref=e571]: Flavored Smoking Leaves
+                        - option [ref=e572]: E-Liquid
+                        - option [ref=e573]: Retail Display Materials
+                        - option [ref=e574]: Retail Marketing Materials
+                        - option [ref=e575]: Disposable Vape Kits
+                        - option [ref=e576]: Vaporizer Kits
+                        - option [ref=e577]: Vaporizer Batteries
+                        - option [ref=e578]: Vaporizer Carts
+                        - option [ref=e579]: Disposable Vapes
+                        - option [ref=e580]: Electric Dab Rigs
+                        - option [ref=e581]: Wax Pens / Vaporizers
+                        - option [ref=e582]: Vaporizer Kits / Concentrate Vaporizers
+                        - option [ref=e583]: Vaporizers / Dab Rigs
+                        - option [ref=e584]: Vaporizer Accessories / Cartridges
+                        - option [ref=e585]: Vaporizer Accessories / Coils
+                        - option [ref=e586]: Vaporizer Accessories / Mouthpieces
+                        - option [ref=e587]: Vaporizer Accessories / Kits
+                        - option [ref=e588]: Vaporizer Kits / Wax Vaporizers
+                        - option [ref=e589]: Vaporizers / Wax Pens
+                        - option [ref=e590]: Dab Rigs / Portable Vaporizers
+                        - option [ref=e591]: Vaporizers / Concentrate Vaporizers
+                        - option [ref=e592]: Vaporizers / Concentrate Vaporize
+                        - option [ref=e593]: Vaporizers / Enails
+                        - option [ref=e594]: Vaporizer / Vaporizer Kits
+                        - option [ref=e595]: Vaporizer Kits / Portable Vaporizers
+                        - option [ref=e596]: Vaporizer Accessories / Carto Batteries
+                        - option [ref=e597]: Vaporizer Kits / Nectar Collectors
+                        - option [ref=e598]: Vaporizer Kits / Wax Pens
+                        - option [ref=e599]: Nectar Collectors / Vaporizers
+                        - option [ref=e600]: Vaporizers / Wax Vaporizers
+                        - option [ref=e601]: Vaporizer Accessories / Batteries
+                        - option [ref=e602]: Hand Pipes / Smoking Accessories
+                        - option [ref=e603]: Rolling Accessories / Smoking Gear
+                        - option [ref=e604]: Smoking Accessories / Hand Pipes /Smoking Gear
+                        - option [ref=e605]: Blunt Bubbler
+                        - option [ref=e606]: Water Pipe
+                        - option [ref=e607]: Backpack
+                        - option [ref=e608]: Beaker Pipe
+                        - option [ref=e609]: Clear Glass
+                        - option [ref=e610]: Hand Pipes
+                        - option [ref=e611]: Vape Cartridges
+                        - option [ref=e612]: Cannabis Flower / THC Mylar Bags
+                        - option [ref=e613]: Backpacks
+                        - option [ref=e614]: Blunt Bubblers / Glass Pipes
+                        - option [ref=e615]: Torches / Lighters
+                        - option [ref=e616]: Water Pipes / Glass Pipes
+                        - option [ref=e617]: Hand Pipes / Glass Pipes
+                        - option [ref=e618]: Hand Pipes / Metal Pipes
+                        - option [ref=e619]: Pens / Office Supplies
+                        - option [ref=e620]: Pre-Rolled Cones / Smoking Accessories
+                        - option [ref=e621]: THCA Gummies / Edibles
+                        - option [ref=e622]: Water Pipes / Mini Rigs
+                        - option [ref=e623]: Hand Pipes / Water Pipes
+                        - option [ref=e624]: Dab Bangers / Smoking Accessories
+                        - option [ref=e625]: Dabbing Tools / Smoking Accessories
+                        - option [ref=e626]: Chillums / Smoking Accessories
+                        - option [ref=e627]: Nectar Pipes / Smoking Accessories
+                        - option [ref=e628]: Water Pipes / Dab Rigs
+                        - option [ref=e629]: Nectar Pipes / Dabbing Tools
+                        - option [ref=e630]: Bowls / Smoking Accessories
+                        - option [ref=e631]: Quartz Bangers / Dabbing Tools
+                        - option [ref=e632]: THC-P Gummies / Edibles
+                        - option [ref=e633]: Delta-9 Gummies / Edibles
+                        - option [ref=e634]: Hookah Tobacco / Smoking Accessories
+                        - option [ref=e635]: Disposable Vapes / Vape Pens
+                        - option [ref=e636]: THC-A Flower / Cannabis
+                        - option [ref=e637]: Cannabis Flower / Premium Strains
+                        - option [ref=e638]: Pre-Rolls / Cannabis
+                        - option [ref=e639]: THC-A Gummies / Edibles
+                        - option [ref=e640]: THC-P Flower / Cannabis
+                        - option [ref=e641]: Pre-Rolls / THC-A Flower
+                        - option [ref=e642]: Pre-Rolls / THC-P Flower
+                        - option [ref=e643]: Disposable Vapes / Vape Kits
+                        - option [ref=e644]: Flavored Cigars / Tobacco Products
+                        - option [ref=e645]: Leaf Wraps / Tobacco Products
+                        - option [ref=e646]: Long Cut Cigars / Tobacco Products
+                        - option [ref=e647]: Whole Leaf Cigars / Tobacco Products
+                        - option [ref=e648]: Vape Mods / Battery Mods
+                        - option [ref=e649]: Vape Kits / Vaping Devices
+                        - option [ref=e650]: Vaporizers / Vape Kits
+                        - option [ref=e651]: Vaporizer Coils / Accessories
+                        - option [ref=e652]: Vape Kits / E-Cigarettes
+                        - option [ref=e653]: Disposable Vapes / THC-A
+                        - option [ref=e654]: Cartridges / THC-A
+                        - option [ref=e655]: Cartridges / Delta-8 THC
+                        - option [ref=e656]: Cartridges / HHC
+                        - option [ref=e657]: Disposable Vapes / Delta-8 THC
+                        - option [ref=e658]: Cartridges / THC-P
+                        - option [ref=e659]: Disposable Vapes / HHC
+                        - option [ref=e660]: Disposable Vapes / THC-P
+                        - option [ref=e661]: Disposable Vapes / THCA
+                        - option [ref=e662]: Cartridges / THCA
+                        - option [ref=e663]: Disposable Vapes / THCP
+                        - option [ref=e664]: Cartridges / THCP
+                        - option [ref=e665]: Cartridges / MTL
+                        - option [ref=e666]: Cartridges / DTL (Direct-to-Lung)
+                        - option [ref=e667]: Pods / E-Cigarettes
+                        - option [ref=e668]: Coils / E-Cigarette Accessories
+                        - option [ref=e669]: Pods / E-Cigarette Accessories
+                        - option [ref=e670]: Vape Mods / E-Cigarette Accessories
+                        - option [ref=e671]: Tanks / E-Cigarette Accessories
+                        - option [ref=e672]: Edibles / Cannabis Products
+                        - option [ref=e673]: Disposable Vape Kits / E-Cigarette Accessories
+                        - option [ref=e674]: BackwoodsBackwoods
+                        - option [ref=e675]: Cigars / Smoking Accessories
+                        - option [ref=e676]: Disposable Vape Pens / E-Cigarette Accessories
+                        - option [ref=e677]: Vape Pods / E-Cigarette Accessories
+                        - option [ref=e678]: Exotic Flower / Cannabis Products
+                        - option [ref=e679]: Pre-Rolls / Cannabis Products
+                        - option [ref=e680]: Cannabis Gummies / THC Edibles
+                        - option [ref=e681]: E-Liquids / Vape Juices
+                        - option [ref=e682]: Dogg Woods OG Gold 15PK 2/1.79
+                        - option [ref=e683]: Disposable Vapes / E-Cigarettes
+                        - option [ref=e684]: Green Diamond THCP
+                        - option [ref=e685]: Alfakher Crown Bar Ultra Singles 25K
+                        - option [ref=e686]: HHC Carts / Vaping Products
+                        - option [ref=e687]: Edible Treats / Snack
+                        - option [ref=e688]: Kratom Beverages / Seltzers
+                        - option [ref=e689]: Vape Disposables / Cannabis Vapes
+                        - option [ref=e690]: Vape Disposables
+                        - option [ref=e691]: Vape Pens / Disposable Vapes
+                        - option [ref=e692]: Cake 3.0G Disposable
+                        - option [ref=e693]: Chewing Tobacco / Smokeless Products
+                        - option [ref=e694]: Chewing Gum
+                        - option [ref=e695]: Cigars / Cigar Accessories
+                        - option [ref=e696]: Home Fragrance / Candles
+                        - option [ref=e697]: Smoking Accessories / Grinders
+                        - option [ref=e698]: Smoking Accessories / cigars
+                        - option [ref=e699]: Cigars / Premium Cigars
+                        - option [ref=e700]: Vape Pens
+                        - option [ref=e701]: Candy Bars
+                        - option [ref=e702]: Snacks
+                        - option [ref=e703]: Cannabis Products
+                        - option [ref=e704]: Cigarettes
+                        - option [ref=e705]: Blunt Wraps
+                        - option [ref=e706]: Flavored Cigars
+                        - option [ref=e707]: Rolling Papers & Cones
+                        - option [ref=e708]: E Liquid
+                        - option [ref=e709]: Preroll
+                        - option [ref=e710]: Kratom Shots
+                        - option [ref=e711]: Pre-Rolled Cones
+                        - option [ref=e712]: Supplements
+                        - option [ref=e713]: Candy
+                        - option [ref=e714]: Tobacco / Rolling Papers
+                        - option [ref=e715]: Tobacco / Rolling Papers / Cones
+                        - option [ref=e716]: ZIG ZAG UNBLEACHED PAPER KS
+                        - option [ref=e717]: Tobacco / Cigars
+                        - option [ref=e718]: Tobacco / Cigar Wraps
+                        - option [ref=e719]: Vape / Nicotine Pouches
+                        - option [ref=e720]: ZIMO
+                        - option [ref=e721]: Accessories / Lighter Fluid
+                        - option [ref=e722]: Herbal Supplements / Kratom
+                        - option [ref=e723]: Tobacco / Pre-Rolls
+                        - option [ref=e724]: TOB LIL LEAF
+                        - option [ref=e725]: Vape / Disposable Vapes
+                        - option [ref=e726]: Edibles / THC Infused
+                        - option [ref=e727]: Vape / E-Liquid
+                        - option [ref=e728]: Tobacco Monster
+                        - option [ref=e729]: Cannabis / Flower
+                        - option [ref=e730]: Tobacco / Rolling Machines
+                        - option [ref=e731]: Tobacco Monster x Kong
+                        - option [ref=e732]: Candy / Sweets
+                        - option [ref=e733]: Candy / Lollipops
+                        - option [ref=e734]: Tobacco / Cannabis / Jars
+                        - option [ref=e735]: Tobacco / Cannabis
+                        - option [ref=e736]: Personal Care / Feminine Hygiene
+                        - option [ref=e737]: Smoking Accessories / Hookah Kits
+                        - option [ref=e738]: Smoking Accessories / Hookah Tips
+                        - option [ref=e739]: Smoking Accessories / Hookah Foil
+                        - option [ref=e740]: Smoking Accessories / Hookah Coals
+                        - option [ref=e741]: Tobacco / Filters
+                        - option [ref=e742]: Smoking Accessories / Torches
+                        - option [ref=e743]: Accessories / Lighters
+                        - option [ref=e744]: Health & Wellness / Supplements
+                        - option [ref=e745]: Health & Wellness / Cold & Flu Medicine
+                        - option [ref=e746]: Office Supplies / Paper Products
+                        - option [ref=e747]: Tobacco / Smoking Accessories / Charcoal
+                        - option [ref=e748]: Tobacco / Cigars / Flavored Cigars
+                        - option [ref=e749]: Tobacco / Rolling Accessories
+                        - option [ref=e750]: Vaping
+                        - option [ref=e751]: Gifts
+                        - option [ref=e752]: Supplements / Powder
+                        - option [ref=e753]: Candy / Chocolate
+                        - option [ref=e754]: Holiday
+                        - option [ref=e755]: Mini Cigars
+                        - option [ref=e756]: Cigarillos
+                        - option [ref=e757]: Sprays and Accessories
+                        - option [ref=e758]: Pre-Rolls / Bulk Packs
+                        - option [ref=e759]: Rolling Papers and Accessories
+                        - option [ref=e760]: Body Oils & Personal Care
+                        - option [ref=e761]: Lighters and Torches
+                        - option [ref=e762]: Snacks / Candies
+                        - option [ref=e763]: Bar Tools & Accessories
+                        - option [ref=e764]: Candy / Seasonal Treats
+                        - option [ref=e765]: Wraps
+                        - option [ref=e766]: Snacks / Crackers
+                        - option [ref=e767]: Snacks / Pretzels
+                        - option [ref=e768]: Snacks / Crackers & Pretzels
+                        - option [ref=e769]: Smoking Accessories / Ashtrays
+                        - option [ref=e770]: Cigar Accessories / Cigar Cutters
+                        - option [ref=e771]: Cannabis / Edibles
+                        - option [ref=e772]: Charcoal / Hookah
+                        - option [ref=e773]: Drinkware
+                        - option [ref=e774]: Ashtrays
+                        - option [ref=e775]: Storage Case
+                        - option [ref=e776]: Humidor
+                        - option [ref=e777]: Smoking Products
+                        - option [ref=e778]: Menthol Smoking Products
+                        - option [ref=e779]: Natural Leaf
+                        - option [ref=e780]: Cannabis Flowers
+                        - option [ref=e781]: Cannabis Concentrates
+                        - option [ref=e782]: Hydro Mitra Products
+                        - option [ref=e783]: Hydro Mitragyn Products
+                        - option [ref=e784]: Mouthwash
+                        - option [ref=e785]: Flavor Packs
+                        - option [ref=e786]: Generic Product
+                        - option [ref=e787]: Cannabis Gummies
+                        - option [ref=e788]: Gourmet Chocolate
+                        - option [ref=e789]: Tobacco Wraps
+                        - option [ref=e790]: Tobacco Flakes
+                        - option [ref=e791]: Tobacco Leaves
+                        - option [ref=e792]: Hookahs
+                        - option [ref=e793]: Hookah Charcoal
+                        - option [ref=e794]: Hookah Accessories
+                        - option [ref=e795]: Vape Devices
+                        - option [ref=e796]: THC-A Flower
+                        - option [ref=e797]: THC-A Rose Cones
+                        - option [ref=e798]: THC-H Gummies
+                        - option [ref=e799]: THC-P Flower
+                        - option [ref=e800]: THC-P Gummies
+                        - option [ref=e801]: THC-P Pre-Rolls
+                        - option [ref=e802]: Cannabis Leaf
+                        - option [ref=e803]: THCV Cannabis Flower
+                        - option [ref=e804]: Snack Seeds
+                        - option [ref=e805]: Cold & Flu Relief
+                        - option [ref=e806]: Deodorant
+                        - option [ref=e807]: Winter Accessories
+                        - option [ref=e808]: Energy Supplements
+                        - option [ref=e809]: Energy Shots
+                        - option [ref=e810]: Kratom Gummies
+                        - option [ref=e811]: Gaming Accessories
+                        - option [ref=e812]: Limited Edition Cigars
+                        - option [ref=e813]: Vaping Devices
+                        - option [ref=e814]: Digital Scales
+                        - option [ref=e815]: Clove Cigars
+                        - option [ref=e816]: Bottled Water
+                        - option [ref=e817]: THC-A Pre-Rolls
+                        - option [ref=e818]: Chocolate Snacks
+                        - option [ref=e819]: Men's Health
+                        - option [ref=e820]: E-Liquid / Vape Juice
+                        - option [ref=e821]: Vape Products
+                        - option [ref=e822]: Digital Scale
+                        - option [ref=e823]: Delta-8 THC Gummies
+                        - option [ref=e824]: Delta-9 THC Gummies
+                        - option [ref=e825]: Cream Chargers
+                        - option [ref=e826]: Vape Juice
+                        - option [ref=e827]: Hair Accessories
+                        - option [ref=e828]: Cigar Leaves
+                        - option [ref=e829]: Kratom Extracts
+                        - option [ref=e830]: Nicotine Products
+                        - option [ref=e831]: Gummy Candies
+                        - option [ref=e832]: Audio Accessories
+                        - option [ref=e833]: Gum
+                        - option [ref=e834]: Rolling Cones
+                        - option [ref=e835]: Delta 8 Products
+                        - option [ref=e836]: Kava Shots
+                        - option [ref=e837]: THCP Cannabis Flower
+                        - option [ref=e838]: Chocolates
+                        - option [ref=e839]: PreGround Cannabis Flower
+                        - option [ref=e840]: PreRolls
+                        - option [ref=e841]: Pods
+                        - option [ref=e842]: Chocolate Bars
+                        - option [ref=e843]: Incense Sticks
+                        - option [ref=e844]: Cigars / Smoking
+                        - option [ref=e845]: Accessories / Keychains
+                        - option [ref=e846]: Services / Event Fees
+                        - option [ref=e847]: Snacks / Natural Treats
+                        - option [ref=e848]: Beverages / E-Liquid / Vape Juice
+                        - option [ref=e849]: Edibles / Gummies
+                        - option [ref=e850]: Vape / Disposable Vape Pens
+                        - option [ref=e851]: Cannabis / Pre-rolls
+                        - option [ref=e852]: Smoking Accessories / Hemp Wraps
+                        - option [ref=e853]: Smoking Accessories / Rolling Papers
+                        - option [ref=e854]: Vape / Vape Cartridge
+                        - option [ref=e855]: Edibles / Snacks
+                        - option [ref=e856]: Edibles / Cannabis Bars
+                        - option [ref=e857]: Edibles / Cannabis Chocolate
+                        - option [ref=e858]: Herbal / Kratom
+                        - option [ref=e859]: Vapes
+                        - option [ref=e860]: Nicotine Salts E-Liquids
+                        - option [ref=e861]: Candy & Confectionery
+                        - option [ref=e862]: Bar & Smoking Accessories
+                        - option [ref=e863]: Edibles & Vapes
+                        - option [ref=e864]: Pipe Tobacco
+                        - option [ref=e865]: Pouch
+                        - option [ref=e866]: Disposable Vape
+                        - option [ref=e867]: Hookah Pouch
+                        - option [ref=e868]: Vape Accessories
+                        - option [ref=e869]: Electric Spliff
+                        - option [ref=e870]: Pouches
+                        - option [ref=e871]: Jars
+                        - option [ref=e872]: Sauce'd Exotix
+                        - option [ref=e873]: Purifyd Diamonds
+                        - option [ref=e874]: Rosin Blend Disposables
+                        - option [ref=e875]: Leaf
+                        - option [ref=e876]: Factory Seconds Cigars
+                        - option [ref=e877]: Oral Care
+                        - option [ref=e878]: Herbal Products
+                        - option [ref=e879]: Cleaning & Storage
+                        - option [ref=e880]: Fuel Storage
+                        - option [ref=e881]: Edibles & Confectionery
+                        - option [ref=e882]: Personal Care / Shaving
+                        - option [ref=e883]: Chocolate
+                        - option [ref=e884]: THCP Pre Rolls
+                        - option [ref=e885]: Display Units
+                        - option [ref=e886]: Kratom Products
+                        - option [ref=e887]: Hemp Beverages
+                        - option [ref=e888]: Smoking Cones
+                        - option [ref=e889]: Hemp Cigarettes
+                        - option [ref=e890]: Hemp Wraps
+                        - option [ref=e891]: Earphones
+                        - option [ref=e892]: Flavored Treats
+                        - option [ref=e893]: Smoking Wraps
+                        - option [ref=e894]: Cigarette Tubes
+                        - option [ref=e895]: Organic Cones
+                        - option [ref=e896]: Dietary Supplements
+                        - option [ref=e897]: Dietary Supplement
+                        - option [ref=e898]: Functional Beverages
+                        - option [ref=e899]: Detox Supplements
+                        - option [ref=e900]: Pocket Scales
+                        - option [ref=e901]: Scales
+                        - option [ref=e902]: Weighing Scales
+                        - option [ref=e903]: Kitchen Scales
+                        - option [ref=e904]: Jewelry Scales
+                        - option [ref=e905]: THCA Prerolls
+                        - option [ref=e906]: Cannabis
+                        - option [ref=e907]: Grilling & Hookah Accessories
+                        - option [ref=e908]: Hydroxy Cannabinoids
+                        - option [ref=e909]: Hookah
+                        - option [ref=e910]: Breath Fresheners
+                        - option [ref=e911]: Display Accessories
+                        - option [ref=e912]: Disposable Pods
+                        - option [ref=e913]: Snack Foods
+                        - option [ref=e914]: Mobile Accessories
+                        - option [ref=e915]: Whole Leaf Fronto Wraps
+                        - option [ref=e916]: Beverages / Kava Shots
+                        - option [ref=e917]: Candy / Gummies
+                        - option [ref=e918]: Candy / Hard Candy
+                        - option [ref=e919]: Candy / Sugar-Free Candy
+                        - option [ref=e920]: Edibles / Tablets
+                        - option [ref=e921]: Personal Care / Mouthwash
+                        - option [ref=e922]: Health & Wellness / Kratom Extract
+                        - option [ref=e923]: Car Accessories / Air Fresheners
+                        - option [ref=e924]: Cannabis / THC-A Products
+                        - option [ref=e925]: Cigar Accessories
+                        - option [ref=e926]: Health Care
+                        - option [ref=e927]: Utility Accessories
+                        - option [ref=e928]: Herbal Powder
+                        - option [ref=e929]: Herbal Capsules and Powder
+                        - option [ref=e930]: Herbal Capsules
+                        - option [ref=e931]: Beverage
+                        - option [ref=e932]: Edible Squares
+                        - option [ref=e933]: Liquid Extract
+                        - option [ref=e934]: Disposable Device
+                        - option [ref=e935]: Portion Packs
+                        - option [ref=e936]: Wraps & Rolling Supplies
+                        - option [ref=e937]: Infused Beverages
+                        - option [ref=e938]: Disposable Devices
+                        - option [ref=e939]: Personal Care & Accessories
+                        - option [ref=e940]: Hookah & Accessories
+                        - option [ref=e941]: Energy Shots & Functional Beverages
+                        - option [ref=e942]: Snacks & Crackers
+                        - option [ref=e943]: Snacks & Savory Mixes
+                        - option [ref=e944]: Functional Beverages & Shots
+                        - option [ref=e945]: Snacks & Cookies
+                        - option [ref=e946]: Botanical Powders
+                        - option [ref=e947]: Cleaning Supplies
+                        - option [ref=e948]: Cones & Rolling Supplies
+                        - option [ref=e949]: Snacks & Treat Bars
+                        - option [ref=e950]: Health & Personal Care
+                        - option [ref=e951]: Lighters & Fire Accessories
+                        - option [ref=e952]: Promotional & Sample Packs
+                        - option [ref=e953]: Grinders & Accessories
+                        - option [ref=e954]: Snacks & Energy Bars
+                        - option [ref=e955]: Cigarette Tubes & Accessories
+                        - option [ref=e956]: Cigarettes & Smoking Accessories
+                        - option [ref=e957]: Bar & Kitchen Tools
+                        - option [ref=e958]: Furniture & Home Accessories
+                        - option [ref=e959]: Vape Sticks
+                        - option [ref=e960]: Tools
+                        - option [ref=e961]: Crunch
+                        - option [ref=e962]: THCA Flower & Pre Rolls
+                        - option [ref=e963]: Liquid Kratom Shots
+                        - option [ref=e964]: Kratom Flower
+                        - option [ref=e965]: THC-A Dabs
+                        - option [ref=e966]: THC-A Diamond Gummies
+                        - option [ref=e967]: THC-A Diamond Pre Roll
+                        - option [ref=e968]: Exotic Series THC-A Flower
+                        - option [ref=e969]: Premium Flower
+                        - option [ref=e970]: Blunt Pre-Rolls
+                        - option [ref=e971]: Premium Super Cyro Flower
+                        - option [ref=e972]: Pre-Roll Blunts
+                        - option [ref=e973]: Premium Pre-Rolls
+                        - option [ref=e974]: Purifryd
+                        - option [ref=e975]: THCA Blunts
+                        - option [ref=e976]: Disposable Puffs
+                        - option [ref=e977]: Salt Nicotine E-Liquids
+                        - option [ref=e978]: Cone
+                        - option [ref=e979]: Glassware
+                        - option [ref=e980]: Candy / Menthol Drops
+                        - option [ref=e981]: Cigars / Leaf Wraps
+                        - option [ref=e982]: Cups
+                        - option [ref=e983]: Pain Relief
+                        - option [ref=e984]: Delta 8 THC
+                        - option [ref=e985]: THC Flower
+                        - option [ref=e986]: HHC
+                        - option [ref=e987]: Sleep Aid
+                        - option [ref=e988]: Hand Pipe
+                        - option [ref=e989]: Shots
+                        - option [ref=e990]: Charcoal
+                        - option [ref=e991]: Miscellaneous
+                        - option [ref=e992]: Supplement
+                        - option [ref=e993]: Cold Medicine
+                        - option [ref=e994]: Packaging
+                        - option [ref=e995]: Baby Products
+                        - option [ref=e996]: Medicine
+                        - option [ref=e997]: Glass
+                        - option [ref=e998]: THC-A Dime Bags
+                        - option [ref=e999]: Cannabis Blends
+                        - option [ref=e1000]: Cannabis Chocolates
+                        - option [ref=e1001]: Delta 8 Prerolls
+                        - option [ref=e1002]: THCP
+                        - option [ref=e1003]: THC-A
+                        - option [ref=e1004]: Glass Cleaner
+                        - option [ref=e1005]: THC Prerolls
+                        - option [ref=e1006]: Pipes
+                        - option [ref=e1007]: Gloria
+                        - option [ref=e1008]: Gold Rhino
+                        - option [ref=e1009]: Gold Standard
+                        - option [ref=e1010]: Golden Grahams
+                        - option [ref=e1011]: Golden
+                        - option [ref=e1012]: Goodsense
+                        - option [ref=e1013]: Gourmet
+                        - option [ref=e1014]: Pod Kits
+                        - option [ref=e1015]: E-Liquid / Nic Salt Vape Juice
+                        - option [ref=e1016]: Tobacco / Rolling Papers / Flavored Papers
+                        - option [ref=e1017]: Apparel / T-Shirts
+                        - option [ref=e1018]: Confectionery / Lollipops
+                        - option [ref=e1019]: Smoking Accessories / Lighters
+                        - option [ref=e1020]: Events / Business Services
+                        - option [ref=e1021]: Pre-Rolls / Smoking Accessories
+                        - option [ref=e1022]: Gum / Chewing Gum
+                        - option [ref=e1023]: Personal Care / Condoms
+                        - option [ref=e1024]: Vape / Pre-Rolls
+                        - option [ref=e1025]: Vape / Wax Pens
+                        - option [ref=e1026]: Health / Supplements / Kratom
+                        - option [ref=e1027]: Health / Supplements
+                        - option [ref=e1028]: Vape / Pods
+                        - option [ref=e1029]: Vape / Tasting Kits
+                        - option [ref=e1030]: Cannabis / THCP Products
+                        - option [ref=e1031]: Cannabis / Disposable Vape
+                        - option [ref=e1032]: Health & Wellness / Dietary Supplements
+                        - option [ref=e1033]: Accessories / Scales
+                        - option [ref=e1034]: Tobacco / Hookah
+                        - option [ref=e1035]: Tobacco / Cigarettes
+                        - option [ref=e1036]: Tobacco / Smoking Products
+                        - option [ref=e1037]: Confectionery
+                        - option [ref=e1038]: Electronics & Accessories
+                        - option [ref=e1039]: Hard Candy
+                        - option [ref=e1040]: Cigar Rolling Tools
+                        - option [ref=e1041]: Crushed Tobacco Blends
+                        - option [ref=e1042]: Leaf Cigarillos
+                        - option [ref=e1043]: Leaf Cuts
+                        - option [ref=e1044]: Whole Leaf Tobacco
+                        - option [ref=e1045]: Delta 9 Gummies
+                        - option [ref=e1046]: Socks
+                        - option [ref=e1047]: Prefilled Pods
+                        - option [ref=e1048]: Device Kits
+                        - option [ref=e1049]: Wafers
+                        - option [ref=e1050]: Crackers
+                        - option [ref=e1051]: Delta 8
+                        - option [ref=e1052]: Delta 8 Disposable Vapes
+                        - option [ref=e1053]: Treats with Toy
+                        - option [ref=e1054]: Air Fresheners
+                        - option [ref=e1055]: Hydroxy Products
+                        - option [ref=e1056]: Capsules
+                        - option [ref=e1057]: Hydroxy + Pseudo Products
+                        - option [ref=e1058]: Knives
+                        - option [ref=e1059]: Adhesives
+                        - option [ref=e1060]: D9 Soda Pop
+                        - option [ref=e1061]: LED Design
+                        - option [ref=e1062]: Kratom Extract
+                        - option [ref=e1063]: THC-A Prolls
+                        - option [ref=e1064]: Vape Pods
+                        - option [ref=e1065]: THC-P
+                        - option [ref=e1066]: THCA Pre Rolls
+                        - option [ref=e1067]: THCA Sauce Pre Rolls
+                        - option [ref=e1068]: Duo Carts
+                        - option [ref=e1069]: Disposable Vape Cartridges
+                        - option [ref=e1070]: HHC Disposable Vapes
+                        - option [ref=e1071]: Cream Charger
+                        - option [ref=e1072]: Disposable Shisha Vapes
+                        - option [ref=e1073]: Cannabis Edibles
+                        - option [ref=e1074]: Cannabis Pre-Rolls
+                        - option [ref=e1075]: Retail Accessories
+                        - option [ref=e1076]: Kava Drinks
+                        - option [ref=e1077]: Seltzer Beverages
+                        - option [ref=e1078]: Concentrates
+                        - option [ref=e1079]: Kratom Capsules
+                        - option [ref=e1080]: Shots / Edibles
+                        - option [ref=e1081]: Chocolate & Candy
+                        - option [ref=e1082]: Herbal Supplements
+                        - option [ref=e1083]: Herbal Extracts
+                        - option [ref=e1084]: Storage Containers
+                        - option [ref=e1085]: Device Components
+                        - option [ref=e1086]: Pain Relief & Medications
+                        - option [ref=e1087]: Vape Cartridge
+                        - option [ref=e1088]: Confectionery / Fruit Chews
+                        - option [ref=e1089]: Beverage / Energy Drink
+                        - option [ref=e1090]: Tobacco / Smokeless
+                        - option [ref=e1091]: Edibles / THC-A Infused Products
+                        - option [ref=e1092]: Edibles / THC-A Infused Gummies
+                        - option [ref=e1093]: THC-A Infused Pre-Rolls
+                        - option [ref=e1094]: THC-A Infused Flowers
+                        - option [ref=e1095]: THCP Infused Pre-Rolls
+                        - option [ref=e1096]: Disposable Vape / Live Resin
+                        - option [ref=e1097]: THCP Infused Disposable Vape
+                        - option [ref=e1098]: THCA Infused Disposable Vape
+                        - option [ref=e1099]: Snacks / Peanut Bars
+                        - option [ref=e1100]: THCA Infused Pre-Rolls
+                        - option [ref=e1101]: Edibles / Magic Mushrooms
+                        - option [ref=e1102]: Incense / Aromatherapy
+                        - option [ref=e1103]: E-Liquid / Nicotine Salt
+                        - option [ref=e1104]: E?Liquid / Tobacco Flavor
+                        - option [ref=e1105]: E-Liquid / Tobacco Flavor
+                        - option [ref=e1106]: CBD Topicals
+                        - option [ref=e1107]: Tobacco / Rolling Leaves
+                        - option [ref=e1108]: Health / Pregnancy Test Kits
+                        - option [ref=e1109]: Health / Wellness
+                        - option [ref=e1110]: Health / Wellness / HHC
+                        - option [ref=e1111]: Health / Wellness / Moon Rock
+                        - option [ref=e1112]: Vape / THC-A / Disposable Vapes
+                        - option [ref=e1113]: Vape / THC-P / Disposable Vapes
+                        - option [ref=e1114]: Vape / Vape Kits
+                        - option [ref=e1115]: Vape / Coils
+                        - option [ref=e1116]: Vape / Sale
+                        - option [ref=e1117]: Health / Remedies
+                        - option [ref=e1118]: Health / Skincare
+                        - option [ref=e1119]: Cigars / Cigarette Alternatives
+                        - option [ref=e1120]: Health / Supplements / CBD
+                        - option [ref=e1121]: Health / Skincare / Post-Procedure Care
+                        - option [ref=e1122]: Health / Supplements / Honey
+                        - option [ref=e1123]: Health / Eye Care
+                        - option [ref=e1124]: Confectionery / Chocolate Bars
+                        - option [ref=e1125]: Confectionery / Licorice
+                        - option [ref=e1126]: Over-the-Counter / Pain Relief
+                        - option [ref=e1127]: Over-the-Counter / Cold & Flu Relief
+                        - option [ref=e1128]: Over-the-Counter / Pain Relief & Sleep Aid
+                        - option [ref=e1129]: Over-the-Counter / Sinus Relief
+                        - option [ref=e1130]: Kitchen / Cream Chargers
+                        - option [ref=e1131]: Confectionery / Cookies
+                        - option [ref=e1132]: Feminine Care
+                        - option [ref=e1133]: Rolling Papers / Pre-Rolls
+                        - option [ref=e1134]: Rolling Tools
+                        - option [ref=e1135]: Rolling Papers / Paper Tips
+                        - option [ref=e1136]: Vape Accessories / Charging Devices
+                        - option [ref=e1137]: Premium Cigars
+                        - option [ref=e1138]: Leaf Wraps
+                        - option [ref=e1139]: Chips & Snacks
+                        - option [ref=e1140]: Pastry Snacks
+                        - option [ref=e1141]: Gourmet Snacks
+                        - option [ref=e1142]: Cookies & Snacks
+                        - option [ref=e1143]: Wellness & Supplements
+                        - option [ref=e1144]: Dabbing Tools & Accessories
+                        - option [ref=e1145]: Snacks & Edibles
+                        - option [ref=e1146]: Candy & Snacks
+                        - option [ref=e1147]: Premium Products
+                        - option [ref=e1148]: Antacids & Digestive Health
+                        - option [ref=e1149]: Cleaning & Disinfecting Solutions
+                        - option [ref=e1150]: Nuts & Snacks
+                        - option [ref=e1151]: E-Liquids & Vape Juice
+                        - option [ref=e1152]: Snacks & Sweets
+                        - option [ref=e1153]: Collectibles & Designer Toys
+                        - option [ref=e1154]: Scales & Measuring Instruments
+                        - option [ref=e1155]: Energy Shots & Supplements
+                        - option [ref=e1156]: Displays & Retail Solutions
+                        - option [ref=e1157]: Energy Supplements & Mints
+                        - option [ref=e1158]: Frames & Display Solutions
+                        - option [ref=e1159]: Health & Wellness
+                        - option [selected] [ref=e1160]: THCA
+                        - option [ref=e1161]: THC
+                        - option [ref=e1162]: Vape Bars
+                        - option [ref=e1163]: Rolling Wraps
+                        - option [ref=e1164]: Vape Devices / Smart Rigs
+                        - option [ref=e1165]: Vape Accessories / Replacement Glass
+                        - option [ref=e1166]: Vape Accessories / Glass Attachments
+                        - option [ref=e1167]: Vape Devices / Portable Vaporizers
+                        - option [ref=e1168]: Vape Accessories / Travel Cases
+                        - option [ref=e1169]: Vape Devices / Disposable Vapes
+                        - option [ref=e1170]: Gelato / Edible Treats
+                        - option [ref=e1171]: Eye Care / Health & Wellness
+                        - option [ref=e1172]: Health Supplements / Wellness
+                        - option [ref=e1173]: Detox / Health & Wellness
+                        - option [ref=e1174]: Personal Care / Hygiene
+                        - option [ref=e1175]: Nicotine Pouches / Smoking Accessories
+                        - option [ref=e1176]: E-Liquid / Vaping
+                        - option [ref=e1177]: Disposable Vapes / Vaping Accessories
+                        - option [ref=e1178]: Kratom Beverages / Health & Wellness
+                        - option [ref=e1179]: Tobacco / Smoking Accessories
+                        - option [ref=e1180]: Apparel / Smoking Accessories
+                        - option [ref=e1181]: Apparel
+                        - option [ref=e1182]: Energy Drinks / Beverages
+                        - option [ref=e1183]: Office Supplies / Paper
+                        - option [ref=e1184]: Health & Wellness / Kratom
+                        - option [ref=e1185]: Health & Wellness / Detox
+                        - option [ref=e1186]: Beverages / Alcoholic Shots
+                        - option [ref=e1187]: Health & Wellness / Energy & Performance
+                        - option [ref=e1188]: Snacks / Confectionery
+                        - option [ref=e1189]: Candy / Confectionery
+                        - option [ref=e1190]: Rogue
+                        - option [ref=e1191]: Nicotine / Pouches
+                        - option [ref=e1192]: Vape / Disposable
+                        - option [ref=e1193]: Snacks / Spicy Snacks
+                        - option [ref=e1194]: Home Decor
+                        - option [ref=e1195]: Confectionery / Chocolate
+                        - option [ref=e1196]: Automotive / Accessories
+                        - option [ref=e1197]: Snacks / Sauces & Seasonings
+                        - option [ref=e1198]: Snacks / Condiments
+                        - option [ref=e1199]: Snacks / Meat & Cheese
+                        - option [ref=e1200]: Snacks / Cheese
+                        - option [ref=e1201]: Confectionery / Candies
+                        - option [ref=e1202]: Packaging / Retail Supplies
+                        - option [ref=e1203]: Incense
+                        - option [ref=e1204]: LED Lights
+                        - option [ref=e1205]: Electronics / Cables & Adapters
+                        - option [ref=e1206]: Blunts
+                        - option [ref=e1207]: THC Products
+                        - option [ref=e1208]: THC Edibles
+                        - option [ref=e1209]: Torches
+                        - option [ref=e1210]: Butane
+                        - option [ref=e1211]: Cigar Lighters
+                        - option [ref=e1212]: Water Pipes
+                        - option [ref=e1213]: Air Filters
+                        - option [ref=e1214]: Coils
+                        - option [ref=e1215]: THC Cartridges
+                        - option [ref=e1216]: THCP Hash Hole Prerolls
+                        - option [ref=e1217]: Blunt Cones & Wraps
+                        - option [ref=e1218]: THCP Dabs
+                        - option [ref=e1219]: Gift Sets
+                        - option [ref=e1220]: Machines
+                        - option [ref=e1221]: Kits
+                        - option [ref=e1222]: Dab Tools
+                        - option [ref=e1223]: Cigarette Filters
+                        - option [ref=e1224]: Infused Prerolls
+                        - option [ref=e1225]: Rolling Leafs
+                        - option [ref=e1226]: Personal Care / Brushes
+                        - option [ref=e1227]: Hair Care / Styling Products
+                        - option [ref=e1228]: Edibles / Supplements
+                        - option [ref=e1229]: Nail Care / Glue
+                        - option [ref=e1230]: Personal Care / Accessories
+                        - option [ref=e1231]: Household / Kitchen
+                        - option [ref=e1232]: Accessories / Hookah
+                        - option [ref=e1233]: Snacks / Candy Bars
+                        - option [ref=e1234]: Accessories / Rolling Papers
+                        - option [ref=e1235]: Tobacco / Rolling Cones
+                        - option [ref=e1236]: Vape
+                        - option [ref=e1237]: Home Appliances / Heater
+                        - option [ref=e1238]: Hand Sanitizer
+                        - option [ref=e1239]: Cigars & Tobacco
+                        - option [ref=e1240]: Vape Accessories & Pods
+                        - option [ref=e1241]: Vape Device
+                        - option [ref=e1242]: Pain Relief / Sleep Aid
+                        - option [ref=e1243]: Antacid
+                        - option [ref=e1244]: Cold & Flu
+                        - option [ref=e1245]: CBD Products
+                        - option [ref=e1246]: Personal Care
+                        - option [ref=e1247]: Energy & Focus
+                        - option [ref=e1248]: First Aid
+                        - option [ref=e1249]: Pain Relif
+                        - option [ref=e1250]: Cough Drops
+                        - option [ref=e1251]: Condoms
+                        - option [ref=e1252]: Kratom Powder
+                        - option [ref=e1253]: Kratom Powders
+                        - option [ref=e1254]: Snacks / Beef Sticks
+                        - option [ref=e1255]: Snacks / Beef Jerky
+                        - option [ref=e1256]: Kratom Supplements
+                        - option [ref=e1257]: Pre-Filled Vape Pods
+                        - option [ref=e1258]: Vape Kits / Prefilled Pods
+                        - option [ref=e1259]: Cannabis / Delta-8 Products
+                        - option [ref=e1260]: Face Masks / Protective Gear
+                        - option [ref=e1261]: Cream Chargers / Nitrous Oxide
+                        - option [ref=e1262]: Vape Pods / Nicotine Pods
+                        - option [ref=e1263]: Vape Device / Starter Kit
+                        - option [ref=e1264]: Vape E?Liquid / Disposable or Refillable Pod Juice
+                        - option [ref=e1265]: Delta 8 Gummies
+                        - option [ref=e1266]: Kratom Drinks
+                        - option [ref=e1267]: High-Potency Gummies
+                        - option [ref=e1268]: Candies & Sweets
+                        - option [ref=e1269]: Alcohol
+                        - option [ref=e1270]: THCP Disposables
+                        - option [ref=e1271]: Playing Cards
+                        - option [ref=e1272]: Packaging & Supplies
+                        - option [ref=e1273]: Smoking Papers
+                        - option [ref=e1274]: Nicotine Pouches / Smokeless Tobacco Alternatives
+                        - option [ref=e1275]: Mints & Breath Fresheners
+                        - option [ref=e1276]: Cigarettes & Tobacco Products
+                        - option [ref=e1277]: THC Beverages
+                        - option [ref=e1278]: Snacks (Onion Rings)
+                        - option [ref=e1279]: Candy & Edibles
+                        - option [ref=e1280]: Playing Cards & Games
+                        - option [ref=e1281]: Scales & Measuring Tools
+                        - option [ref=e1282]: D9 Beverages
+                        - option [ref=e1283]: Smoking Accessories / Wraps
+                        - option [ref=e1284]: Edibles / Candy
+                        - option [ref=e1285]: Snacks / Beef Steak
+                        - option [ref=e1286]: Snacks / Jerky
+                        - option [ref=e1287]: Snacks / Beef Jerky & Tender Bites
+                        - option [ref=e1288]: Retail Display
+                        - option [ref=e1289]: Chocolate & Confectionery
+                        - option [ref=e1290]: Pastries & Snacks
+                        - option [ref=e1291]: Cigars & Smoking Accessories
+                        - option [ref=e1292]: Snacks & Popcorn
+                        - option [ref=e1293]: Confectionery / Gummies
+                        - option [ref=e1294]: Personal Care / Scales
+                        - option [ref=e1295]: Edibles / Mints
+                        - option [ref=e1296]: Automotive / Tire Repair
+                        - option [ref=e1297]: Health / Kratom Products
+                        - option [ref=e1298]: Food / Seasoning
+                        - option [ref=e1299]: Lighters & Torches
+                        - option [ref=e1300]: Rolling Cones & Accessories
+                        - option [ref=e1301]: Rolling Tips & Accessories
+                        - option [ref=e1302]: Rolling Kits & Accessories
+                        - option [ref=e1303]: Personal Care / Body Spray
+                        - option [ref=e1304]: Smoking & Herbal Products
+                        - option [ref=e1305]: Storage & Packaging Supplies
+                        - option [ref=e1306]: Storage & Packaging
+                        - option [ref=e1307]: Tobacco & Smoking Supplies
+                        - option [ref=e1308]: Smoking & Tobacco Accessories
+                        - option [ref=e1309]: Smoking Accessories / Pre?Rolled Cones
+                        - option [ref=e1310]: Cigar Samplers / Tobacco
+                        - option [ref=e1311]: Smoking Accessories / Butane
+                        - option [ref=e1312]: Smoking Accessories / Tobacco
+                        - option [ref=e1313]: Edibles / THC Gummies
+                        - option [ref=e1314]: Cannabis / THCA Flower
+                        - option [ref=e1315]: Rolling Papers and Cones
+                        - option [ref=e1316]: Rolling Tips and Filters
+                        - option [ref=e1317]: Rolling Kits and Accessories
+                        - option [ref=e1318]: Vape / E-Liquids
+                        - option [ref=e1319]: Shop deals
+                        - option [ref=e1320]: Vape Shop
+                        - option [ref=e1321]: THC- beverages
+                        - option [ref=e1322]: Gift cards
+                        - option [ref=e1323]: THCA DISPOSABLE
+                        - option [ref=e1324]: PERFUME
+                        - option [ref=e1325]: THCA BLEND
+                        - option [ref=e1326]: THCA - Jelly Rolls
+                        - option [ref=e1327]: THC FLOWERS
+                      - combobox [ref=e1330]:
+                        - list [ref=e1331]:
+                          - listitem "THCA": × THCA
+                          - listitem [ref=e1332]:
+                            - textbox [ref=e1333]
+                    - generic [ref=e1335]:
+                      - generic [ref=e1336]: "Max Sale Limit:"
+                      - spinbutton "Max Sale Limit:" [ref=e1337]
+                  - generic [ref=e1338]:
+                    - generic [ref=e1340]:
+                      - generic [ref=e1341]:
+                        - generic [ref=e1342]: "Alert quantity:"
+                        - generic [ref=e1343]: 
+                      - textbox "Alert quantity:" [ref=e1344]:
+                        - /placeholder: Alert quantity
+                    - generic [ref=e1346]:
+                      - generic [ref=e1347]: "ML Value:"
+                      - spinbutton "ML Value:" [ref=e1348]
+                    - generic [ref=e1350]:
+                      - generic [ref=e1351]: "ML Location Tax:"
+                      - combobox [ref=e1352]
+                      - combobox "Select location tax types" [ref=e1355] [cursor=pointer]:
+                        - generic "Select location tax types" [ref=e1356]
+                    - generic [ref=e1358]:
+                      - generic [ref=e1359]: "State Restriction:"
+                      - combobox [ref=e1360]
+                      - combobox "All States (No Restriction)" [ref=e1363] [cursor=pointer]:
+                        - generic "All States (No Restriction)" [ref=e1364]
+                  - generic [ref=e1365]:
+                    - heading [level=4]
+                    - generic [ref=e1366]:
+                      - generic [ref=e1368]:
+                        - generic [ref=e1369]: "Product Source:"
+                        - combobox [ref=e1370]
+                        - combobox "In House" [ref=e1373] [cursor=pointer]:
+                          - generic "In House" [ref=e1374]
+                      - generic [ref=e1376]:
+                        - generic [ref=e1377]:
+                          - generic [ref=e1378]: "Business Locations:"
+                          - generic [ref=e1379]: 
+                        - combobox "Business Locations:" [ref=e1380]:
+                          - option "Smokevana Prime B2B (BL0001)" [selected]
+                          - option "Smokevana Prime B2C (BL00002)"
+                      - generic [ref=e1381]: 
+                  - text: 
+                  - generic [ref=e1382]:
+                    - paragraph [ref=e1383]: Description, media, warranty, dimensions and pricing.
+                    - generic [ref=e1384]:
+                      - heading " Description & Media" [level=4] [ref=e1385]:
+                        - generic [ref=e1386]: 
+                        - text: Description & Media
+                      - generic [ref=e1387]:
+                        - generic [ref=e1390]:
+                          - generic [ref=e1391]: "Product Warranty:"
+                          - application [ref=e1392]:
+                            - generic [ref=e1393]:
+                              - generic [ref=e1394]:
+                                - menubar [ref=e1395]:
+                                  - menuitem "My Favorites" [ref=e1396]:
+                                    - generic [ref=e1397]: My Favorites
+                                  - menuitem "File" [ref=e1398]:
+                                    - generic [ref=e1399]: File
+                                  - menuitem "Edit" [ref=e1400]:
+                                    - generic [ref=e1401]: Edit
+                                  - menuitem "View" [ref=e1402]:
+                                    - generic [ref=e1403]: View
+                                  - menuitem "Insert" [ref=e1404]:
+                                    - generic [ref=e1405]: Insert
+                                  - menuitem "Format" [ref=e1406]:
+                                    - generic [ref=e1407]: Format
+                                  - menuitem "Tools" [ref=e1408]:
+                                    - generic [ref=e1409]: Tools
+                                  - menuitem "Table" [ref=e1410]:
+                                    - generic [ref=e1411]: Table
+                                  - menuitem "Help" [ref=e1412]:
+                                    - generic [ref=e1413]: Help
+                                - group [ref=e1414]:
+                                  - group [ref=e1415]:
+                                    - toolbar [ref=e1416]:
+                                      - button "Undo" [disabled] [ref=e1417]:
+                                        - img [ref=e1419]
+                                      - button "Redo" [disabled] [ref=e1421]:
+                                        - img [ref=e1423]
+                                    - toolbar [ref=e1425]:
+                                      - button "Formats" [ref=e1426]:
+                                        - generic [ref=e1427]: Paragraph
+                                        - img [ref=e1429]
+                                    - toolbar [ref=e1431]:
+                                      - button "Bold" [ref=e1432]:
+                                        - img [ref=e1434]
+                                      - button "Italic" [ref=e1436]:
+                                        - img [ref=e1438]
+                                    - toolbar [ref=e1440]:
+                                      - button "Align left" [ref=e1441]:
+                                        - img [ref=e1443]
+                                      - button "Align center" [ref=e1445]:
+                                        - img [ref=e1447]
+                                      - button "Align right" [ref=e1449]:
+                                        - img [ref=e1451]
+                                      - button "Justify" [ref=e1453]:
+                                        - img [ref=e1455]
+                                    - toolbar [ref=e1457]:
+                                      - button "Bullet list" [ref=e1458]:
+                                        - img [ref=e1460]
+                                        - img [ref=e1462]
+                                      - button "Numbered list" [ref=e1464]:
+                                        - img [ref=e1466]
+                                        - img [ref=e1468]
+                                      - button "Decrease indent" [disabled] [ref=e1470]:
+                                        - img [ref=e1472]
+                                      - button "Increase indent" [ref=e1474]:
+                                        - img [ref=e1476]
+                                    - toolbar [ref=e1478]:
+                                      - button "More..." [ref=e1479]:
+                                        - img [ref=e1481]
+                              - generic [ref=e1483]:
+                                - iframe [ref=e1485]:
+                                  - generic "Rich Text Area. Press ALT-0 for help." [active] [ref=f2e1]:
+                                    - paragraph [ref=f2e2]
+                                - complementary
+                            - generic [ref=e1486]:
+                              - generic [ref=e1487]:
+                                - navigation [ref=e1488]:
+                                  - button "p" [ref=e1489]
+                                - button "0 words" [ref=e1490]
+                                - link "Powered by Tiny" [ref=e1492]:
+                                  - /url: https://www.tiny.cloud/?utm_campaign=editor_referral&utm_medium=poweredby&utm_source=tinymce&utm_content=v5
+                              - generic "Resize" [ref=e1493]:
+                                - img [ref=e1494]
+                        - generic [ref=e1499]:
+                          - generic [ref=e1500]: "Product Description:"
+                          - application [ref=e1501]:
+                            - generic [ref=e1502]:
+                              - generic [ref=e1503]:
+                                - menubar [ref=e1504]:
+                                  - menuitem "My Favorites" [ref=e1505]:
+                                    - generic [ref=e1506]: My Favorites
+                                  - menuitem "File" [ref=e1507]:
+                                    - generic [ref=e1508]: File
+                                  - menuitem "Edit" [ref=e1509]:
+                                    - generic [ref=e1510]: Edit
+                                  - menuitem "View" [ref=e1511]:
+                                    - generic [ref=e1512]: View
+                                  - menuitem "Insert" [ref=e1513]:
+                                    - generic [ref=e1514]: Insert
+                                  - menuitem "Format" [ref=e1515]:
+                                    - generic [ref=e1516]: Format
+                                  - menuitem "Tools" [ref=e1517]:
+                                    - generic [ref=e1518]: Tools
+                                  - menuitem "Table" [ref=e1519]:
+                                    - generic [ref=e1520]: Table
+                                  - menuitem "Help" [ref=e1521]:
+                                    - generic [ref=e1522]: Help
+                                - group [ref=e1523]:
+                                  - group [ref=e1524]:
+                                    - toolbar [ref=e1525]:
+                                      - button "Undo" [disabled] [ref=e1526]:
+                                        - img [ref=e1528]
+                                      - button "Redo" [disabled] [ref=e1530]:
+                                        - img [ref=e1532]
+                                    - toolbar [ref=e1534]:
+                                      - button "Formats" [ref=e1535]:
+                                        - generic [ref=e1536]: Paragraph
+                                        - img [ref=e1538]
+                                    - toolbar [ref=e1540]:
+                                      - button "Bold" [ref=e1541]:
+                                        - img [ref=e1543]
+                                      - button "Italic" [ref=e1545]:
+                                        - img [ref=e1547]
+                                    - toolbar [ref=e1549]:
+                                      - button "Align left" [ref=e1550]:
+                                        - img [ref=e1552]
+                                      - button "Align center" [ref=e1554]:
+                                        - img [ref=e1556]
+                                      - button "Align right" [ref=e1558]:
+                                        - img [ref=e1560]
+                                      - button "Justify" [ref=e1562]:
+                                        - img [ref=e1564]
+                                    - toolbar [ref=e1566]:
+                                      - button "Bullet list" [ref=e1567]:
+                                        - img [ref=e1569]
+                                        - img [ref=e1571]
+                                      - button "Numbered list" [ref=e1573]:
+                                        - img [ref=e1575]
+                                        - img [ref=e1577]
+                                      - button "Decrease indent" [disabled] [ref=e1579]:
+                                        - img [ref=e1581]
+                                      - button "Increase indent" [ref=e1583]:
+                                        - img [ref=e1585]
+                                    - toolbar [ref=e1587]:
+                                      - button "More..." [ref=e1588]:
+                                        - img [ref=e1590]
+                              - generic [ref=e1592]:
+                                - iframe [ref=e1594]:
+                                  - generic "Rich Text Area. Press ALT-0 for help." [active] [ref=f1e1]:
+                                    - paragraph [ref=f1e2]
+                                - complementary
+                            - generic [ref=e1595]:
+                              - generic [ref=e1596]:
+                                - navigation [ref=e1597]:
+                                  - button "p" [ref=e1598]
+                                - button "0 words" [ref=e1599]
+                                - link "Powered by Tiny" [ref=e1601]:
+                                  - /url: https://www.tiny.cloud/?utm_campaign=editor_referral&utm_medium=poweredby&utm_source=tinymce&utm_content=v5
+                              - generic "Resize" [ref=e1602]:
+                                - img [ref=e1603]
+                      - generic [ref=e1606]:
+                        - generic [ref=e1609]:
+                          - strong [ref=e1610]:
+                            - generic [ref=e1611]: 
+                            - text: Default Product Image
+                          - generic [ref=e1612]: "Default Product Image:"
+                          - generic [ref=e1618]:
+                            - text:  
+                            - generic [ref=e1619] [cursor=pointer]:
+                              - generic [ref=e1620]: 
+                              - text: Browse..
+                              - button "Choose File" [ref=e1621]
+                          - generic [ref=e1622]: "Max File size: 5MB · Aspect ratio should be 1:1"
+                        - generic [ref=e1625]:
+                          - generic [ref=e1626]: Product gallery
+                          - link "Add product gallery images" [ref=e1628] [cursor=pointer]:
+                            - /url: "#"
+                          - paragraph [ref=e1630]:
+                            - text: "Max File size: 5MB"
+                            - text: Aspect ratio should be 1:1
+                      - generic [ref=e1631]:
+                        - generic [ref=e1633]:
+                          - generic [ref=e1634]: "Product brochure:"
+                          - button "Product brochure:" [ref=e1635]
+                          - paragraph [ref=e1637]:
+                            - text: Previously uploaded file will be replaced
+                            - text: "Max File size: 5MB"
+                            - text: "Allowed File: .pdf, .csv, .zip, .doc, .docx, .jpeg, .jpg, .png"
+                        - generic [ref=e1640]:
+                          - generic [ref=e1641]: Size (L × W × H)
+                          - generic [ref=e1642]:
+                            - generic [ref=e1643]:
+                              - generic [ref=e1644]: Length (L)
+                              - spinbutton [ref=e1645]
+                            - generic [ref=e1646]:
+                              - generic [ref=e1647]: Width (W)
+                              - spinbutton [ref=e1648]
+                            - generic [ref=e1649]:
+                              - generic [ref=e1650]: Height (H)
+                              - spinbutton [ref=e1651]
+                            - generic [ref=e1652]:
+                              - generic [ref=e1653]: Weight (Lbs)
+                              - spinbutton [ref=e1654]
+                    - generic [ref=e1655]:
+                      - heading " Pricing & Variations" [level=4] [ref=e1656]:
+                        - generic [ref=e1657]: 
+                        - text: Pricing & Variations
+                      - generic [ref=e1659]:
+                        - generic [ref=e1660]: Product Type & variations
+                        - generic [ref=e1663]:
+                          - generic [ref=e1664]:
+                            - generic [ref=e1665]: Product Type:*
+                            - generic [ref=e1666]: 
+                          - combobox [ref=e1667]
+                          - combobox "Single" [ref=e1670] [cursor=pointer]:
+                            - generic "Single" [ref=e1671]
+                        - table [ref=e1674]:
+                          - rowgroup [ref=e1675]:
+                            - row "Default Purchase Price BarCode Selling Price Product Image" [ref=e1676]:
+                              - columnheader "Default Purchase Price" [ref=e1677]
+                              - text: 
+                              - columnheader "BarCode" [ref=e1678]
+                              - columnheader "Selling Price" [ref=e1679]
+                              - columnheader "Product Image" [ref=e1680]
+                          - rowgroup [ref=e1681]:
+                            - 'row "Exc. tax:* Barcode No:* Exc. Tax Product Image: Choose File Max File size: 5MB Aspect ratio should be 1:1" [ref=e1682]':
+                              - cell "Exc. tax:*" [ref=e1683]:
+                                - generic [ref=e1684]:
+                                  - generic [ref=e1685]: Exc. tax:*
+                                  - textbox "Exc. tax:*" [ref=e1686]:
+                                    - /placeholder: Exc. tax
+                              - cell "Barcode No:*" [ref=e1687]:
+                                - generic [ref=e1688]:
+                                  - generic [ref=e1689]: Barcode No:*
+                                  - textbox "Barcode No:*" [ref=e1690]:
+                                    - /placeholder: Barcode No
+                              - cell "Exc. Tax" [ref=e1691]:
+                                - generic [ref=e1692]: Exc. Tax
+                                - textbox "Exc. tax" [ref=e1693]
+                              - 'cell "Product Image: Choose File Max File size: 5MB Aspect ratio should be 1:1" [ref=e1694]':
+                                - generic [ref=e1695]:
+                                  - generic [ref=e1696]: "Product Image:"
+                                  - button "Choose File" [ref=e1697]
+                                  - paragraph [ref=e1699]:
+                                    - text: "Max File size: 5MB"
+                                    - text: Aspect ratio should be 1:1
+            - text:   
+            - generic [ref=e1701]:
+              - heading " COA Documents" [level=3] [ref=e1703]:
+                - generic [ref=e1704]: 
+                - text: COA Documents
+              - generic [ref=e1710]:
+                - paragraph [ref=e1711]: "Upload Certificate of Analysis (COA) documents for this product. Accepted formats: PDF, JPG, PNG (max 10MB each)."
+                - table [ref=e1713]:
+                  - rowgroup [ref=e1714]:
+                    - row "# Document Name * Upload File * Notes Action" [ref=e1715]:
+                      - columnheader "#" [ref=e1716]
+                      - columnheader "Document Name *" [ref=e1717]
+                      - columnheader "Upload File *" [ref=e1718]
+                      - columnheader "Notes" [ref=e1719]
+                      - columnheader "Action" [ref=e1720]
+                  - rowgroup [ref=e1721]:
+                    - row "1 Choose File PDF, JPG, PNG (max 10MB) ×" [ref=e1722]:
+                      - cell "1" [ref=e1723]
+                      - cell [ref=e1724]:
+                        - textbox "e.g. Lab Report" [ref=e1725]
+                      - cell "Choose File PDF, JPG, PNG (max 10MB)" [ref=e1726]:
+                        - button "Choose File" [ref=e1727]
+                        - text: PDF, JPG, PNG (max 10MB)
+                      - cell [ref=e1728]:
+                        - textbox "Optional notes" [ref=e1729]
+                      - cell "×" [ref=e1730]:
+                        - button "×" [ref=e1731] [cursor=pointer]
+                - button " Add Row" [ref=e1732] [cursor=pointer]:
+                  - generic [ref=e1733]: 
+                  - text: Add Row
+            - group [ref=e1737]:
+              - button "Save & Add Selling-Price-Group Prices" [ref=e1738] [cursor=pointer]
+              - button "Save And Add Another" [ref=e1739] [cursor=pointer]
+              - button "Save" [ref=e1740] [cursor=pointer]
+        - text: 
+      - dialog [ref=e1741]:
+        - generic [ref=e1742]:
+          - generic [ref=e1743]:
+            - img [ref=e1744]
+            - heading [level=2] [ref=e1746]: Quick Actions
+          - button [ref=e1747] [cursor=pointer]:
+            - img [ref=e1748]
+        - generic [ref=e1751]:
+          - generic [ref=e1752]:
+            - heading [level=3] [ref=e1753]: Pinned
+            - paragraph [ref=e1754]: Select items from search results to add to Quick Actions
+          - link [ref=e1756] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/contacts?type=customer&open_create=1
+            - img [ref=e1758]
+            - generic [ref=e1760]: Add a new contact
+            - img [ref=e1761]
+          - link [ref=e1763] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/products/create
+            - img [ref=e1765]
+            - generic [ref=e1767]: Add new product
+            - img [ref=e1768]
+          - link [ref=e1770] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/sells/create?sale_type=sales_order
+            - img [ref=e1772]
+            - generic [ref=e1774]: Add Sales Order
+            - img [ref=e1775]
+          - link [ref=e1777] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/sells/create
+            - img [ref=e1779]
+            - generic [ref=e1781]: Add sales invoice
+            - img [ref=e1782]
+          - link [ref=e1784] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/custom-discounts
+            - img [ref=e1786]
+            - generic [ref=e1788]: Add Discount
+            - img [ref=e1789]
+          - link [ref=e1791] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/brands?open_create=1
+            - img [ref=e1793]
+            - generic [ref=e1795]: Add brand
+            - img [ref=e1796]
+          - link [ref=e1798] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/taxonomies?type=product&open_create=1
+            - img [ref=e1800]
+            - generic [ref=e1802]: Add Category
+            - img [ref=e1803]
+    - contentinfo [ref=e1805]:
+      - generic [ref=e1808]:
+        - generic [ref=e1809]: Smokevana (ERP Suit)
+        - generic [ref=e1810]: "- V6.4"
+        - generic [ref=e1811]: ·
+        - generic [ref=e1812]: Copyright © 2026 All rights reserved.
+  - text:      
+```

@@ -1,0 +1,14 @@
+
+Running 1 test using 1 worker
+
+Filling username: admin...
+Filling password...
+Clicking Sign in...
+Alert quantity -> ID: alert_quantity Name: alert_quantity
+ML Value -> ID: ml Name: ml
+Max Sale Limit -> ID: maxSaleLimit Name: maxSaleLimit
+Exc. tax:* -> ID: single_dpp Name: single_dpp
+Barcode No:* -> ID: barcode_no Name: barcode_no
+  ✓  1 [chromium] › tests\test_visibility.test.ts:4:5 › find more ids (9.7s)
+
+  1 passed (11.0s)

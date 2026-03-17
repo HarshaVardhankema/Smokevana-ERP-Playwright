@@ -1,0 +1,66 @@
+
+Running 1 test using 1 worker
+
+LOG: Login...
+Filling username: admin...
+Filling password...
+Clicking Sign in...
+LOG: Navigating to Add Product page...
+LOG: Filling Basic Info for TEST-THCPA-1773782515194...
+LOG: Filling product name: TEST-THCPA-1773782515194
+LOG: Filling SKU: SKU-1773782515194
+LOG: Selecting brand: 4 KINGS Test
+LOG: Selecting category: THCA
+LOG: Setting Additional Info...
+LOG: Configuring Variable Product details...
+LOG: Selecting Variation Template: Flavor
+LOG: Selecting Variation Values...
+LOG: Filling Variation Pricing...
+LOG: Adding Lab Report...
+LOG: Saving product...
+LOG: Verifying product creation...
+  ✘  1 [chromium] › tests\AddProduct.test.ts:30:9 › Smokevana ERP Product Automation › Scenario: Add New Variable Product - Success Flow (46.3s)
+
+
+  1) [chromium] › tests\AddProduct.test.ts:30:9 › Smokevana ERP Product Automation › Scenario: Add New Variable Product - Success Flow 
+
+    Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+    Expected pattern: [32m/.*\/products(\?.*)?$/[39m
+    Received string:  [31m"https://smokevanaerp.phantasm-agents.ai/products/create"[39m
+    Timeout: 30000ms
+
+    Call log:
+    [2m  - Expect "toHaveURL" with timeout 30000ms[22m
+    [2m    33 × unexpected value "https://smokevanaerp.phantasm-agents.ai/products/create"[22m
+
+
+      92 |         console.log("LOG: Verifying product creation...");
+      93 |         // Wait for redirect to products page, if it doesn't redirect there was an error saving
+    > 94 |         await expect(page).toHaveURL(/.*\/products(\?.*)?$/, { timeout: 30000 });
+         |                            ^
+      95 |         console.log("LOG: Reached products page. Searching...");
+      96 |         await page.waitForLoadState('networkidle');
+      97 |         
+        at C:\Users\PSHCPU003\Documents\Automation Playwright\Smokevana ERP\tests\AddProduct.test.ts:94:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests\AddProduct.test.ts:30:9 › Smokevana ERP Product Automation › Scenario: Add New Variable Product - Success Flow 

@@ -78,103 +78,100 @@
   },
   "suites": [
     {
-      "title": "Customers.test.ts",
-      "file": "Customers.test.ts",
+      "title": "test_visibility.test.ts",
+      "file": "test_visibility.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "Smokevana ERP Customer Care Automation",
-          "file": "Customers.test.ts",
-          "line": 6,
-          "column": 6,
-          "specs": [
+          "title": "find id",
+          "ok": false,
+          "tags": [],
+          "tests": [
             {
-              "title": "Scenario: Create a new Customer",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
                 {
-                  "timeout": 180000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 23399,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.sidebar-menu')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('.sidebar-menu')\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.sidebar-menu')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('.sidebar-menu')\u001b[22m\n\n    at C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\test_visibility.test.ts:10:49",
+                    "location": {
+                      "file": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\test_visibility.test.ts",
+                      "column": 49,
+                      "line": 10
+                    },
+                    "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m     \n \u001b[90m  9 |\u001b[39m     \u001b[90m// Wait for dashboard\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'.sidebar-menu'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m     \n \u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://smokevanaerp.phantasm-agents.ai/products/create'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'form#product_add_form'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "interrupted",
-                      "duration": 5041,
-                      "error": {
-                        "message": "Error: page.goto: Test ended.\nCall log:\n\u001b[2m  - navigating to \"https://smokevanaerp.phantasm-agents.ai/login\", waiting until \"load\"\u001b[22m\n",
-                        "stack": "Error: page.goto: Test ended.\nCall log:\n\u001b[2m  - navigating to \"https://smokevanaerp.phantasm-agents.ai/login\", waiting until \"load\"\u001b[22m\n\n    at C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\Customers.test.ts:14:20",
-                        "location": {
-                          "file": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\Customers.test.ts",
-                          "column": 20,
-                          "line": 14
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m\n \u001b[90m 13 |\u001b[39m         console\u001b[33m.\u001b[39mlog(\u001b[32m\"LOG: Navigating to login page...\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://smokevanaerp.phantasm-agents.ai/login\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'load'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m         \n \u001b[90m 17 |\u001b[39m         console\u001b[33m.\u001b[39mlog(\u001b[32m\"LOG: Performing login...\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      "location": {
+                        "file": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\test_visibility.test.ts",
+                        "column": 49,
+                        "line": 10
                       },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\Customers.test.ts",
-                            "column": 20,
-                            "line": 14
-                          },
-                          "message": "Error: page.goto: Test ended.\nCall log:\n\u001b[2m  - navigating to \"https://smokevanaerp.phantasm-agents.ai/login\", waiting until \"load\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 12 |\u001b[39m\n \u001b[90m 13 |\u001b[39m         console\u001b[33m.\u001b[39mlog(\u001b[32m\"LOG: Navigating to login page...\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://smokevanaerp.phantasm-agents.ai/login\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'load'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m         \n \u001b[90m 17 |\u001b[39m         console\u001b[33m.\u001b[39mlog(\u001b[32m\"LOG: Performing login...\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\Customers.test.ts:14:20\u001b[22m"
-                        }
-                      ],
-                      "stdout": [
-                        {
-                          "text": "LOG: Navigating to login page...\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-03-17T18:33:41.155Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\Customers-Smokevana-ERP-Cu-b8300-nario-Create-a-new-Customer-chromium\\test-failed-1.png"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\Customers-Smokevana-ERP-Cu-b8300-nario-Create-a-new-Customer-chromium\\trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\Customers.test.ts",
-                        "column": 20,
-                        "line": 14
-                      }
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.sidebar-menu')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('.sidebar-menu')\u001b[22m\n\n\n\u001b[0m \u001b[90m  8 |\u001b[39m     \n \u001b[90m  9 |\u001b[39m     \u001b[90m// Wait for dashboard\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'.sidebar-menu'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m     \n \u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://smokevanaerp.phantasm-agents.ai/products/create'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'form#product_add_form'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\test_visibility.test.ts:10:49\u001b[22m"
                     }
                   ],
-                  "status": "skipped"
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-03-17T21:00:00.618Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\test_visibility-find-id-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\test_visibility-find-id-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\test_visibility-find-id-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\test_visibility-find-id-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\test_visibility.test.ts",
+                    "column": 49,
+                    "line": 10
+                  }
                 }
               ],
-              "id": "112071e790e38dfe2bc6-44d124aa4722bd3e3ea5",
-              "file": "Customers.test.ts",
-              "line": 9,
-              "column": 9
+              "status": "unexpected"
             }
-          ]
+          ],
+          "id": "51804cdad74101f6518d-b05c0c08f26f96d8e8d0",
+          "file": "test_visibility.test.ts",
+          "line": 3,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-03-17T18:33:40.380Z",
-    "duration": 6187.548,
+    "startTime": "2026-03-17T20:59:59.848Z",
+    "duration": 24665.017,
     "expected": 0,
-    "skipped": 1,
-    "unexpected": 0,
+    "skipped": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }
