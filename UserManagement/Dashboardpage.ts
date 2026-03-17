@@ -12,6 +12,9 @@ export class DashboardPage {
     readonly addSalesInvoiceMenu: Locator;
     readonly listSellReturnMenu: Locator;
     readonly orderFulfillmentMenu: Locator;
+    readonly customersSubMenu: Locator;
+    readonly customerGroupsSubMenu: Locator;
+    readonly importContactsSubMenu: Locator;
     readonly usersSubMenu: Locator;
     readonly userProfileDropdown: Locator;
     readonly logoutButton: Locator;
@@ -19,17 +22,20 @@ export class DashboardPage {
     constructor(page: Page) {
         this.page = page;
         // Sidebar Locators based on AdminSidebarMenu.php labels
-        this.userManagementMenu = page.locator('span:has-text("User Management")');
-        this.contactsMenu = page.locator('span:has-text("Customer Care")');
-        this.productsMenu = page.locator('span:has-text("Products")');
-        this.purchasesMenu = page.locator('span:has-text("Vendor Care")');
+        this.userManagementMenu = page.getByRole('link', { name: 'User Management' });
+        this.contactsMenu = page.getByRole('link', { name: 'Customer Care' });
+        this.productsMenu = page.getByRole('link', { name: 'Products' });
+        this.purchasesMenu = page.getByRole('link', { name: 'Vendor Care' });
         this.saleMenu = page.locator('#tour_step7');
-        this.salesOrderSubMenu = page.locator('a:has-text("Sales Order (SO)")');
-        this.salesInvoiceMenu = page.locator('a:has-text("Sales Invoice (SI)")');
-        this.addSalesInvoiceMenu = page.locator('a:has-text("Add Sale Invoice (SI)")');
-        this.listSellReturnMenu = page.locator('a:has-text("List Sell Return(CN)")');
-        this.orderFulfillmentMenu = page.locator('a[href="/order-fulfillment"]');
-        this.usersSubMenu = page.locator('a:has-text("Users")');
+        this.salesOrderSubMenu = page.getByRole('link', { name: 'Sales Order (SO)' });
+        this.salesInvoiceMenu = page.getByRole('link', { name: 'Sales Invoice (SI)' });
+        this.addSalesInvoiceMenu = page.getByRole('link', { name: 'Add Sale Invoice (SI)' });
+        this.listSellReturnMenu = page.getByRole('link', { name: 'List Sell Return(CN)' });
+        this.orderFulfillmentMenu = page.getByRole('link', { name: 'Order Fulfillment' });
+        this.customersSubMenu = page.getByRole('link', { name: 'Customers', exact: true });
+        this.customerGroupsSubMenu = page.getByRole('link', { name: 'Customer Groups' });
+        this.importContactsSubMenu = page.getByRole('link', { name: 'Import Contacts' });
+        this.usersSubMenu = page.getByRole('link', { name: 'Users' });
 
         // Header Locators
         this.userProfileDropdown = page.locator('li.user-menu a.dropdown-toggle');
@@ -81,6 +87,27 @@ export class DashboardPage {
 
     async clickContacts() {
         await this.contactsMenu.click();
+    }
+
+    async clickCustomers() {
+        if (!await this.customersSubMenu.isVisible()) {
+            await this.clickContacts();
+        }
+        await this.customersSubMenu.click();
+    }
+
+    async clickCustomerGroups() {
+        if (!await this.customerGroupsSubMenu.isVisible()) {
+            await this.clickContacts();
+        }
+        await this.customerGroupsSubMenu.click();
+    }
+
+    async clickImportContacts() {
+        if (!await this.importContactsSubMenu.isVisible()) {
+            await this.clickContacts();
+        }
+        await this.importContactsSubMenu.click();
     }
 
     async clickProducts() {

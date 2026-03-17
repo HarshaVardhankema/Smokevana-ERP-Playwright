@@ -1,0 +1,364 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - link "Smokevana Prime" [ref=e5] [cursor=pointer]:
+        - /url: https://smokevanaerp.phantasm-agents.ai/home
+        - paragraph
+        - img "Smokevana Prime" [ref=e8]
+        - paragraph
+      - generic [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/home
+          - img [ref=e11]
+          - generic [ref=e16]: Home
+        - link "Advertisement Approvals" [ref=e17] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/dropship/advertisements
+          - img [ref=e18]
+          - generic [ref=e21]: Advertisement Approvals
+        - link "User Management" [ref=e23] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e24]
+          - generic [ref=e31]: User Management
+          - img [ref=e32]
+        - link "Sales Commission" [ref=e36] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e37]
+          - generic [ref=e41]: Sales Commission
+          - img [ref=e42]
+        - link "Sale" [ref=e46] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e47]
+          - generic [ref=e52]: Sale
+          - img [ref=e53]
+        - generic [ref=e56]:
+          - link "Customer Care" [ref=e57] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e58]
+            - generic [ref=e63]: Customer Care
+            - img [ref=e64]
+          - generic [ref=e68]:
+            - link "Customers" [ref=e69] [cursor=pointer]:
+              - /url: https://smokevanaerp.phantasm-agents.ai/contacts?type=customer
+              - img [ref=e70]
+              - generic [ref=e74]: Customers
+            - link "Customer Groups" [ref=e75] [cursor=pointer]:
+              - /url: https://smokevanaerp.phantasm-agents.ai/customer-group
+              - img [ref=e76]
+              - generic [ref=e80]: Customer Groups
+            - link "Import Contacts" [ref=e81] [cursor=pointer]:
+              - /url: https://smokevanaerp.phantasm-agents.ai/contacts/import
+              - img [ref=e82]
+              - generic [ref=e86]: Import Contacts
+            - link "Credit Line Approval form" [ref=e87] [cursor=pointer]:
+              - /url: https://smokevanaerp.phantasm-agents.ai/credit-lines
+              - img [ref=e88]
+              - generic [ref=e91]: Credit Line Approval form
+        - link "Products" [ref=e93] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e94]
+          - generic [ref=e101]: Products
+          - img [ref=e102]
+        - link "Vendor Care" [ref=e106] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e107]
+          - generic [ref=e112]: Vendor Care
+          - img [ref=e113]
+        - link "Prime Subscriptions" [ref=e117] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e118]
+          - generic [ref=e121]: Prime Subscriptions
+          - img [ref=e122]
+        - link "Dropshipping" [ref=e126] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e127]
+          - generic [ref=e135]: Dropshipping
+          - img [ref=e136]
+        - link "Stock Transfers" [ref=e140] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e141]
+          - generic [ref=e147]: Stock Transfers
+          - img [ref=e148]
+        - link "Stock Adjustment" [ref=e152] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e153]
+          - generic [ref=e159]: Stock Adjustment
+          - img [ref=e160]
+        - link "Payment Accounts" [ref=e164] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e165]
+          - generic [ref=e169]: Payment Accounts
+          - img [ref=e170]
+        - link "Bookkeeping" [ref=e174] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e175]
+          - generic [ref=e178]: Bookkeeping
+          - img [ref=e179]
+        - link "Advanced Reports" [ref=e182] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/advanced-reports
+          - img [ref=e183]
+          - generic [ref=e187]: Advanced Reports
+        - link "Reports" [ref=e189] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e190]
+          - generic [ref=e198]: Reports
+          - img [ref=e199]
+        - link "Notification Templates" [ref=e202] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/notification-templates
+          - img [ref=e203]
+          - generic [ref=e208]: Notification Templates
+        - link "Settings" [ref=e210] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e211]
+          - generic [ref=e216]: Settings
+          - img [ref=e217]
+        - link "Ecom" [ref=e221] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e222]
+          - generic [ref=e224]: Ecom
+          - img [ref=e225]
+        - link "AI Support" [ref=e228] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/support-agent
+          - img [ref=e229]
+          - generic [ref=e234]: AI Support
+    - main [ref=e235]:
+      - generic [ref=e238]:
+        - generic [ref=e239]:
+          - button "Collapse Sidebar" [ref=e240] [cursor=pointer]:
+            - generic [ref=e241]: Collapse Sidebar
+            - img [ref=e242]
+          - button "Go Back" [ref=e246] [cursor=pointer]:
+            - generic [ref=e247]: Go Back
+            - img [ref=e248]
+          - button "Refresh Page" [ref=e252] [cursor=pointer]:
+            - generic [ref=e253]: Refresh Page
+            - img [ref=e254]
+          - button "Go Forward" [ref=e258] [cursor=pointer]:
+            - generic [ref=e259]: Go Forward
+            - img [ref=e260]
+        - generic [ref=e265]:
+          - img [ref=e267]
+          - textbox "Search... (Invoice, Customer, Product)" [ref=e270]
+          - button "Bookmark this page" [ref=e271] [cursor=pointer]:
+            - img [ref=e272]
+        - button "Quick Actions" [ref=e275] [cursor=pointer]:
+          - generic [ref=e276]: Quick Actions
+          - img [ref=e277]
+        - generic [ref=e280]:
+          - button "Order Statistics" [ref=e282] [cursor=pointer]:
+            - generic [ref=e283]: Order Statistics
+            - img [ref=e284]
+          - group [ref=e288]:
+            - img [ref=e290] [cursor=pointer]
+          - button [ref=e293] [cursor=pointer]:
+            - generic [ref=e294]: Calculator
+            - img [ref=e295]
+          - button "Today's Profit" [ref=e299] [cursor=pointer]:
+            - generic [ref=e300]: Today's Profit
+            - img [ref=e301]
+          - button "03/18/2026" [ref=e305] [cursor=pointer]
+          - listitem [ref=e306]:
+            - generic [ref=e307]:
+              - generic [ref=e308]: Notifications
+              - img [ref=e309]
+          - group [ref=e313]:
+            - generic "Utkarsh Shukla" [ref=e314] [cursor=pointer]:
+              - generic [ref=e315]: Utkarsh Shukla
+              - img [ref=e316]
+      - generic [ref=e322]:
+        - generic [ref=e324]:
+          - heading " Customers" [level=1] [ref=e325]:
+            - generic [ref=e326]: 
+            - text: Customers
+          - paragraph [ref=e327]: View and manage customer accounts. Filter by status or Prime subscription tier.
+        - generic [ref=e329]:
+          - generic [ref=e330]:
+            - generic [ref=e331]:
+              - link "Active (1161)" [ref=e332] [cursor=pointer]:
+                - /url: "#"
+              - link "Inactive (2)" [ref=e333] [cursor=pointer]:
+                - /url: "#"
+              - link "Pending (1011)" [ref=e334] [cursor=pointer]:
+                - /url: "#"
+              - link "Rejected (6)" [ref=e335] [cursor=pointer]:
+                - /url: "#"
+              - link "Guest (0)" [ref=e336] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e337]:
+              - link "Prime Gold (6)" [ref=e338] [cursor=pointer]:
+                - /url: "#"
+                - text: Prime Gold
+                - generic [ref=e339]: (6)
+              - link "Platinum Customers (1)" [ref=e340] [cursor=pointer]:
+                - /url: "#"
+                - text: Platinum Customers
+                - generic [ref=e341]: (1)
+              - link "Silver (0)" [ref=e342] [cursor=pointer]:
+                - /url: "#"
+                - text: Silver
+                - generic [ref=e343]: (0)
+              - link "Silver customers (0)" [ref=e344] [cursor=pointer]:
+                - /url: "#"
+                - text: Silver customers
+                - generic [ref=e345]: (0)
+              - link "Prime PLATINUM (Retailer) (1)" [ref=e346] [cursor=pointer]:
+                - /url: "#"
+                - text: Prime PLATINUM (Retailer)
+                - generic [ref=e347]: (1)
+              - link "Prime PRO MAX (Retailer) (8)" [ref=e348] [cursor=pointer]:
+                - /url: "#"
+                - text: Prime PRO MAX (Retailer)
+                - generic [ref=e349]: (8)
+              - link "Prime SILVER (Distributor) (0)" [ref=e350] [cursor=pointer]:
+                - /url: "#"
+                - text: Prime SILVER (Distributor)
+                - generic [ref=e351]: (0)
+              - link "Prime SILVER (Retailer) (3)" [ref=e352] [cursor=pointer]:
+                - /url: "#"
+                - text: Prime SILVER (Retailer)
+                - generic [ref=e353]: (3)
+              - link "Prime Pro (4)" [ref=e354] [cursor=pointer]:
+                - /url: "#"
+                - text: Prime Pro
+                - generic [ref=e355]: (4)
+              - link "Prime Elite (2)" [ref=e356] [cursor=pointer]:
+                - /url: "#"
+                - text: Prime Elite
+                - generic [ref=e357]: (2)
+              - link "Silver customers (0)" [ref=e358] [cursor=pointer]:
+                - /url: "#"
+                - text: Silver customers
+                - generic [ref=e359]: (0)
+              - link "Prime (3)" [ref=e360] [cursor=pointer]:
+                - /url: "#"
+                - text: Prime
+                - generic [ref=e361]: (3)
+          - generic [ref=e363]:
+            - img [ref=e364]
+            - textbox "Search..." [ref=e367]
+        - generic [ref=e368]:
+          - generic [ref=e369]:
+            - generic [ref=e371]:
+              - generic [ref=e372]: Show
+              - combobox [ref=e373] [cursor=pointer]:
+                - option "10"
+                - option "25" [selected]
+                - option "50"
+                - option "100"
+              - generic [ref=e374]: entries
+            - generic [ref=e375]:
+              - button "Bulk Actions" [ref=e377] [cursor=pointer]:
+                - img [ref=e378]
+                - text: Bulk Actions
+                - img [ref=e382]
+              - button "Filters" [ref=e384] [cursor=pointer]:
+                - img [ref=e385]
+                - text: Filters
+              - button "Export CSV" [ref=e387] [cursor=pointer]:
+                - img [ref=e388]
+                - text: Export CSV
+              - button "Export Excel" [ref=e391] [cursor=pointer]:
+                - img [ref=e392]
+                - text: Export Excel
+              - button "Print" [ref=e395] [cursor=pointer]:
+                - img [ref=e396]
+                - text: Print
+              - button "Column Visibility" [ref=e401] [cursor=pointer]:
+                - img [ref=e402]
+                - text: Column Visibility
+              - button "Export PDF" [ref=e407] [cursor=pointer]:
+                - img [ref=e408]
+                - text: Export PDF
+              - button "Add" [ref=e411] [cursor=pointer]:
+                - img [ref=e412]
+                - text: Add
+          - generic [ref=e414]:
+            - generic:
+              - generic:      
+            - generic [ref=e418]:
+              - grid [ref=e421]:
+                - rowgroup [ref=e422]:
+                  - row "Action Customer ID ⇅ Business Name ⇅ Name ⇅ Status Address Mobile ⇅ Total Sale Due Invoices" [ref=e423]:
+                    - columnheader [ref=e424] [cursor=pointer]:
+                      - checkbox [ref=e425]
+                    - columnheader "Action" [ref=e426] [cursor=pointer]
+                    - columnheader "Customer ID ⇅" [ref=e427] [cursor=pointer]
+                    - columnheader "Business Name ⇅" [ref=e428] [cursor=pointer]
+                    - columnheader "Name ⇅" [ref=e429] [cursor=pointer]
+                    - columnheader "Status" [ref=e430] [cursor=pointer]
+                    - columnheader "Address" [ref=e431]
+                    - columnheader "Mobile ⇅" [ref=e432] [cursor=pointer]
+                    - columnheader "Total Sale Due" [ref=e433] [cursor=pointer]
+                    - columnheader "Invoices" [ref=e434] [cursor=pointer]
+              - generic [ref=e435]:
+                - grid:
+                  - rowgroup
+              - grid [ref=e438]
+          - generic [ref=e439]:
+            - generic [ref=e440]:
+              - text: Showing
+              - strong [ref=e441]: "0"
+              - text: to
+              - strong [ref=e442]: "0"
+              - text: of
+              - strong [ref=e443]: "0"
+              - text: entries
+            - generic [ref=e444]:
+              - generic [ref=e445]: Previous
+              - generic [ref=e446]: Next
+      - text: 
+    - dialog [ref=e447]:
+      - generic [ref=e448]:
+        - generic [ref=e449]:
+          - img [ref=e450]
+          - heading [level=2] [ref=e452]: Quick Actions
+        - button [ref=e453] [cursor=pointer]:
+          - img [ref=e454]
+      - generic [ref=e457]:
+        - generic [ref=e458]:
+          - heading [level=3] [ref=e459]: Pinned
+          - paragraph [ref=e460]: Select items from search results to add to Quick Actions
+        - link [ref=e462] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/contacts?type=customer&open_create=1
+          - img [ref=e464]
+          - generic [ref=e466]: Add a new contact
+          - img [ref=e467]
+        - link [ref=e469] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/products/create
+          - img [ref=e471]
+          - generic [ref=e473]: Add new product
+          - img [ref=e474]
+        - link [ref=e476] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/sells/create?sale_type=sales_order
+          - img [ref=e478]
+          - generic [ref=e480]: Add Sales Order
+          - img [ref=e481]
+        - link [ref=e483] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/sells/create
+          - img [ref=e485]
+          - generic [ref=e487]: Add sales invoice
+          - img [ref=e488]
+        - link [ref=e490] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/custom-discounts
+          - img [ref=e492]
+          - generic [ref=e494]: Add Discount
+          - img [ref=e495]
+        - link [ref=e497] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/brands?open_create=1
+          - img [ref=e499]
+          - generic [ref=e501]: Add brand
+          - img [ref=e502]
+        - link [ref=e504] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/taxonomies?type=product&open_create=1
+          - img [ref=e506]
+          - generic [ref=e508]: Add Category
+          - img [ref=e509]
+  - contentinfo [ref=e511]:
+    - generic [ref=e514]:
+      - generic [ref=e515]: Smokevana (ERP Suit)
+      - generic [ref=e516]: "- V6.4"
+      - generic [ref=e517]: ·
+      - generic [ref=e518]: Copyright © 2026 All rights reserved.
+```

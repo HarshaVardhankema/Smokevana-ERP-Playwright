@@ -8,9 +8,9 @@ export class LoginPage {
 
     constructor(page: Page) {
         this.page = page;
-        this.usernameField = page.locator('#username');
-        this.passwordField = page.locator('#password');
-        this.loginButton = page.locator('button.amazon-btn-primary, button:has-text("Sign in")');
+        this.usernameField = page.getByLabel('Username');
+        this.passwordField = page.getByLabel('Password');
+        this.loginButton = page.getByRole('button', { name: 'Sign in' });
     }
 
     async navigate() {
