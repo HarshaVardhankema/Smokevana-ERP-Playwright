@@ -1,32 +1,32 @@
 import { Page, Locator, expect } from '@playwright/test';
 
 export class ProductsPage {
-    readonly page: Page;
-    readonly productNameInput: Locator;
-    readonly skuInput: Locator;
-    readonly ctValueInput: Locator;
-    readonly brandDropdown: Locator;
-    readonly productVisibilityDropdown: Locator;
-    readonly categoryDropdown: Locator;
-    readonly subCategoryDropdown: Locator;
-    readonly alertQuantityInput: Locator;
-    readonly mlValueInput: Locator;
-    readonly businessLocationsDropdown: Locator;
-    readonly productSourceDropdown: Locator;
-    readonly unitDropdown: Locator;
-    readonly barcodeTypeDropdown: Locator;
-    readonly purchasePriceExcTax: Locator;
-    readonly sellingPriceExcTax: Locator;
-    readonly barcodeNoInput: Locator;
-    readonly maxSaleLimitInput: Locator;
-    readonly productTypeDropdown: Locator;
-    readonly variationTemplateDropdown: Locator;
-    readonly coaDescriptionInput: Locator;
-    readonly storeFileInput: Locator;
-    readonly saveBtn: Locator;
-    readonly ecomCheckbox: Locator;
-    readonly tobaccoCheckbox: Locator;
-    readonly giftCardCheckbox: Locator;
+    page: Page;
+    productNameInput: Locator;
+    skuInput: Locator;
+    ctValueInput: Locator;
+    brandDropdown: Locator;
+    productVisibilityDropdown: Locator;
+    categoryDropdown: Locator;
+    subCategoryDropdown: Locator;
+    alertQuantityInput: Locator;
+    mlValueInput: Locator;
+    businessLocationsDropdown: Locator;
+    productSourceDropdown: Locator;
+    unitDropdown: Locator;
+    barcodeTypeDropdown: Locator;
+    purchasePriceExcTax: Locator;
+    sellingPriceExcTax: Locator;
+    barcodeNoInput: Locator;
+    maxSaleLimitInput: Locator;
+    productTypeDropdown: Locator;
+    variationTemplateDropdown: Locator;
+    coaDescriptionInput: Locator;
+    storeFileInput: Locator;
+    saveBtn: Locator;
+    ecomCheckbox: Locator;
+    tobaccoCheckbox: Locator;
+    giftCardCheckbox: Locator;
 
     constructor(page: Page) {
         this.page = page;

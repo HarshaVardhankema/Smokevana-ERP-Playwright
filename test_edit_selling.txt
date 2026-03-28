@@ -1,0 +1,44 @@
+
+Running 1 test using 1 worker
+
+LOG: Starting Login Flow...
+Filling username: admin...
+Filling password...
+Clicking Sign in...
+LOG: Navigating to Edit Selling Price...
+  ✘  1 [chromium] › tests\EditSellingPrice.test.ts:27:9 › Smokevana ERP Edit Selling Price › Scenario: Editing Selling Prices using Page Object Model (1.2m)
+
+
+  1) [chromium] › tests\EditSellingPrice.test.ts:27:9 › Smokevana ERP Edit Selling Price › Scenario: Editing Selling Prices using Page Object Model 
+
+    Error: locator.click: Target page, context or browser has been closed
+    Call log:
+    [2m  - waiting for getByRole('link', { name: 'Edit Selling Price' })[22m
+
+
+       at ..\Products\EditSellingPricePage.ts:57
+
+      55 |             await this.productsMenu.first().click(); // Open dropdown if needed
+      56 |         }
+    > 57 |         await this.editSellingPriceMenu.click();
+         |                                         ^
+      58 |     }
+      59 |
+      60 |     async applyFilters(location: string, productType: string, brand: string) {
+        at EditSellingPricePage.navigate (C:\Users\PSHCPU003\Documents\Automation Playwright\Smokevana ERP\Products\EditSellingPricePage.ts:57:41)
+        at C:\Users\PSHCPU003\Documents\Automation Playwright\Smokevana ERP\tests\EditSellingPrice.test.ts:31:9
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\EditSellingPrice-Smokevana-c838e-ces-using-Page-Object-Model-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\EditSellingPrice-Smokevana-c838e-ces-using-Page-Object-Model-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\EditSellingPrice-Smokevana-c838e-ces-using-Page-Object-Model-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests\EditSellingPrice.test.ts:27:9 › Smokevana ERP Edit Selling Price › Scenario: Editing Selling Prices using Page Object Model 

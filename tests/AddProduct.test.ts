@@ -1,16 +1,19 @@
 import { test, expect } from '@playwright/test';
+import { ProductsDataManager } from '../Products/Datamanager';
 import { LoginPage } from '../UserManagement/Loginpage';
 import { ProductsPage } from '../Products/ProductsPage';
 import * as testData from '../Utlilies/testData.json';
 import * as path from 'path';
 
 test.describe('Smokevana ERP Product Automation', () => {
+    let poManager: ProductsDataManager;
     let loginPage: LoginPage;
     let productsPage: ProductsPage;
 
-    test.beforeEach(async ({ page }) => {
-        loginPage = new LoginPage(page);
-        productsPage = new ProductsPage(page);
+    test.beforeEach(async ({ page, context }) => {
+        poManager = new ProductsDataManager(page, context);
+        loginPage = poManager.getLoginPage();
+        productsPage = poManager.getProductsPage();
         
         console.log("LOG: Login...");
         await page.goto('https://smokevanaerp.phantasm-agents.ai/login');

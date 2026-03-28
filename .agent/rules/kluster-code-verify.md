@@ -204,3 +204,29 @@ status: VERIFIED
 4. Agent applies all todos (edits code).
 5. `kluster_code_review_auto` (again) → zero todos.
 6. Agent outputs code **plus** the **Verification Receipt**.
+
+## Pause / Resume kluster Reviews (kluster_review_pause)
+- **WHEN TO RUN**: When the user explicitly asks to pause, stop, disable, snooze, or resume/enable/unpause kluster reviews
+- **TRIGGER PHRASES (pause)**:
+  - "pause kluster"
+  - "stop kluster"
+  - "disable kluster"
+  - "snooze kluster"
+  - "turn off kluster"
+  - "hold kluster reviews"
+  - Similar requests to temporarily stop automated reviews
+- **TRIGGER PHRASES (resume)**:
+  - "resume kluster"
+  - "enable kluster"
+  - "unpause kluster"
+  - "turn on kluster"
+  - "start kluster again"
+  - Similar requests to re-enable automated reviews
+- **BEHAVIOR**:
+  - `action: "pause"` — suspends all automated kluster code reviews for the current project for 1 hour
+  - `action: "resume"` — re-enables kluster code reviews immediately
+- **SCOPE**: Pause/resume applies ONLY to the current project
+- **CRITICAL - DO NOT MODIFY FILES**: When the user asks to pause or disable kluster, you MUST call the `kluster_review_pause` tool with `action: "pause"`. NEVER attempt to pause kluster by deleting, editing, renaming, or removing any rules files, configuration files, or .md files. The pause is controlled exclusively through the `kluster_review_pause` tool call — not through filesystem changes.
+- **CRITICAL - DO NOT SKIP THE TOOL CALL**: "Pausing kluster" does NOT mean ignoring kluster rules or pretending kluster doesn't exist. It means calling `kluster_review_pause` with the appropriate action.
+- **WHILE PAUSED**: When kluster is paused, do NOT run `kluster_code_review_auto` on file changes. Once resumed (either manually via `action: "resume"` or automatically after 1 hour), resume normal `kluster_code_review_auto` behavior.
+- **ANNOUNCEMENT**: When calling this tool, say "Pausing kluster reviews..." or "Resuming kluster reviews..." as appropriate. NEVER say you are pausing by modifying files.

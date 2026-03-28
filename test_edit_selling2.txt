@@ -1,0 +1,55 @@
+
+Running 1 test using 1 worker
+
+LOG: Starting Login Flow...
+Filling username: admin...
+Filling password...
+Clicking Sign in...
+LOG: End Tour button forcefully clicked.
+LOG: Navigating to Edit Selling Price...
+LOG: Applying Filters...
+  ✘  1 [chromium] › tests\EditSellingPrice.test.ts:26:9 › Smokevana ERP Edit Selling Price › Scenario: Editing Selling Prices using Page Object Model (10.9s)
+
+
+  1) [chromium] › tests\EditSellingPrice.test.ts:26:9 › Smokevana ERP Edit Selling Price › Scenario: Editing Selling Prices using Page Object Model 
+
+    Error: locator.click: Error: strict mode violation: getByRole('treeitem', { name: 'All', exact: true }) resolved to 2 elements:
+        1) <li role="treeitem" aria-selected="false" class="select2-results__option">All</li> aka getByRole('treeitem', { name: 'All' }).first()
+        2) <li role="treeitem" aria-selected="true" class="select2-results__option select2-results__option--highlighted">All</li> aka getByRole('treeitem', { name: 'All' }).nth(1)
+
+    Call log:
+    [2m  - waiting for getByRole('treeitem', { name: 'All', exact: true })[22m
+
+
+       at ..\Products\EditSellingPricePage.ts:68
+
+      66 |         await this.filterProductType.click();
+      67 |         // Fallback for getting nth like the script if exact match isn't available, but exact name works better:
+    > 68 |         await this.page.getByRole('treeitem', { name: productType, exact: true }).click();
+         |                                                                                   ^
+      69 |         
+      70 |         // Brand Filter using search functionality
+      71 |         await this.filterBrand.click();
+        at EditSellingPricePage.applyFilters (C:\Users\PSHCPU003\Documents\Automation Playwright\Smokevana ERP\Products\EditSellingPricePage.ts:68:83)
+        at C:\Users\PSHCPU003\Documents\Automation Playwright\Smokevana ERP\tests\EditSellingPrice.test.ts:34:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\EditSellingPrice-Smokevana-c838e-ces-using-Page-Object-Model-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\EditSellingPrice-Smokevana-c838e-ces-using-Page-Object-Model-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\EditSellingPrice-Smokevana-c838e-ces-using-Page-Object-Model-chromium\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\EditSellingPrice-Smokevana-c838e-ces-using-Page-Object-Model-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\EditSellingPrice-Smokevana-c838e-ces-using-Page-Object-Model-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests\EditSellingPrice.test.ts:26:9 › Smokevana ERP Edit Selling Price › Scenario: Editing Selling Prices using Page Object Model 

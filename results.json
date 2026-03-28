@@ -78,100 +78,147 @@
   },
   "suites": [
     {
-      "title": "test_visibility.test.ts",
-      "file": "test_visibility.test.ts",
+      "title": "AddProduct.test.ts",
+      "file": "AddProduct.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "find id",
-          "ok": false,
-          "tags": [],
-          "tests": [
+          "title": "Smokevana ERP Product Automation",
+          "file": "AddProduct.test.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 120000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
+              "title": "Scenario: Add New Variable Product - Success Flow",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "failed",
-                  "duration": 23399,
-                  "error": {
-                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.sidebar-menu')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('.sidebar-menu')\u001b[22m\n",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.sidebar-menu')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('.sidebar-menu')\u001b[22m\n\n    at C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\test_visibility.test.ts:10:49",
-                    "location": {
-                      "file": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\test_visibility.test.ts",
-                      "column": 49,
-                      "line": 10
-                    },
-                    "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m     \n \u001b[90m  9 |\u001b[39m     \u001b[90m// Wait for dashboard\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'.sidebar-menu'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m     \n \u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://smokevanaerp.phantasm-agents.ai/products/create'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'form#product_add_form'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\test_visibility.test.ts",
-                        "column": 49,
-                        "line": 10
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.sidebar-menu')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('.sidebar-menu')\u001b[22m\n\n\n\u001b[0m \u001b[90m  8 |\u001b[39m     \n \u001b[90m  9 |\u001b[39m     \u001b[90m// Wait for dashboard\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'.sidebar-menu'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m     \n \u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://smokevanaerp.phantasm-agents.ai/products/create'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'form#product_add_form'\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m15000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\test_visibility.test.ts:10:49\u001b[22m"
-                    }
-                  ],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-03-17T21:00:00.618Z",
+                  "timeout": 120000,
                   "annotations": [],
-                  "attachments": [
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
                     {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\test_visibility-find-id-chromium\\test-failed-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\test_visibility-find-id-chromium\\video.webm"
-                    },
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\test_visibility-find-id-chromium\\error-context.md"
-                    },
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\test_visibility-find-id-chromium\\trace.zip"
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 29901,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "LOG: Login...\n"
+                        },
+                        {
+                          "text": "Filling username: admin...\n"
+                        },
+                        {
+                          "text": "Filling password...\n"
+                        },
+                        {
+                          "text": "Clicking Sign in...\n"
+                        },
+                        {
+                          "text": "LOG: Navigating to Add Product page...\n"
+                        },
+                        {
+                          "text": "LOG: Filling Basic Info for TEST-THCPA-1774630401336...\n"
+                        },
+                        {
+                          "text": "LOG: Filling product name: TEST-THCPA-1774630401336\n"
+                        },
+                        {
+                          "text": "LOG: Filling SKU: SKU-1774630401336\n"
+                        },
+                        {
+                          "text": "LOG: Selecting brand: 4 KINGS Test\n"
+                        },
+                        {
+                          "text": "LOG: Selecting category: THCA\n"
+                        },
+                        {
+                          "text": "LOG: Setting Additional Info...\n"
+                        },
+                        {
+                          "text": "LOG: Configuring Variable Product details...\n"
+                        },
+                        {
+                          "text": "LOG: Selecting Variation Template: Flavor\n"
+                        },
+                        {
+                          "text": "LOG: Selecting Variation Values...\n"
+                        },
+                        {
+                          "text": "LOG: Filling Variation Pricing...\n"
+                        },
+                        {
+                          "text": "LOG: Saving product...\n"
+                        },
+                        {
+                          "text": "LOG: Verifying product creation...\n"
+                        },
+                        {
+                          "text": "LOG: Reached products page. Searching...\n"
+                        },
+                        {
+                          "text": "LOG: Success! Product TEST-THCPA-1774630401336 created with Master SKU: SKU-1774630401336\n"
+                        },
+                        {
+                          "text": "LOG: Variation 1 SKU generated: SKU-1774630401336-1\n"
+                        },
+                        {
+                          "text": "LOG: Variation 2 SKU generated: SKU-1774630401336-2\n"
+                        },
+                        {
+                          "text": "LOG: Saved generated SKUs to test-results/generated_skus.json\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-27T16:53:13.583Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\\trace.zip"
+                        }
+                      ]
                     }
                   ],
-                  "errorLocation": {
-                    "file": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\tests\\test_visibility.test.ts",
-                    "column": 49,
-                    "line": 10
-                  }
+                  "status": "expected"
                 }
               ],
-              "status": "unexpected"
+              "id": "95f1f6d213f27853d5a8-90f57bf4f1c7e29c2453",
+              "file": "AddProduct.test.ts",
+              "line": 33,
+              "column": 9
             }
-          ],
-          "id": "51804cdad74101f6518d-b05c0c08f26f96d8e8d0",
-          "file": "test_visibility.test.ts",
-          "line": 3,
-          "column": 5
+          ]
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-03-17T20:59:59.848Z",
-    "duration": 24665.017,
-    "expected": 0,
+    "startTime": "2026-03-27T16:53:12.720Z",
+    "duration": 32584.548,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }
