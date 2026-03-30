@@ -78,20 +78,20 @@
   },
   "suites": [
     {
-      "title": "PurchaseOrder.test.ts",
-      "file": "PurchaseOrder.test.ts",
+      "title": "ListPurchaseReturn.test.ts",
+      "file": "ListPurchaseReturn.test.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Smokevana ERP Purchase Order Automation",
-          "file": "PurchaseOrder.test.ts",
+          "title": "Smokevana ERP List Purchase Return Automation",
+          "file": "ListPurchaseReturn.test.ts",
           "line": 4,
           "column": 6,
           "specs": [
             {
-              "title": "Scenario: Add Purchase Order and Create PR",
+              "title": "Scenario: Add List Purchase Return",
               "ok": true,
               "tags": [],
               "tests": [
@@ -106,7 +106,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 22977,
+                      "duration": 15308,
                       "errors": [],
                       "stdout": [
                         {
@@ -117,27 +117,30 @@
                         },
                         {
                           "text": "Clicking Sign in...\n"
+                        },
+                        {
+                          "text": "Auto-dismissed dialog: \n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-30T22:34:09.325Z",
+                      "startTime": "2026-03-30T23:29:40.304Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\PurchaseOrder-Smokevana-ER-614b6-urchase-Order-and-Create-PR-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\ListPurchaseReturn-Smokeva-76ab6-io-Add-List-Purchase-Return-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\PurchaseOrder-Smokevana-ER-614b6-urchase-Order-and-Create-PR-chromium\\video.webm"
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\ListPurchaseReturn-Smokeva-76ab6-io-Add-List-Purchase-Return-chromium\\video.webm"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\PurchaseOrder-Smokevana-ER-614b6-urchase-Order-and-Create-PR-chromium\\trace.zip"
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\ListPurchaseReturn-Smokeva-76ab6-io-Add-List-Purchase-Return-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -145,9 +148,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "df53fee55a332943215e-98210f7af0ee86fd730b",
-              "file": "PurchaseOrder.test.ts",
-              "line": 21,
+              "id": "54d4c07bea8c15ccbec9-1aa720392618c0a6f822",
+              "file": "ListPurchaseReturn.test.ts",
+              "line": 20,
               "column": 9
             }
           ]
@@ -157,8 +160,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-03-30T22:34:08.626Z",
-    "duration": 24592.631999999998,
+    "startTime": "2026-03-30T23:29:39.520Z",
+    "duration": 16735.18,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

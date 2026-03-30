@@ -1,16 +1,17 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="24.592632">
-<testsuite name="PurchaseOrder.test.ts" timestamp="2026-03-30T22:34:08.641Z" hostname="chromium" tests="1" failures="0" skipped="0" time="22.977" errors="0">
-<testcase name="Smokevana ERP Purchase Order Automation › Scenario: Add Purchase Order and Create PR" classname="PurchaseOrder.test.ts" time="22.977">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="16.73518">
+<testsuite name="ListPurchaseReturn.test.ts" timestamp="2026-03-30T23:29:39.620Z" hostname="chromium" tests="1" failures="0" skipped="0" time="15.308" errors="0">
+<testcase name="Smokevana ERP List Purchase Return Automation › Scenario: Add List Purchase Return" classname="ListPurchaseReturn.test.ts" time="15.308">
 <system-out>
 <![CDATA[Filling username: admin...
 Filling password...
 Clicking Sign in...
+Auto-dismissed dialog: 
 
-[[ATTACHMENT|test-results\PurchaseOrder-Smokevana-ER-614b6-urchase-Order-and-Create-PR-chromium\test-finished-1.png]]
+[[ATTACHMENT|test-results\ListPurchaseReturn-Smokeva-76ab6-io-Add-List-Purchase-Return-chromium\test-finished-1.png]]
 
-[[ATTACHMENT|test-results\PurchaseOrder-Smokevana-ER-614b6-urchase-Order-and-Create-PR-chromium\video.webm]]
+[[ATTACHMENT|test-results\ListPurchaseReturn-Smokeva-76ab6-io-Add-List-Purchase-Return-chromium\video.webm]]
 
-[[ATTACHMENT|test-results\PurchaseOrder-Smokevana-ER-614b6-urchase-Order-and-Create-PR-chromium\trace.zip]]
+[[ATTACHMENT|test-results\ListPurchaseReturn-Smokeva-76ab6-io-Add-List-Purchase-Return-chromium\trace.zip]]
 ]]>
 </system-out>
 </testcase>
