@@ -1,0 +1,7 @@
+﻿
+Running 1 test using 1 worker
+
+
+Running 1 test using 1 worker
+
+[1A[2K[1/1] [chromium] ΓÇ║ tests\PurchaseOrder.test.ts:21:9 ΓÇ║ Smokevana ERP Purchase Order Automation ΓÇ║ Scenario: Add Purchase Order and Create PR

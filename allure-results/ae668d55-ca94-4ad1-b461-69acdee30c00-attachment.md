@@ -1,0 +1,1748 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - complementary [ref=e4]:
+        - link "Smokevana Prime" [ref=e5] [cursor=pointer]:
+          - /url: https://smokevanaerp.phantasm-agents.ai/home
+          - paragraph
+          - img "Smokevana Prime" [ref=e8]
+          - paragraph
+        - generic [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/home
+            - img [ref=e11]
+            - generic [ref=e16]: Home
+          - link "Advertisement Approvals 2" [ref=e17] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/dropship/advertisements
+            - img [ref=e18]
+            - generic [ref=e21]:
+              - text: Advertisement Approvals
+              - generic [ref=e22]: "2"
+          - link "User Management" [ref=e24] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e25]
+            - generic [ref=e32]: User Management
+            - img [ref=e33]
+          - link "Sales Commission" [ref=e37] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e38]
+            - generic [ref=e42]: Sales Commission
+            - img [ref=e43]
+          - link "Sale" [ref=e47] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e48]
+            - generic [ref=e53]: Sale
+            - img [ref=e54]
+          - link "Customer Care" [ref=e58] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e59]
+            - generic [ref=e64]: Customer Care
+            - img [ref=e65]
+          - link "Products" [ref=e69] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e70]
+            - generic [ref=e77]: Products
+            - img [ref=e78]
+          - link "Vendor Care" [ref=e82] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e83]
+            - generic [ref=e88]: Vendor Care
+            - img [ref=e89]
+          - link "Prime Subscriptions" [ref=e93] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e94]
+            - generic [ref=e97]: Prime Subscriptions
+            - img [ref=e98]
+          - link "Dropshipping" [ref=e102] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e103]
+            - generic [ref=e111]: Dropshipping
+            - img [ref=e112]
+          - link "Stock Transfers" [ref=e116] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e117]
+            - generic [ref=e123]: Stock Transfers
+            - img [ref=e124]
+          - link "Stock Adjustment" [ref=e128] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e129]
+            - generic [ref=e135]: Stock Adjustment
+            - img [ref=e136]
+          - link "Compliance Center" [ref=e139] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/company-licences
+            - img [ref=e140]
+            - generic [ref=e143]: Compliance Center
+          - link "Bookkeeping" [ref=e145] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e146]
+            - generic [ref=e149]: Bookkeeping
+            - img [ref=e150]
+          - link "Advanced Reports" [ref=e153] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/advanced-reports
+            - img [ref=e154]
+            - generic [ref=e158]: Advanced Reports
+          - link "Activity Logs" [ref=e159] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/activity-logs
+            - img [ref=e160]
+            - generic [ref=e164]: Activity Logs
+          - link "Reports" [ref=e166] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e167]
+            - generic [ref=e175]: Reports
+            - img [ref=e176]
+          - link "Notification Templates" [ref=e179] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/notification-templates
+            - img [ref=e180]
+            - generic [ref=e185]: Notification Templates
+          - link "Settings" [ref=e187] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e188]
+            - generic [ref=e193]: Settings
+            - img [ref=e194]
+          - link "Ecom" [ref=e198] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e199]
+            - generic [ref=e201]: Ecom
+            - img [ref=e202]
+          - link "Support Chat" [ref=e205] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/support/chat
+            - img [ref=e206]
+            - generic [ref=e209]: Support Chat
+          - link "AI Support" [ref=e210] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/support-agent
+            - img [ref=e211]
+            - generic [ref=e216]: AI Support
+      - main [ref=e217]:
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - button "Collapse Sidebar" [ref=e222] [cursor=pointer]:
+              - generic [ref=e223]: Collapse Sidebar
+              - img [ref=e224]
+            - button "Go Back" [ref=e228] [cursor=pointer]:
+              - generic [ref=e229]: Go Back
+              - img [ref=e230]
+            - button "Refresh Page" [ref=e234] [cursor=pointer]:
+              - generic [ref=e235]: Refresh Page
+              - img [ref=e236]
+            - button "Go Forward" [ref=e240] [cursor=pointer]:
+              - generic [ref=e241]: Go Forward
+              - img [ref=e242]
+          - generic [ref=e247]:
+            - img [ref=e249]
+            - textbox "Search... (Invoice, Customer, Product)" [ref=e252]
+            - button "Bookmark this page" [ref=e253] [cursor=pointer]:
+              - img [ref=e254]
+          - button "Quick Actions" [ref=e257] [cursor=pointer]:
+            - generic [ref=e258]: Quick Actions
+            - img [ref=e259]
+          - generic [ref=e262]:
+            - button "Order Statistics" [ref=e264] [cursor=pointer]:
+              - generic [ref=e265]: Order Statistics
+              - img [ref=e266]
+            - group [ref=e270]:
+              - img [ref=e272] [cursor=pointer]
+            - button [ref=e275] [cursor=pointer]:
+              - generic [ref=e276]: Calculator
+              - img [ref=e277]
+            - button "Today's Profit" [ref=e281] [cursor=pointer]:
+              - generic [ref=e282]: Today's Profit
+              - img [ref=e283]
+            - button "03/31/2026" [ref=e287] [cursor=pointer]
+            - listitem [ref=e288]:
+              - generic [ref=e289]:
+                - generic [ref=e290]: Notifications
+                - img [ref=e291]
+            - group [ref=e295]:
+              - generic "Smokevana Admin" [ref=e296] [cursor=pointer]:
+                - generic [ref=e297]: Smokevana Admin
+                - img [ref=e298]
+        - generic [ref=e304]:
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - heading "Welcome Smokevana, 👋" [level=1] [ref=e308]
+              - paragraph [ref=e309]: Here's your business overview for today
+            - generic [ref=e310]:
+              - combobox [ref=e312]:
+                - option "Select location"
+                - option "Smokevana Prime B2B (BL0001)" [selected]
+                - option "Smokevana Prime B2C (BL00002)"
+              - generic [ref=e313]: 03/31/2026
+              - button "Filter by date" [ref=e314] [cursor=pointer]:
+                - img [ref=e315]
+                - generic [ref=e317]: Filter by date
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - generic [ref=e321]:
+                - img [ref=e322]
+                - text: Business Performance Overview
+              - generic [ref=e324]:
+                - generic [ref=e325]:
+                  - img [ref=e327]
+                  - generic [ref=e332]: $ 0.00
+                  - generic [ref=e333]: Total Sales
+                - generic [ref=e334]:
+                  - img [ref=e336]
+                  - generic [ref=e338]: $ 0.00
+                  - generic [ref=e339]:
+                    - text: Net
+                    - generic [ref=e340]: 
+                - generic [ref=e341]:
+                  - img [ref=e343]
+                  - generic [ref=e346]: $ 0.00
+                  - generic [ref=e347]: Total purchase
+                - generic [ref=e348]:
+                  - img [ref=e350]
+                  - generic [ref=e352]: $ 0.00
+                  - generic [ref=e353]: Expense
+            - generic [ref=e354]:
+              - generic [ref=e355]:
+                - generic [ref=e356]:
+                  - generic [ref=e357]: Invoice due
+                  - img [ref=e359]
+                - generic [ref=e362]: $ 0.00
+                - generic [ref=e364]: Requires attention
+              - generic [ref=e365]:
+                - generic [ref=e366]:
+                  - generic [ref=e367]: Purchase due
+                  - img [ref=e369]
+                - generic [ref=e371]: $ 0.00
+                - generic [ref=e373]: Pending payments
+              - generic [ref=e374]:
+                - generic [ref=e375]:
+                  - generic [ref=e376]:
+                    - text: Total Sell Return
+                    - generic [ref=e377]: 
+                  - img [ref=e379]
+                - generic [ref=e382]: $ 0.00
+                - generic [ref=e384]: Returns processed
+              - generic [ref=e385]:
+                - generic [ref=e386]:
+                  - generic [ref=e387]:
+                    - text: Total Purchase Return
+                    - generic [ref=e388]: 
+                  - img [ref=e390]
+                - generic [ref=e393]: $ 0.00
+                - generic [ref=e395]: Returned to vendors
+            - generic [ref=e396]:
+              - generic [ref=e397]:
+                - generic [ref=e399]:
+                  - img [ref=e400]
+                  - text: Sales Last 30 Days
+                - img [ref=e404]:
+                  - generic [ref=e411]: Total Sales (USD)
+                  - generic "Chart context menu" [ref=e513]
+                  - generic [ref=e519]:
+                    - generic [ref=e522] [cursor=pointer]: Smokevana Prime B2B (BL0001)
+                    - generic [ref=e525] [cursor=pointer]: Smokevana Prime B2C (BL00002)
+                    - generic [ref=e528] [cursor=pointer]: All locations
+                  - generic [ref=e529]:
+                    - generic [ref=e530]: 2 Mar 2026
+                    - generic [ref=e531]: 3 Mar 2026
+                    - generic [ref=e532]: 4 Mar 2026
+                    - generic [ref=e533]: 5 Mar 2026
+                    - generic [ref=e534]: 6 Mar 2026
+                    - generic [ref=e535]: 7 Mar 2026
+                    - generic [ref=e536]: 8 Mar 2026
+                    - generic [ref=e537]: 9 Mar 2026
+                    - generic [ref=e538]: 10 Mar 2026
+                    - generic [ref=e539]: 11 Mar 2026
+                    - generic [ref=e540]: 12 Mar 2026
+                    - generic [ref=e541]: 13 Mar 2026
+                    - generic [ref=e542]: 14 Mar 2026
+                    - generic [ref=e543]: 15 Mar 2026
+                    - generic [ref=e544]: 16 Mar 2026
+                    - generic [ref=e545]: 17 Mar 2026
+                    - generic [ref=e546]: 18 Mar 2026
+                    - generic [ref=e547]: 19 Mar 2026
+                    - generic [ref=e548]: 20 Mar 2026
+                    - generic [ref=e549]: 21 Mar 2026
+                    - generic [ref=e550]: 22 Mar 2026
+                    - generic [ref=e551]: 23 Mar 2026
+                    - generic [ref=e552]: 24 Mar 2026
+                    - generic [ref=e553]: 25 Mar 2026
+                    - generic [ref=e554]: 26 Mar 2026
+                    - generic [ref=e555]: 27 Mar 2026
+                    - generic [ref=e556]: 28 Mar 2026
+                    - generic [ref=e557]: 29 Mar 2026
+                    - generic [ref=e558]: 30 Mar 2026
+                    - generic [ref=e559]: 31 Mar 2026
+                  - generic [ref=e560]:
+                    - generic [ref=e561]: "0"
+                    - generic [ref=e562]: 10k
+                    - generic [ref=e563]: 2.5k
+                    - generic [ref=e564]: 5k
+                    - generic [ref=e565]: 7.5k
+                    - generic [ref=e566]: 12.5k
+              - generic [ref=e567]:
+                - generic [ref=e569]:
+                  - img [ref=e570]
+                  - text: Sales Current Financial Year
+                - img [ref=e575]:
+                  - generic [ref=e582]: Total Sales (USD)
+                  - generic "Chart context menu" [ref=e633]
+                  - generic [ref=e639]:
+                    - generic [ref=e642] [cursor=pointer]: Smokevana Prime B2B (BL0001)
+                    - generic [ref=e645] [cursor=pointer]: Smokevana Prime B2C (BL00002)
+                    - generic [ref=e648] [cursor=pointer]: All locations
+                  - generic [ref=e649]:
+                    - generic [ref=e650]: Jan-2026
+                    - generic [ref=e651]: Mar-2026
+                    - generic [ref=e652]: Mar-2026
+                    - generic [ref=e653]: May-2026
+                    - generic [ref=e654]: May-2026
+                    - generic [ref=e655]: Jul-2026
+                    - generic [ref=e656]: Jul-2026
+                    - generic [ref=e657]: Aug-2026
+                    - generic [ref=e658]: Oct-2026
+                    - generic [ref=e659]: Oct-2026
+                    - generic [ref=e660]: Dec-2026
+                    - generic [ref=e661]: Dec-2026
+                  - generic [ref=e662]:
+                    - generic [ref=e663]: "0"
+                    - generic [ref=e664]: 10k
+                    - generic [ref=e665]: 20k
+                    - generic [ref=e666]: 30k
+                    - generic [ref=e667]: 40k
+                    - generic [ref=e668]: 50k
+            - generic [ref=e669]:
+              - generic [ref=e670]:
+                - generic [ref=e671]:
+                  - generic [ref=e672]:
+                    - img [ref=e673]
+                    - text: Sales Payment Due
+                    - generic [ref=e675]: 
+                  - combobox [ref=e677]:
+                    - option "Select location"
+                    - option "Smokevana Prime B2B (BL0001)" [selected]
+                    - option "Smokevana Prime B2C (BL00002)"
+                - generic [ref=e679]:
+                  - generic [ref=e680]:
+                    - link " Export CSV" [ref=e681] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e682]:
+                        - generic [ref=e683]: 
+                        - text: Export CSV
+                    - link " Export Excel" [ref=e684] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e685]:
+                        - generic [ref=e686]: 
+                        - text: Export Excel
+                    - link " Print" [ref=e687] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e688]:
+                        - generic [ref=e689]: 
+                        - text: Print
+                    - link " Column visibility" [ref=e690] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e691]:
+                        - generic [ref=e692]: 
+                        - text: Column visibility
+                    - link " Export PDF" [ref=e693] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e694]:
+                        - generic [ref=e695]: 
+                        - text: Export PDF
+                  - generic [ref=e696]:
+                    - grid [ref=e699]:
+                      - rowgroup [ref=e700]:
+                        - row "Customer Invoice No Due Amount Action" [ref=e701]:
+                          - columnheader "Customer" [ref=e702]
+                          - columnheader "Invoice No" [ref=e703]
+                          - columnheader "Due Amount" [ref=e704]
+                          - columnheader "Action" [ref=e705]
+                    - grid [ref=e707]:
+                      - rowgroup [ref=e708]:
+                        - row "Customer Invoice No Due Amount Action" [ref=e709]:
+                          - columnheader "Customer" [ref=e710]:
+                            - generic: Customer
+                          - columnheader "Invoice No" [ref=e711]:
+                            - generic: Invoice No
+                          - columnheader "Due Amount" [ref=e712]:
+                            - generic: Due Amount
+                          - columnheader "Action" [ref=e713]:
+                            - generic: Action
+                      - rowgroup [ref=e714]:
+                        - row "phantasm, swap Chidrewar SO2026100339 $ 0.00  Add payment" [ref=e715]:
+                          - gridcell "phantasm, swap Chidrewar" [ref=e716]:
+                            - text: phantasm,
+                            - text: swap Chidrewar
+                          - gridcell "SO2026100339" [ref=e717]:
+                            - link "SO2026100339" [ref=e718] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 0.00" [ref=e719]
+                          - gridcell " Add payment" [ref=e720]:
+                            - link " Add payment" [ref=e721] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/629
+                              - generic [ref=e722]: 
+                              - text: Add payment
+                        - row "Walk In, Walk In Customer 0081 $ 50.00  Add payment" [ref=e723]:
+                          - gridcell "Walk In, Walk In Customer" [ref=e724]:
+                            - text: Walk In,
+                            - text: Walk In Customer
+                          - gridcell "0081" [ref=e725]:
+                            - link "0081" [ref=e726] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 50.00" [ref=e727]
+                          - gridcell " Add payment" [ref=e728]:
+                            - link " Add payment" [ref=e729] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/658
+                              - generic [ref=e730]: 
+                              - text: Add payment
+                        - row "Abhi Prime, Abhisek Prime 0083 $ 50.00  Add payment" [ref=e731]:
+                          - gridcell "Abhi Prime, Abhisek Prime" [ref=e732]:
+                            - text: Abhi Prime,
+                            - text: Abhisek Prime
+                          - gridcell "0083" [ref=e733]:
+                            - link "0083" [ref=e734] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 50.00" [ref=e735]
+                          - gridcell " Add payment" [ref=e736]:
+                            - link " Add payment" [ref=e737] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/670
+                              - generic [ref=e738]: 
+                              - text: Add payment
+                        - row "Walk In, Walk In Customer 0084 $ 5,760.00  Add payment" [ref=e739]:
+                          - gridcell "Walk In, Walk In Customer" [ref=e740]:
+                            - text: Walk In,
+                            - text: Walk In Customer
+                          - gridcell "0084" [ref=e741]:
+                            - link "0084" [ref=e742] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 5,760.00" [ref=e743]
+                          - gridcell " Add payment" [ref=e744]:
+                            - link " Add payment" [ref=e745] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/691
+                              - generic [ref=e746]: 
+                              - text: Add payment
+                        - row "phantasm, swap Chidrewar 0087 $ 50.00  Add payment" [ref=e747]:
+                          - gridcell "phantasm, swap Chidrewar" [ref=e748]:
+                            - text: phantasm,
+                            - text: swap Chidrewar
+                          - gridcell "0087" [ref=e749]:
+                            - link "0087" [ref=e750] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 50.00" [ref=e751]
+                          - gridcell " Add payment" [ref=e752]:
+                            - link " Add payment" [ref=e753] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/702
+                              - generic [ref=e754]: 
+                              - text: Add payment
+                        - row "phantasm, swap Chidrewar 0088 $ 449.00  Add payment" [ref=e755]:
+                          - gridcell "phantasm, swap Chidrewar" [ref=e756]:
+                            - text: phantasm,
+                            - text: swap Chidrewar
+                          - gridcell "0088" [ref=e757]:
+                            - link "0088" [ref=e758] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 449.00" [ref=e759]
+                          - gridcell " Add payment" [ref=e760]:
+                            - link " Add payment" [ref=e761] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/704
+                              - generic [ref=e762]: 
+                              - text: Add payment
+                        - row "phantasm, swap Chidrewar 0098 $ 210.00  Add payment" [ref=e763]:
+                          - gridcell "phantasm, swap Chidrewar" [ref=e764]:
+                            - text: phantasm,
+                            - text: swap Chidrewar
+                          - gridcell "0098" [ref=e765]:
+                            - link "0098" [ref=e766] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 210.00" [ref=e767]
+                          - gridcell " Add payment" [ref=e768]:
+                            - link " Add payment" [ref=e769] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/741
+                              - generic [ref=e770]: 
+                              - text: Add payment
+                        - row "Walk In, Walk In Customer 0100 $ 120.00  Add payment" [ref=e771]:
+                          - gridcell "Walk In, Walk In Customer" [ref=e772]:
+                            - text: Walk In,
+                            - text: Walk In Customer
+                          - gridcell "0100" [ref=e773]:
+                            - link "0100" [ref=e774] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 120.00" [ref=e775]
+                          - gridcell " Add payment" [ref=e776]:
+                            - link " Add payment" [ref=e777] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/758
+                              - generic [ref=e778]: 
+                              - text: Add payment
+                        - row "il, Abhi PE 0101 $ 90.00  Add payment" [ref=e779]:
+                          - gridcell "il, Abhi PE" [ref=e780]:
+                            - text: il,
+                            - text: Abhi PE
+                          - gridcell "0101" [ref=e781]:
+                            - link "0101" [ref=e782] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 90.00" [ref=e783]
+                          - gridcell " Add payment" [ref=e784]:
+                            - link " Add payment" [ref=e785] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/763
+                              - generic [ref=e786]: 
+                              - text: Add payment
+                        - row "phantasm, swap Chidrewar 0105 $ 85.00  Add payment" [ref=e787]:
+                          - gridcell "phantasm, swap Chidrewar" [ref=e788]:
+                            - text: phantasm,
+                            - text: swap Chidrewar
+                          - gridcell "0105" [ref=e789]:
+                            - link "0105" [ref=e790] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 85.00" [ref=e791]
+                          - gridcell " Add payment" [ref=e792]:
+                            - link " Add payment" [ref=e793] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/802
+                              - generic [ref=e794]: 
+                              - text: Add payment
+                  - status [ref=e795]: Showing 1 to 10 of 72 entries
+                  - list [ref=e797]:
+                    - listitem:
+                      - link "Previous" [ref=e798]:
+                        - /url: "#"
+                    - listitem:
+                      - link "1" [ref=e799]:
+                        - /url: "#"
+                    - listitem:
+                      - link "2" [ref=e800] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem:
+                      - link "3" [ref=e801] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem:
+                      - link "4" [ref=e802] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem:
+                      - link "5" [ref=e803] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem:
+                      - link "…" [ref=e804]:
+                        - /url: "#"
+                    - listitem:
+                      - link "8" [ref=e805] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem:
+                      - link "Next" [ref=e806] [cursor=pointer]:
+                        - /url: "#"
+              - generic [ref=e807]:
+                - generic [ref=e808]:
+                  - generic [ref=e809]:
+                    - img [ref=e810]
+                    - text: Purchase Payment Due
+                    - generic [ref=e812]: 
+                  - combobox [ref=e814]:
+                    - option "Select location"
+                    - option "Smokevana Prime B2B (BL0001)" [selected]
+                    - option "Smokevana Prime B2C (BL00002)"
+                - generic [ref=e816]:
+                  - generic [ref=e817]:
+                    - link " Export CSV" [ref=e818] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e819]:
+                        - generic [ref=e820]: 
+                        - text: Export CSV
+                    - link " Export Excel" [ref=e821] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e822]:
+                        - generic [ref=e823]: 
+                        - text: Export Excel
+                    - link " Print" [ref=e824] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e825]:
+                        - generic [ref=e826]: 
+                        - text: Print
+                    - link " Column visibility" [ref=e827] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e828]:
+                        - generic [ref=e829]: 
+                        - text: Column visibility
+                    - link " Export PDF" [ref=e830] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e831]:
+                        - generic [ref=e832]: 
+                        - text: Export PDF
+                  - generic [ref=e833]:
+                    - grid [ref=e836]:
+                      - rowgroup [ref=e837]:
+                        - row "Vendor Reference No Due Amount Action" [ref=e838]:
+                          - columnheader "Vendor" [ref=e839]
+                          - columnheader "Reference No" [ref=e840]
+                          - columnheader "Due Amount" [ref=e841]
+                          - columnheader "Action" [ref=e842]
+                    - grid [ref=e844]:
+                      - rowgroup [ref=e845]:
+                        - row "Vendor Reference No Due Amount Action" [ref=e846]:
+                          - columnheader "Vendor" [ref=e847]:
+                            - generic: Vendor
+                          - columnheader "Reference No" [ref=e848]:
+                            - generic: Reference No
+                          - columnheader "Due Amount" [ref=e849]:
+                            - generic: Due Amount
+                          - columnheader "Action" [ref=e850]:
+                            - generic: Action
+                      - rowgroup [ref=e851]:
+                        - row "Test, Vender Kharwar PR2025900075 $ 20,000.00  Add payment" [ref=e852]:
+                          - gridcell "Test, Vender Kharwar" [ref=e853]:
+                            - text: Test,
+                            - text: Vender Kharwar
+                          - gridcell "PR2025900075" [ref=e854]:
+                            - link "PR2025900075" [ref=e855] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 20,000.00" [ref=e856]
+                          - gridcell " Add payment" [ref=e857]:
+                            - link " Add payment" [ref=e858] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/155
+                              - generic [ref=e859]: 
+                              - text: Add payment
+                        - row "Test, Vender Kharwar PR2025900078 $ 22,000.00  Add payment" [ref=e860]:
+                          - gridcell "Test, Vender Kharwar" [ref=e861]:
+                            - text: Test,
+                            - text: Vender Kharwar
+                          - gridcell "PR2025900078" [ref=e862]:
+                            - link "PR2025900078" [ref=e863] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 22,000.00" [ref=e864]
+                          - gridcell " Add payment" [ref=e865]:
+                            - link " Add payment" [ref=e866] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/164
+                              - generic [ref=e867]: 
+                              - text: Add payment
+                        - row "Test, Vender Kharwar PR2025900079 $ 0.00  Add payment" [ref=e868]:
+                          - gridcell "Test, Vender Kharwar" [ref=e869]:
+                            - text: Test,
+                            - text: Vender Kharwar
+                          - gridcell "PR2025900079" [ref=e870]:
+                            - link "PR2025900079" [ref=e871] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 0.00" [ref=e872]
+                          - gridcell " Add payment" [ref=e873]:
+                            - link " Add payment" [ref=e874] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/166
+                              - generic [ref=e875]: 
+                              - text: Add payment
+                        - row "Test, Vender Kharwar PR2025900080 $ 55,000.00  Add payment" [ref=e876]:
+                          - gridcell "Test, Vender Kharwar" [ref=e877]:
+                            - text: Test,
+                            - text: Vender Kharwar
+                          - gridcell "PR2025900080" [ref=e878]:
+                            - link "PR2025900080" [ref=e879] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 55,000.00" [ref=e880]
+                          - gridcell " Add payment" [ref=e881]:
+                            - link " Add payment" [ref=e882] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/167
+                              - generic [ref=e883]: 
+                              - text: Add payment
+                        - row "Test, Vender Kharwar PR2025900081 $ 30,000.00  Add payment" [ref=e884]:
+                          - gridcell "Test, Vender Kharwar" [ref=e885]:
+                            - text: Test,
+                            - text: Vender Kharwar
+                          - gridcell "PR2025900081" [ref=e886]:
+                            - link "PR2025900081" [ref=e887] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 30,000.00" [ref=e888]
+                          - gridcell " Add payment" [ref=e889]:
+                            - link " Add payment" [ref=e890] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/168
+                              - generic [ref=e891]: 
+                              - text: Add payment
+                        - row "Test, Vender Kharwar PR2025900082 $ 45,000.00  Add payment" [ref=e892]:
+                          - gridcell "Test, Vender Kharwar" [ref=e893]:
+                            - text: Test,
+                            - text: Vender Kharwar
+                          - gridcell "PR2025900082" [ref=e894]:
+                            - link "PR2025900082" [ref=e895] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 45,000.00" [ref=e896]
+                          - gridcell " Add payment" [ref=e897]:
+                            - link " Add payment" [ref=e898] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/169
+                              - generic [ref=e899]: 
+                              - text: Add payment
+                        - row "Test, Vender Kharwar PR2025900083 $ 15,000.00  Add payment" [ref=e900]:
+                          - gridcell "Test, Vender Kharwar" [ref=e901]:
+                            - text: Test,
+                            - text: Vender Kharwar
+                          - gridcell "PR2025900083" [ref=e902]:
+                            - link "PR2025900083" [ref=e903] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 15,000.00" [ref=e904]
+                          - gridcell " Add payment" [ref=e905]:
+                            - link " Add payment" [ref=e906] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/170
+                              - generic [ref=e907]: 
+                              - text: Add payment
+                        - row "Test, Vender Kharwar PR2025900084 $ 122,500.00  Add payment" [ref=e908]:
+                          - gridcell "Test, Vender Kharwar" [ref=e909]:
+                            - text: Test,
+                            - text: Vender Kharwar
+                          - gridcell "PR2025900084" [ref=e910]:
+                            - link "PR2025900084" [ref=e911] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 122,500.00" [ref=e912]
+                          - gridcell " Add payment" [ref=e913]:
+                            - link " Add payment" [ref=e914] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/171
+                              - generic [ref=e915]: 
+                              - text: Add payment
+                        - row "Test, Vender Kharwar PR2025900085 $ 140,000.00  Add payment" [ref=e916]:
+                          - gridcell "Test, Vender Kharwar" [ref=e917]:
+                            - text: Test,
+                            - text: Vender Kharwar
+                          - gridcell "PR2025900085" [ref=e918]:
+                            - link "PR2025900085" [ref=e919] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 140,000.00" [ref=e920]
+                          - gridcell " Add payment" [ref=e921]:
+                            - link " Add payment" [ref=e922] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/172
+                              - generic [ref=e923]: 
+                              - text: Add payment
+                        - row "Test, Vender Kharwar PR2025900086 $ 5,000.00  Add payment" [ref=e924]:
+                          - gridcell "Test, Vender Kharwar" [ref=e925]:
+                            - text: Test,
+                            - text: Vender Kharwar
+                          - gridcell "PR2025900086" [ref=e926]:
+                            - link "PR2025900086" [ref=e927] [cursor=pointer]:
+                              - /url: "#"
+                          - gridcell "$ 5,000.00" [ref=e928]
+                          - gridcell " Add payment" [ref=e929]:
+                            - link " Add payment" [ref=e930] [cursor=pointer]:
+                              - /url: https://smokevanaerp.phantasm-agents.ai/payments/add_payment/174
+                              - generic [ref=e931]: 
+                              - text: Add payment
+                  - status [ref=e932]: Showing 1 to 10 of 57 entries
+                  - list [ref=e934]:
+                    - listitem:
+                      - link "Previous" [ref=e935]:
+                        - /url: "#"
+                    - listitem:
+                      - link "1" [ref=e936]:
+                        - /url: "#"
+                    - listitem:
+                      - link "2" [ref=e937] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem:
+                      - link "3" [ref=e938] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem:
+                      - link "4" [ref=e939] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem:
+                      - link "5" [ref=e940] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem:
+                      - link "6" [ref=e941] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem:
+                      - link "Next" [ref=e942] [cursor=pointer]:
+                        - /url: "#"
+            - generic [ref=e943]:
+              - generic [ref=e944]:
+                - heading "Product Stock Alert" [level=3] [ref=e945]:
+                  - img [ref=e946]
+                  - text: Product Stock Alert
+                  - generic [ref=e948]: 
+                - combobox [ref=e950]:
+                  - option "Select location"
+                  - option "Smokevana Prime B2B (BL0001)" [selected]
+                  - option "Smokevana Prime B2C (BL00002)"
+              - generic [ref=e952]:
+                - generic [ref=e953]:
+                  - link "Export CSV" [ref=e954] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e955]:
+                      - generic [ref=e956]: 
+                      - text: Export CSV
+                  - link "Export Excel" [ref=e957] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e958]:
+                      - generic [ref=e959]: 
+                      - text: Export Excel
+                  - link "Print" [ref=e960] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e961]:
+                      - generic [ref=e962]: 
+                      - text: Print
+                  - link "Column visibility" [ref=e963] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e964]:
+                      - generic [ref=e965]: 
+                      - text: Column visibility
+                  - link "Export PDF" [ref=e966] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e967]:
+                      - generic [ref=e968]: 
+                      - text: Export PDF
+                - generic [ref=e969]:
+                  - grid [ref=e972]:
+                    - rowgroup [ref=e973]:
+                      - row "Product Location Current stock" [ref=e974]:
+                        - columnheader "Product" [ref=e975]
+                        - columnheader "Location" [ref=e976]
+                        - columnheader "Current stock" [ref=e977]
+                  - grid [ref=e979]:
+                    - rowgroup [ref=e980]:
+                      - row "Product Location Current stock" [ref=e981]:
+                        - columnheader "Product" [ref=e982]:
+                          - generic: Product
+                        - columnheader "Location" [ref=e983]:
+                          - generic: Location
+                        - columnheader "Current stock" [ref=e984]:
+                          - generic: Current stock
+                    - rowgroup [ref=e985]:
+                      - row "bio102 (0108) Smokevana Prime B2B -1 Pc(s)" [ref=e986]:
+                        - gridcell "bio102 (0108)" [ref=e987]
+                        - gridcell "Smokevana Prime B2B" [ref=e988]
+                        - gridcell "-1 Pc(s)" [ref=e989]
+                      - row "Narco THCA Premium Pre-Rolls – 3 Grams - 2 Pack - Flavor - Blueberry Sugar – Indica (011301) Smokevana Prime B2B -1 Pc(s)" [ref=e990]:
+                        - gridcell "Narco THCA Premium Pre-Rolls – 3 Grams - 2 Pack - Flavor - Blueberry Sugar – Indica (011301)" [ref=e991]
+                        - gridcell "Smokevana Prime B2B" [ref=e992]
+                        - gridcell "-1 Pc(s)" [ref=e993]
+                      - row "Narco THCP Disposable Vape - 3ML - Flavor - Blizzard Blast (011401) Smokevana Prime B2B -1 Pc(s)" [ref=e994]:
+                        - gridcell "Narco THCP Disposable Vape - 3ML - Flavor - Blizzard Blast (011401)" [ref=e995]
+                        - gridcell "Smokevana Prime B2B" [ref=e996]
+                        - gridcell "-1 Pc(s)" [ref=e997]
+                - status [ref=e998]: Showing 1 to 3 of 3 entries
+                - list [ref=e1000]:
+                  - listitem:
+                    - link "Previous" [ref=e1001]:
+                      - /url: "#"
+                  - listitem:
+                    - link "1" [ref=e1002]:
+                      - /url: "#"
+                  - listitem:
+                    - link "Next" [ref=e1003]:
+                      - /url: "#"
+            - generic [ref=e1004]:
+              - generic [ref=e1005]:
+                - generic [ref=e1006]:
+                  - img [ref=e1007]
+                  - text: Sales Order
+                - combobox [ref=e1011]:
+                  - option "Select location"
+                  - option "Smokevana Prime B2B (BL0001)" [selected]
+                  - option "Smokevana Prime B2C (BL00002)"
+              - generic [ref=e1013]:
+                - generic [ref=e1014]:
+                  - generic [ref=e1017]:
+                    - text: Show
+                    - combobox "Show entries" [ref=e1018]:
+                      - option "10" [selected]
+                      - option "25"
+                      - option "50"
+                      - option "100"
+                      - option "All"
+                    - text: entries
+                  - searchbox [ref=e1022]
+                  - generic [ref=e1024]:
+                    - link "Export CSV" [ref=e1025] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1026]:
+                        - generic [ref=e1027]: 
+                        - text: Export CSV
+                    - link "Export Excel" [ref=e1028] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1029]:
+                        - generic [ref=e1030]: 
+                        - text: Export Excel
+                    - link "Print" [ref=e1031] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1032]:
+                        - generic [ref=e1033]: 
+                        - text: Print
+                    - link "Column visibility" [ref=e1034] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1035]:
+                        - generic [ref=e1036]: 
+                        - text: Column visibility
+                    - link "Export PDF" [ref=e1037] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1038]:
+                        - generic [ref=e1039]: 
+                        - text: Export PDF
+                - generic [ref=e1040]:
+                  - grid [ref=e1043]:
+                    - rowgroup [ref=e1044]:
+                      - 'row "Date: activate to sort column ascending Order No.: activate to sort column ascending Customer name: activate to sort column ascending Contact Number: activate to sort column ascending Location: activate to sort column ascending Shipping Status: activate to sort column ascending Quantity Remaining: activate to sort column ascending Added By: activate to sort column ascending Action" [ref=e1045]':
+                        - 'columnheader "Date: activate to sort column ascending" [ref=e1046] [cursor=pointer]': Date 
+                        - 'columnheader "Order No.: activate to sort column ascending" [ref=e1047] [cursor=pointer]': Order No. 
+                        - 'columnheader "Customer name: activate to sort column ascending" [ref=e1048] [cursor=pointer]': Customer name 
+                        - 'columnheader "Contact Number: activate to sort column ascending" [ref=e1049] [cursor=pointer]': Contact Number 
+                        - 'columnheader "Location: activate to sort column ascending" [ref=e1050] [cursor=pointer]': Location 
+                        - 'columnheader "Shipping Status: activate to sort column ascending" [ref=e1051] [cursor=pointer]': Shipping Status 
+                        - 'columnheader "Quantity Remaining: activate to sort column ascending" [ref=e1052] [cursor=pointer]': Quantity Remaining 
+                        - 'columnheader "Added By: activate to sort column ascending" [ref=e1053] [cursor=pointer]': Added By 
+                        - columnheader "Action" [ref=e1054]
+                  - grid [ref=e1056]:
+                    - rowgroup [ref=e1057]:
+                      - 'row "Date: activate to sort column ascending Order No.: activate to sort column ascending Customer name: activate to sort column ascending Contact Number: activate to sort column ascending Location: activate to sort column ascending Shipping Status: activate to sort column ascending Quantity Remaining: activate to sort column ascending Added By: activate to sort column ascending Action" [ref=e1058]':
+                        - 'columnheader "Date: activate to sort column ascending" [ref=e1059] [cursor=pointer]':
+                          - generic: Date
+                        - 'columnheader "Order No.: activate to sort column ascending" [ref=e1060] [cursor=pointer]':
+                          - generic: Order No.
+                        - 'columnheader "Customer name: activate to sort column ascending" [ref=e1061] [cursor=pointer]':
+                          - generic: Customer name
+                        - 'columnheader "Contact Number: activate to sort column ascending" [ref=e1062] [cursor=pointer]':
+                          - generic: Contact Number
+                        - 'columnheader "Location: activate to sort column ascending" [ref=e1063] [cursor=pointer]':
+                          - generic: Location
+                        - 'columnheader "Shipping Status: activate to sort column ascending" [ref=e1064] [cursor=pointer]':
+                          - generic: Shipping Status
+                        - 'columnheader "Quantity Remaining: activate to sort column ascending" [ref=e1065] [cursor=pointer]':
+                          - generic: Quantity Remaining
+                        - 'columnheader "Added By: activate to sort column ascending" [ref=e1066] [cursor=pointer]':
+                          - generic: Added By
+                        - columnheader "Action" [ref=e1067]:
+                          - generic: Action
+                    - rowgroup [ref=e1068]:
+                      - row "03/31/2026 00:26 SO2026300760 Mr. shashank kanvsh Shashank.Elights 1234567891 Smokevana Prime B2B 1 admin Actions Toggle Dropdown" [ref=e1069] [cursor=pointer]:
+                        - gridcell "03/31/2026 00:26" [ref=e1070]
+                        - gridcell "SO2026300760" [ref=e1071]
+                        - gridcell "Mr. shashank kanvsh Shashank.Elights" [ref=e1072]:
+                          - link "Mr. shashank kanvsh Shashank.Elights" [ref=e1073]:
+                            - /url: /contacts/1255?type=customer
+                        - gridcell "1234567891" [ref=e1074]
+                        - gridcell "Smokevana Prime B2B" [ref=e1075]
+                        - gridcell [ref=e1076]
+                        - gridcell "1" [ref=e1077]
+                        - gridcell "admin" [ref=e1078]:
+                          - link "admin" [ref=e1079]:
+                            - /url: /users/1
+                            - generic [ref=e1080]: admin
+                        - gridcell "Actions Toggle Dropdown" [ref=e1081]:
+                          - generic [ref=e1083]:
+                            - button "Actions Toggle Dropdown" [ref=e1084]:
+                              - text: Actions
+                              - generic [ref=e1086]: Toggle Dropdown
+                            - text:    
+                      - row "03/30/2026 21:42 SO2026300758 Harsha VC HarshaVC 7756632580 Smokevana Prime B2B 10 admin Actions Toggle Dropdown" [ref=e1087] [cursor=pointer]:
+                        - gridcell "03/30/2026 21:42" [ref=e1088]
+                        - gridcell "SO2026300758" [ref=e1089]
+                        - gridcell "Harsha VC HarshaVC" [ref=e1090]:
+                          - link "Harsha VC HarshaVC" [ref=e1091]:
+                            - /url: /contacts/1262?type=customer
+                        - gridcell "7756632580" [ref=e1092]
+                        - gridcell "Smokevana Prime B2B" [ref=e1093]
+                        - gridcell [ref=e1094]
+                        - gridcell "10" [ref=e1095]
+                        - gridcell "admin" [ref=e1096]:
+                          - link "admin" [ref=e1097]:
+                            - /url: /users/1
+                            - generic [ref=e1098]: admin
+                        - gridcell "Actions Toggle Dropdown" [ref=e1099]:
+                          - generic [ref=e1101]:
+                            - button "Actions Toggle Dropdown" [ref=e1102]:
+                              - text: Actions
+                              - generic [ref=e1104]: Toggle Dropdown
+                            - text:     
+                      - row "03/30/2026 20:34 SO2026300755 Harsha Test Harsha Test 7731841040 Smokevana Prime B2B 4 admin Actions Toggle Dropdown" [ref=e1105] [cursor=pointer]:
+                        - gridcell "03/30/2026 20:34" [ref=e1106]
+                        - gridcell "SO2026300755" [ref=e1107]
+                        - gridcell "Harsha Test Harsha Test" [ref=e1108]:
+                          - link "Harsha Test Harsha Test" [ref=e1109]:
+                            - /url: /contacts/1212?type=customer
+                        - gridcell "7731841040" [ref=e1110]
+                        - gridcell "Smokevana Prime B2B" [ref=e1111]
+                        - gridcell [ref=e1112]
+                        - gridcell "4" [ref=e1113]
+                        - gridcell "admin" [ref=e1114]:
+                          - link "admin" [ref=e1115]:
+                            - /url: /users/1
+                            - generic [ref=e1116]: admin
+                        - gridcell "Actions Toggle Dropdown" [ref=e1117]:
+                          - generic [ref=e1119]:
+                            - button "Actions Toggle Dropdown" [ref=e1120]:
+                              - text: Actions
+                              - generic [ref=e1122]: Toggle Dropdown
+                            - text:     
+                      - row "03/30/2026 18:40 SO2026300753 Anwar Test Shaik Shop 2 2020202020 Smokevana Prime B2B 112 admin Actions Toggle Dropdown" [ref=e1123] [cursor=pointer]:
+                        - gridcell "03/30/2026 18:40" [ref=e1124]
+                        - gridcell "SO2026300753" [ref=e1125]
+                        - gridcell "Anwar Test Shaik Shop 2" [ref=e1126]:
+                          - link "Anwar Test Shaik Shop 2" [ref=e1127]:
+                            - /url: /contacts/1273?type=customer
+                        - gridcell "2020202020" [ref=e1128]
+                        - gridcell "Smokevana Prime B2B" [ref=e1129]
+                        - gridcell [ref=e1130]
+                        - gridcell "112" [ref=e1131]
+                        - gridcell "admin" [ref=e1132]:
+                          - link "admin" [ref=e1133]:
+                            - /url: /users/1
+                            - generic [ref=e1134]: admin
+                        - gridcell "Actions Toggle Dropdown" [ref=e1135]:
+                          - generic [ref=e1137]:
+                            - button "Actions Toggle Dropdown" [ref=e1138]:
+                              - text: Actions
+                              - generic [ref=e1140]: Toggle Dropdown
+                            - text:     
+                      - row "03/30/2026 17:57 SO2026300752 ummer shaik ABC Company 7896541230 Smokevana Prime B2B 4 admin Actions Toggle Dropdown" [ref=e1141] [cursor=pointer]:
+                        - gridcell "03/30/2026 17:57" [ref=e1142]
+                        - gridcell "SO2026300752" [ref=e1143]
+                        - gridcell "ummer shaik ABC Company" [ref=e1144]:
+                          - link "ummer shaik ABC Company" [ref=e1145]:
+                            - /url: /contacts/35?type=customer
+                        - gridcell "7896541230" [ref=e1146]
+                        - gridcell "Smokevana Prime B2B" [ref=e1147]
+                        - gridcell [ref=e1148]
+                        - gridcell "4" [ref=e1149]
+                        - gridcell "admin" [ref=e1150]:
+                          - link "admin" [ref=e1151]:
+                            - /url: /users/1
+                            - generic [ref=e1152]: admin
+                        - gridcell "Actions Toggle Dropdown" [ref=e1153]:
+                          - generic [ref=e1155]:
+                            - button "Actions Toggle Dropdown" [ref=e1156]:
+                              - text: Actions
+                              - generic [ref=e1158]: Toggle Dropdown
+                            - text:     
+                      - row "03/30/2026 14:59 SO2026300750 Abhisek Gold Prime Gold 3030303030 Smokevana Prime B2B 10 admin Actions Toggle Dropdown" [ref=e1159] [cursor=pointer]:
+                        - gridcell "03/30/2026 14:59" [ref=e1160]
+                        - gridcell "SO2026300750" [ref=e1161]
+                        - gridcell "Abhisek Gold Prime Gold" [ref=e1162]:
+                          - link "Abhisek Gold Prime Gold" [ref=e1163]:
+                            - /url: /contacts/1206?type=customer
+                        - gridcell "3030303030" [ref=e1164]
+                        - gridcell "Smokevana Prime B2B" [ref=e1165]
+                        - gridcell [ref=e1166]
+                        - gridcell "10" [ref=e1167]
+                        - gridcell "admin" [ref=e1168]:
+                          - link "admin" [ref=e1169]:
+                            - /url: /users/1
+                            - generic [ref=e1170]: admin
+                        - gridcell "Actions Toggle Dropdown" [ref=e1171]:
+                          - generic [ref=e1173]:
+                            - button "Actions Toggle Dropdown" [ref=e1174]:
+                              - text: Actions
+                              - generic [ref=e1176]: Toggle Dropdown
+                            - text:     
+                      - row "03/30/2026 12:41 SO2026300748 Anwar Test Shaik Shop 2 2020202020 Smokevana Prime B2B 5 admin Actions Toggle Dropdown" [ref=e1177] [cursor=pointer]:
+                        - gridcell "03/30/2026 12:41" [ref=e1178]
+                        - gridcell "SO2026300748" [ref=e1179]
+                        - gridcell "Anwar Test Shaik Shop 2" [ref=e1180]:
+                          - link "Anwar Test Shaik Shop 2" [ref=e1181]:
+                            - /url: /contacts/1273?type=customer
+                        - gridcell "2020202020" [ref=e1182]
+                        - gridcell "Smokevana Prime B2B" [ref=e1183]
+                        - gridcell [ref=e1184]
+                        - gridcell "5" [ref=e1185]
+                        - gridcell "admin" [ref=e1186]:
+                          - link "admin" [ref=e1187]:
+                            - /url: /users/1
+                            - generic [ref=e1188]: admin
+                        - gridcell "Actions Toggle Dropdown" [ref=e1189]:
+                          - generic [ref=e1191]:
+                            - button "Actions Toggle Dropdown" [ref=e1192]:
+                              - text: Actions
+                              - generic [ref=e1194]: Toggle Dropdown
+                            - text:     
+                      - row "03/30/2026 12:41 SO2026300747 Anwar Test Shaik Shop 2 2020202020 Smokevana Prime B2B 20 admin Actions Toggle Dropdown" [ref=e1195] [cursor=pointer]:
+                        - gridcell "03/30/2026 12:41" [ref=e1196]
+                        - gridcell "SO2026300747" [ref=e1197]
+                        - gridcell "Anwar Test Shaik Shop 2" [ref=e1198]:
+                          - link "Anwar Test Shaik Shop 2" [ref=e1199]:
+                            - /url: /contacts/1273?type=customer
+                        - gridcell "2020202020" [ref=e1200]
+                        - gridcell "Smokevana Prime B2B" [ref=e1201]
+                        - gridcell [ref=e1202]
+                        - gridcell "20" [ref=e1203]
+                        - gridcell "admin" [ref=e1204]:
+                          - link "admin" [ref=e1205]:
+                            - /url: /users/1
+                            - generic [ref=e1206]: admin
+                        - gridcell "Actions Toggle Dropdown" [ref=e1207]:
+                          - generic [ref=e1209]:
+                            - button "Actions Toggle Dropdown" [ref=e1210]:
+                              - text: Actions
+                              - generic [ref=e1212]: Toggle Dropdown
+                            - text:     
+                      - row "03/30/2026 12:37 SO2026300746 Anwar Test Shaik Shop 2 2020202020 Smokevana Prime B2B 1 admin Actions Toggle Dropdown" [ref=e1213] [cursor=pointer]:
+                        - gridcell "03/30/2026 12:37" [ref=e1214]
+                        - gridcell "SO2026300746" [ref=e1215]
+                        - gridcell "Anwar Test Shaik Shop 2" [ref=e1216]:
+                          - link "Anwar Test Shaik Shop 2" [ref=e1217]:
+                            - /url: /contacts/1273?type=customer
+                        - gridcell "2020202020" [ref=e1218]
+                        - gridcell "Smokevana Prime B2B" [ref=e1219]
+                        - gridcell [ref=e1220]
+                        - gridcell "1" [ref=e1221]
+                        - gridcell "admin" [ref=e1222]:
+                          - link "admin" [ref=e1223]:
+                            - /url: /users/1
+                            - generic [ref=e1224]: admin
+                        - gridcell "Actions Toggle Dropdown" [ref=e1225]:
+                          - generic [ref=e1227]:
+                            - button "Actions Toggle Dropdown" [ref=e1228]:
+                              - text: Actions
+                              - generic [ref=e1230]: Toggle Dropdown
+                            - text:     
+                      - row "03/28/2026 19:44 SO2026300743 ummer shaik ABC Company 7896541230 Smokevana Prime B2B 1 admin Actions Toggle Dropdown" [ref=e1231] [cursor=pointer]:
+                        - gridcell "03/28/2026 19:44" [ref=e1232]
+                        - gridcell "SO2026300743" [ref=e1233]
+                        - gridcell "ummer shaik ABC Company" [ref=e1234]:
+                          - link "ummer shaik ABC Company" [ref=e1235]:
+                            - /url: /contacts/35?type=customer
+                        - gridcell "7896541230" [ref=e1236]
+                        - gridcell "Smokevana Prime B2B" [ref=e1237]
+                        - gridcell [ref=e1238]
+                        - gridcell "1" [ref=e1239]
+                        - gridcell "admin" [ref=e1240]:
+                          - link "admin" [ref=e1241]:
+                            - /url: /users/1
+                            - generic [ref=e1242]: admin
+                        - gridcell "Actions Toggle Dropdown" [ref=e1243]:
+                          - generic [ref=e1245]:
+                            - button "Actions Toggle Dropdown" [ref=e1246]:
+                              - text: Actions
+                              - generic [ref=e1248]: Toggle Dropdown
+                            - text:     
+                - status [ref=e1249]: Showing 1 to 10 of 269 entries
+                - list [ref=e1251]:
+                  - listitem:
+                    - link "Previous" [ref=e1252]:
+                      - /url: "#"
+                  - listitem:
+                    - link "1" [ref=e1253]:
+                      - /url: "#"
+                  - listitem:
+                    - link "2" [ref=e1254] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem:
+                    - link "3" [ref=e1255] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem:
+                    - link "4" [ref=e1256] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem:
+                    - link "5" [ref=e1257] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem:
+                    - link "…" [ref=e1258]:
+                      - /url: "#"
+                  - listitem:
+                    - link "27" [ref=e1259] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem:
+                    - link "Next" [ref=e1260] [cursor=pointer]:
+                      - /url: "#"
+            - generic [ref=e1261]:
+              - generic [ref=e1262]:
+                - heading "Purchase Order" [level=3] [ref=e1263]:
+                  - img [ref=e1264]
+                  - text: Purchase Order
+                - combobox [ref=e1267]:
+                  - option "Select location"
+                  - option "Smokevana Prime B2B (BL0001)" [selected]
+                  - option "Smokevana Prime B2C (BL00002)"
+              - generic [ref=e1269]:
+                - generic [ref=e1270]:
+                  - generic [ref=e1273]:
+                    - text: Show
+                    - combobox "Show entries" [ref=e1274]:
+                      - option "10" [selected]
+                      - option "25"
+                      - option "50"
+                      - option "100"
+                      - option "All"
+                    - text: entries
+                  - searchbox [ref=e1278]
+                  - generic [ref=e1280]:
+                    - link "Export CSV" [ref=e1281] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1282]:
+                        - generic [ref=e1283]: 
+                        - text: Export CSV
+                    - link "Export Excel" [ref=e1284] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1285]:
+                        - generic [ref=e1286]: 
+                        - text: Export Excel
+                    - link "Print" [ref=e1287] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1288]:
+                        - generic [ref=e1289]: 
+                        - text: Print
+                    - link "Column visibility" [ref=e1290] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1291]:
+                        - generic [ref=e1292]: 
+                        - text: Column visibility
+                    - link "Export PDF" [ref=e1293] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1294]:
+                        - generic [ref=e1295]: 
+                        - text: Export PDF
+                - generic [ref=e1296]:
+                  - grid [ref=e1299]:
+                    - rowgroup [ref=e1300]:
+                      - 'row "Action Date: activate to sort column ascending Reference No: activate to sort column ascending Location: activate to sort column ascending Vendor: activate to sort column ascending Status: activate to sort column ascending Quantity Remaining: activate to sort column ascending Added By: activate to sort column ascending" [ref=e1301]':
+                        - columnheader "Action" [ref=e1302]
+                        - 'columnheader "Date: activate to sort column ascending" [ref=e1303] [cursor=pointer]': Date 
+                        - 'columnheader "Reference No: activate to sort column ascending" [ref=e1304] [cursor=pointer]': Reference No 
+                        - 'columnheader "Location: activate to sort column ascending" [ref=e1305] [cursor=pointer]': Location 
+                        - 'columnheader "Vendor: activate to sort column ascending" [ref=e1306] [cursor=pointer]': Vendor 
+                        - 'columnheader "Status: activate to sort column ascending" [ref=e1307] [cursor=pointer]': Status 
+                        - 'columnheader "Quantity Remaining: activate to sort column ascending" [ref=e1308] [cursor=pointer]': Quantity Remaining 
+                        - 'columnheader "Added By: activate to sort column ascending" [ref=e1309] [cursor=pointer]': Added By 
+                  - grid [ref=e1311]:
+                    - rowgroup [ref=e1312]:
+                      - 'row "Action Date: activate to sort column ascending Reference No: activate to sort column ascending Location: activate to sort column ascending Vendor: activate to sort column ascending Status: activate to sort column ascending Quantity Remaining: activate to sort column ascending Added By: activate to sort column ascending" [ref=e1313]':
+                        - columnheader "Action" [ref=e1314]:
+                          - generic: Action
+                        - 'columnheader "Date: activate to sort column ascending" [ref=e1315] [cursor=pointer]':
+                          - generic: Date
+                        - 'columnheader "Reference No: activate to sort column ascending" [ref=e1316] [cursor=pointer]':
+                          - generic: Reference No
+                        - 'columnheader "Location: activate to sort column ascending" [ref=e1317] [cursor=pointer]':
+                          - generic: Location
+                        - 'columnheader "Vendor: activate to sort column ascending" [ref=e1318] [cursor=pointer]':
+                          - generic: Vendor
+                        - 'columnheader "Status: activate to sort column ascending" [ref=e1319] [cursor=pointer]':
+                          - generic: Status
+                        - 'columnheader "Quantity Remaining: activate to sort column ascending" [ref=e1320] [cursor=pointer]':
+                          - generic: Quantity Remaining
+                        - 'columnheader "Added By: activate to sort column ascending" [ref=e1321] [cursor=pointer]':
+                          - generic: Added By
+                    - rowgroup [ref=e1322]:
+                      - row "Actions Toggle Dropdown 03/24/2026 03:26 VPO00006 Smokevana Prime B2B Varsha Dropship DropShipVendor Ordered 100 vendor_7" [ref=e1323] [cursor=pointer]:
+                        - gridcell "Actions Toggle Dropdown" [ref=e1324]:
+                          - generic [ref=e1325]:
+                            - button "Actions Toggle Dropdown" [ref=e1326]:
+                              - text: Actions
+                              - generic [ref=e1328]: Toggle Dropdown
+                            - text:        
+                        - gridcell "03/24/2026 03:26" [ref=e1329]
+                        - gridcell "VPO00006" [ref=e1330]
+                        - gridcell "Smokevana Prime B2B" [ref=e1331]
+                        - gridcell "Varsha Dropship DropShipVendor" [ref=e1332]:
+                          - link "Varsha Dropship DropShipVendor" [ref=e1333]:
+                            - /url: /contacts/1216?type=customer
+                        - gridcell "Ordered" [ref=e1334]
+                        - gridcell "100" [ref=e1335]
+                        - gridcell "vendor_7" [ref=e1336]:
+                          - link "vendor_7" [ref=e1337]:
+                            - /url: /users/57
+                            - generic [ref=e1338]: vendor_7
+                      - row "Actions Toggle Dropdown 03/24/2026 03:25 VPO00005 Smokevana Prime B2B Ordered 1 vendor_7" [ref=e1339] [cursor=pointer]:
+                        - gridcell "Actions Toggle Dropdown" [ref=e1340]:
+                          - generic [ref=e1341]:
+                            - button "Actions Toggle Dropdown" [ref=e1342]:
+                              - text: Actions
+                              - generic [ref=e1344]: Toggle Dropdown
+                            - text:        
+                        - gridcell "03/24/2026 03:25" [ref=e1345]
+                        - gridcell "VPO00005" [ref=e1346]
+                        - gridcell "Smokevana Prime B2B" [ref=e1347]
+                        - gridcell [ref=e1348]:
+                          - link:
+                            - /url: /contacts/?type=customer
+                        - gridcell "Ordered" [ref=e1349]
+                        - gridcell "1" [ref=e1350]
+                        - gridcell "vendor_7" [ref=e1351]:
+                          - link "vendor_7" [ref=e1352]:
+                            - /url: /users/57
+                            - generic [ref=e1353]: vendor_7
+                      - row "Actions Toggle Dropdown 03/17/2026 03:08 VPO00004 Smokevana Prime B2B Ordered 20 vendor_3" [ref=e1354] [cursor=pointer]:
+                        - gridcell "Actions Toggle Dropdown" [ref=e1355]:
+                          - generic [ref=e1356]:
+                            - button "Actions Toggle Dropdown" [ref=e1357]:
+                              - text: Actions
+                              - generic [ref=e1359]: Toggle Dropdown
+                            - text:        
+                        - gridcell "03/17/2026 03:08" [ref=e1360]
+                        - gridcell "VPO00004" [ref=e1361]
+                        - gridcell "Smokevana Prime B2B" [ref=e1362]
+                        - gridcell [ref=e1363]:
+                          - link:
+                            - /url: /contacts/?type=customer
+                        - gridcell "Ordered" [ref=e1364]
+                        - gridcell "20" [ref=e1365]
+                        - gridcell "vendor_3" [ref=e1366]:
+                          - link "vendor_3" [ref=e1367]:
+                            - /url: /users/37
+                            - generic [ref=e1368]: vendor_3
+                      - row "Actions Toggle Dropdown 03/14/2026 04:28 PO2026300045 Smokevana Prime B2B Varsha Harsha Varsha Vendor Ordered 10 admin" [ref=e1369] [cursor=pointer]:
+                        - gridcell "Actions Toggle Dropdown" [ref=e1370]:
+                          - generic [ref=e1371]:
+                            - button "Actions Toggle Dropdown" [ref=e1372]:
+                              - text: Actions
+                              - generic [ref=e1374]: Toggle Dropdown
+                            - text:        
+                        - gridcell "03/14/2026 04:28" [ref=e1375]
+                        - gridcell "PO2026300045" [ref=e1376]
+                        - gridcell "Smokevana Prime B2B" [ref=e1377]
+                        - gridcell "Varsha Harsha Varsha Vendor" [ref=e1378]:
+                          - link "Varsha Harsha Varsha Vendor" [ref=e1379]:
+                            - /url: /contacts/1242?type=customer
+                        - gridcell "Ordered" [ref=e1380]
+                        - gridcell "10" [ref=e1381]
+                        - gridcell "admin" [ref=e1382]:
+                          - link "admin" [ref=e1383]:
+                            - /url: /users/1
+                            - generic [ref=e1384]: admin
+                      - row "Actions Toggle Dropdown 03/07/2026 00:19 PO2026300041 Smokevana Prime B2B Harsha manoj test Partial 5 admin" [ref=e1385] [cursor=pointer]:
+                        - gridcell "Actions Toggle Dropdown" [ref=e1386]:
+                          - generic [ref=e1387]:
+                            - button "Actions Toggle Dropdown" [ref=e1388]:
+                              - text: Actions
+                              - generic [ref=e1390]: Toggle Dropdown
+                            - text:        
+                        - gridcell "03/07/2026 00:19" [ref=e1391]
+                        - gridcell "PO2026300041" [ref=e1392]
+                        - gridcell "Smokevana Prime B2B" [ref=e1393]
+                        - gridcell "Harsha manoj test" [ref=e1394]:
+                          - link "Harsha manoj test" [ref=e1395]:
+                            - /url: /contacts/1213?type=customer
+                        - gridcell "Partial" [ref=e1396]
+                        - gridcell "5" [ref=e1397]
+                        - gridcell "admin" [ref=e1398]:
+                          - link "admin" [ref=e1399]:
+                            - /url: /users/1
+                            - generic [ref=e1400]: admin
+                      - row "Actions Toggle Dropdown 03/06/2026 21:48 PO2026300040 Smokevana Prime B2B Harsha VC HYD Ordered 10 admin" [ref=e1401] [cursor=pointer]:
+                        - gridcell "Actions Toggle Dropdown" [ref=e1402]:
+                          - generic [ref=e1403]:
+                            - button "Actions Toggle Dropdown" [ref=e1404]:
+                              - text: Actions
+                              - generic [ref=e1406]: Toggle Dropdown
+                            - text:        
+                        - gridcell "03/06/2026 21:48" [ref=e1407]
+                        - gridcell "PO2026300040" [ref=e1408]
+                        - gridcell "Smokevana Prime B2B" [ref=e1409]
+                        - gridcell "Harsha VC HYD" [ref=e1410]:
+                          - link "Harsha VC HYD" [ref=e1411]:
+                            - /url: /contacts/1214?type=customer
+                        - gridcell "Ordered" [ref=e1412]
+                        - gridcell "10" [ref=e1413]
+                        - gridcell "admin" [ref=e1414]:
+                          - link "admin" [ref=e1415]:
+                            - /url: /users/1
+                            - generic [ref=e1416]: admin
+                      - row "Actions Toggle Dropdown 02/27/2026 00:10 PO2026200038 Smokevana Prime B2B Harsha VC HYD Ordered 100 admin" [ref=e1417] [cursor=pointer]:
+                        - gridcell "Actions Toggle Dropdown" [ref=e1418]:
+                          - generic [ref=e1419]:
+                            - button "Actions Toggle Dropdown" [ref=e1420]:
+                              - text: Actions
+                              - generic [ref=e1422]: Toggle Dropdown
+                            - text:        
+                        - gridcell "02/27/2026 00:10" [ref=e1423]
+                        - gridcell "PO2026200038" [ref=e1424]
+                        - gridcell "Smokevana Prime B2B" [ref=e1425]
+                        - gridcell "Harsha VC HYD" [ref=e1426]:
+                          - link "Harsha VC HYD" [ref=e1427]:
+                            - /url: /contacts/1214?type=customer
+                        - gridcell "Ordered" [ref=e1428]
+                        - gridcell "100" [ref=e1429]
+                        - gridcell "admin" [ref=e1430]:
+                          - link "admin" [ref=e1431]:
+                            - /url: /users/1
+                            - generic [ref=e1432]: admin
+                      - row "Actions Toggle Dropdown 02/27/2026 00:09 VPO00003 Smokevana Prime B2B Ordered 100 vendor_7" [ref=e1433] [cursor=pointer]:
+                        - gridcell "Actions Toggle Dropdown" [ref=e1434]:
+                          - generic [ref=e1435]:
+                            - button "Actions Toggle Dropdown" [ref=e1436]:
+                              - text: Actions
+                              - generic [ref=e1438]: Toggle Dropdown
+                            - text:        
+                        - gridcell "02/27/2026 00:09" [ref=e1439]
+                        - gridcell "VPO00003" [ref=e1440]
+                        - gridcell "Smokevana Prime B2B" [ref=e1441]
+                        - gridcell [ref=e1442]:
+                          - link:
+                            - /url: /contacts/?type=customer
+                        - gridcell "Ordered" [ref=e1443]
+                        - gridcell "100" [ref=e1444]
+                        - gridcell "vendor_7" [ref=e1445]:
+                          - link "vendor_7" [ref=e1446]:
+                            - /url: /users/57
+                            - generic [ref=e1447]: vendor_7
+                      - row "Actions Toggle Dropdown 02/26/2026 19:21 VPO00002 Smokevana Prime B2B Ordered 100 vendor_7" [ref=e1448] [cursor=pointer]:
+                        - gridcell "Actions Toggle Dropdown" [ref=e1449]:
+                          - generic [ref=e1450]:
+                            - button "Actions Toggle Dropdown" [ref=e1451]:
+                              - text: Actions
+                              - generic [ref=e1453]: Toggle Dropdown
+                            - text:        
+                        - gridcell "02/26/2026 19:21" [ref=e1454]
+                        - gridcell "VPO00002" [ref=e1455]
+                        - gridcell "Smokevana Prime B2B" [ref=e1456]
+                        - gridcell [ref=e1457]:
+                          - link:
+                            - /url: /contacts/?type=customer
+                        - gridcell "Ordered" [ref=e1458]
+                        - gridcell "100" [ref=e1459]
+                        - gridcell "vendor_7" [ref=e1460]:
+                          - link "vendor_7" [ref=e1461]:
+                            - /url: /users/57
+                            - generic [ref=e1462]: vendor_7
+                      - row "Actions Toggle Dropdown 02/07/2026 02:45 PO2026200037 Smokevana Prime B2B Harsha manoj test Ordered 400 admin" [ref=e1463] [cursor=pointer]:
+                        - gridcell "Actions Toggle Dropdown" [ref=e1464]:
+                          - generic [ref=e1465]:
+                            - button "Actions Toggle Dropdown" [ref=e1466]:
+                              - text: Actions
+                              - generic [ref=e1468]: Toggle Dropdown
+                            - text:        
+                        - gridcell "02/07/2026 02:45" [ref=e1469]
+                        - gridcell "PO2026200037" [ref=e1470]
+                        - gridcell "Smokevana Prime B2B" [ref=e1471]
+                        - gridcell "Harsha manoj test" [ref=e1472]:
+                          - link "Harsha manoj test" [ref=e1473]:
+                            - /url: /contacts/1213?type=customer
+                        - gridcell "Ordered" [ref=e1474]
+                        - gridcell "400" [ref=e1475]
+                        - gridcell "admin" [ref=e1476]:
+                          - link "admin" [ref=e1477]:
+                            - /url: /users/1
+                            - generic [ref=e1478]: admin
+                - status [ref=e1479]: Showing 1 to 10 of 17 entries
+                - list [ref=e1481]:
+                  - listitem:
+                    - link "Previous" [ref=e1482]:
+                      - /url: "#"
+                  - listitem:
+                    - link "1" [ref=e1483]:
+                      - /url: "#"
+                  - listitem:
+                    - link "2" [ref=e1484] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem:
+                    - link "Next" [ref=e1485] [cursor=pointer]:
+                      - /url: "#"
+            - generic [ref=e1486]:
+              - generic [ref=e1487]:
+                - heading "Pending Shipments" [level=3] [ref=e1488]:
+                  - img [ref=e1489]
+                  - text: Pending Shipments
+                - combobox [ref=e1494]:
+                  - option "Select location"
+                  - option "Smokevana Prime B2B (BL0001)" [selected]
+                  - option "Smokevana Prime B2C (BL00002)"
+              - generic [ref=e1496]:
+                - generic [ref=e1497]:
+                  - generic [ref=e1500]:
+                    - text: Show
+                    - combobox "Show entries" [ref=e1501]:
+                      - option "10" [selected]
+                      - option "25"
+                      - option "50"
+                      - option "100"
+                      - option "All"
+                    - text: entries
+                  - searchbox [ref=e1505]
+                  - generic [ref=e1507]:
+                    - link "Export CSV" [ref=e1508] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1509]:
+                        - generic [ref=e1510]: 
+                        - text: Export CSV
+                    - link "Export Excel" [ref=e1511] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1512]:
+                        - generic [ref=e1513]: 
+                        - text: Export Excel
+                    - link "Print" [ref=e1514] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1515]:
+                        - generic [ref=e1516]: 
+                        - text: Print
+                    - link "Column visibility" [ref=e1517] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1518]:
+                        - generic [ref=e1519]: 
+                        - text: Column visibility
+                    - link "Export PDF" [ref=e1520] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e1521]:
+                        - generic [ref=e1522]: 
+                        - text: Export PDF
+                - generic [ref=e1523]:
+                  - grid [ref=e1526]:
+                    - rowgroup [ref=e1527]:
+                      - 'row "Date: activate to sort column ascending Invoice No: activate to sort column ascending Customer name: activate to sort column ascending Contact Number: activate to sort column ascending Location: activate to sort column ascending Shipping Status: activate to sort column ascending Payment Status: activate to sort column ascending Action" [ref=e1528]':
+                        - 'columnheader "Date: activate to sort column ascending" [ref=e1529] [cursor=pointer]': Date 
+                        - 'columnheader "Invoice No: activate to sort column ascending" [ref=e1530] [cursor=pointer]': Invoice No 
+                        - 'columnheader "Customer name: activate to sort column ascending" [ref=e1531] [cursor=pointer]': Customer name 
+                        - 'columnheader "Contact Number: activate to sort column ascending" [ref=e1532] [cursor=pointer]': Contact Number 
+                        - 'columnheader "Location: activate to sort column ascending" [ref=e1533] [cursor=pointer]': Location 
+                        - 'columnheader "Shipping Status: activate to sort column ascending" [ref=e1534] [cursor=pointer]': Shipping Status 
+                        - 'columnheader "Payment Status: activate to sort column ascending" [ref=e1535] [cursor=pointer]': Payment Status 
+                        - columnheader "Action" [ref=e1536]
+                  - grid [ref=e1538]:
+                    - rowgroup [ref=e1539]:
+                      - 'row "Date: activate to sort column ascending Invoice No: activate to sort column ascending Customer name: activate to sort column ascending Contact Number: activate to sort column ascending Location: activate to sort column ascending Shipping Status: activate to sort column ascending Payment Status: activate to sort column ascending Action" [ref=e1540]':
+                        - 'columnheader "Date: activate to sort column ascending" [ref=e1541] [cursor=pointer]':
+                          - generic: Date
+                        - 'columnheader "Invoice No: activate to sort column ascending" [ref=e1542] [cursor=pointer]':
+                          - generic: Invoice No
+                        - 'columnheader "Customer name: activate to sort column ascending" [ref=e1543] [cursor=pointer]':
+                          - generic: Customer name
+                        - 'columnheader "Contact Number: activate to sort column ascending" [ref=e1544] [cursor=pointer]':
+                          - generic: Contact Number
+                        - 'columnheader "Location: activate to sort column ascending" [ref=e1545] [cursor=pointer]':
+                          - generic: Location
+                        - 'columnheader "Shipping Status: activate to sort column ascending" [ref=e1546] [cursor=pointer]':
+                          - generic: Shipping Status
+                        - 'columnheader "Payment Status: activate to sort column ascending" [ref=e1547] [cursor=pointer]':
+                          - generic: Payment Status
+                        - columnheader "Action" [ref=e1548]:
+                          - generic: Action
+                    - rowgroup [ref=e1549]:
+                      - row "03/23/2026 23:43 0216 swap Chidrewar phantasm 7337546393 Smokevana Prime B2B Shipped Due Actions Toggle Dropdown" [ref=e1550] [cursor=pointer]:
+                        - gridcell "03/23/2026 23:43" [ref=e1551]
+                        - gridcell "0216" [ref=e1552]
+                        - gridcell "swap Chidrewar phantasm" [ref=e1553]:
+                          - link "swap Chidrewar phantasm" [ref=e1554]:
+                            - /url: /contacts/8?type=customer
+                        - gridcell "7337546393" [ref=e1555]
+                        - gridcell "Smokevana Prime B2B" [ref=e1556]
+                        - gridcell "Shipped" [ref=e1557]:
+                          - link "Shipped" [ref=e1558]:
+                            - /url: "#"
+                        - gridcell "Due" [ref=e1559]:
+                          - link "Due" [ref=e1560]:
+                            - /url: "#"
+                        - gridcell "Actions Toggle Dropdown" [ref=e1561]:
+                          - generic [ref=e1563]:
+                            - button "Actions Toggle Dropdown" [ref=e1564]:
+                              - text: Actions
+                              - generic [ref=e1566]: Toggle Dropdown
+                            - text:        
+                      - row "03/04/2026 18:30 0157 Walk In Customer Walk In 3456789012 Smokevana Prime B2B Partial Actions Toggle Dropdown" [ref=e1567] [cursor=pointer]:
+                        - gridcell "03/04/2026 18:30" [ref=e1568]
+                        - gridcell "0157" [ref=e1569]
+                        - gridcell "Walk In Customer Walk In" [ref=e1570]:
+                          - link "Walk In Customer Walk In" [ref=e1571]:
+                            - /url: /contacts/1?type=customer
+                        - gridcell "3456789012" [ref=e1572]
+                        - gridcell "Smokevana Prime B2B" [ref=e1573]
+                        - gridcell [ref=e1574]
+                        - gridcell "Partial" [ref=e1575]:
+                          - link "Partial" [ref=e1576]:
+                            - /url: "#"
+                        - gridcell "Actions Toggle Dropdown" [ref=e1577]:
+                          - generic [ref=e1579]:
+                            - button "Actions Toggle Dropdown" [ref=e1580]:
+                              - text: Actions
+                              - generic [ref=e1582]: Toggle Dropdown
+                            - text:        
+                      - row "03/04/2026 18:10 0156 Mr. Sruthi User 3256980741 Smokevana Prime B2B Paid Actions Toggle Dropdown" [ref=e1583] [cursor=pointer]:
+                        - gridcell "03/04/2026 18:10" [ref=e1584]
+                        - gridcell "0156" [ref=e1585]
+                        - gridcell "Mr. Sruthi User" [ref=e1586]:
+                          - link "Mr. Sruthi User" [ref=e1587]:
+                            - /url: /contacts/1234?type=customer
+                        - gridcell "3256980741" [ref=e1588]
+                        - gridcell "Smokevana Prime B2B" [ref=e1589]
+                        - gridcell [ref=e1590]
+                        - gridcell "Paid" [ref=e1591]:
+                          - link "Paid" [ref=e1592]:
+                            - /url: "#"
+                        - gridcell "Actions Toggle Dropdown" [ref=e1593]:
+                          - generic [ref=e1595]:
+                            - button "Actions Toggle Dropdown" [ref=e1596]:
+                              - text: Actions
+                              - generic [ref=e1598]: Toggle Dropdown
+                            - text:        
+                      - row "03/04/2026 14:41 0155 Mr. Sruthi User 3256980741 Smokevana Prime B2B Partial Actions Toggle Dropdown" [ref=e1599] [cursor=pointer]:
+                        - gridcell "03/04/2026 14:41" [ref=e1600]
+                        - gridcell "0155" [ref=e1601]
+                        - gridcell "Mr. Sruthi User" [ref=e1602]:
+                          - link "Mr. Sruthi User" [ref=e1603]:
+                            - /url: /contacts/1234?type=customer
+                        - gridcell "3256980741" [ref=e1604]
+                        - gridcell "Smokevana Prime B2B" [ref=e1605]
+                        - gridcell [ref=e1606]
+                        - gridcell "Partial" [ref=e1607]:
+                          - link "Partial" [ref=e1608]:
+                            - /url: "#"
+                        - gridcell "Actions Toggle Dropdown" [ref=e1609]:
+                          - generic [ref=e1611]:
+                            - button "Actions Toggle Dropdown" [ref=e1612]:
+                              - text: Actions
+                              - generic [ref=e1614]: Toggle Dropdown
+                            - text:        
+                      - row "03/02/2026 23:12 0153 Harsha Test Harsha Test 7731841040 Smokevana Prime B2B Shipped Paid Actions Toggle Dropdown" [ref=e1615] [cursor=pointer]:
+                        - gridcell "03/02/2026 23:12" [ref=e1616]
+                        - gridcell "0153" [ref=e1617]
+                        - gridcell "Harsha Test Harsha Test" [ref=e1618]:
+                          - link "Harsha Test Harsha Test" [ref=e1619]:
+                            - /url: /contacts/1212?type=customer
+                        - gridcell "7731841040" [ref=e1620]
+                        - gridcell "Smokevana Prime B2B" [ref=e1621]
+                        - gridcell "Shipped" [ref=e1622]:
+                          - link "Shipped" [ref=e1623]:
+                            - /url: "#"
+                        - gridcell "Paid" [ref=e1624]:
+                          - link "Paid" [ref=e1625]:
+                            - /url: "#"
+                        - gridcell "Actions Toggle Dropdown" [ref=e1626]:
+                          - generic [ref=e1628]:
+                            - button "Actions Toggle Dropdown" [ref=e1629]:
+                              - text: Actions
+                              - generic [ref=e1631]: Toggle Dropdown
+                            - text:        
+                      - row "10/24/2025 11:29 0074 Anwar Basha new 3214569870 Smokevana Prime B2B Paid Actions Toggle Dropdown" [ref=e1632] [cursor=pointer]:
+                        - gridcell "10/24/2025 11:29" [ref=e1633]
+                        - gridcell "0074" [ref=e1634]
+                        - gridcell "Anwar Basha new" [ref=e1635]:
+                          - link "Anwar Basha new" [ref=e1636]:
+                            - /url: /contacts/40?type=customer
+                        - gridcell "3214569870" [ref=e1637]
+                        - gridcell "Smokevana Prime B2B" [ref=e1638]
+                        - gridcell [ref=e1639]
+                        - gridcell "Paid" [ref=e1640]:
+                          - link "Paid" [ref=e1641]:
+                            - /url: "#"
+                        - gridcell "Actions Toggle Dropdown" [ref=e1642]:
+                          - generic [ref=e1644]:
+                            - button "Actions Toggle Dropdown" [ref=e1645]:
+                              - text: Actions
+                              - generic [ref=e1647]: Toggle Dropdown
+                            - text:        
+                      - row "10/24/2025 11:25 0073 Anwar Basha new 3214569870 Smokevana Prime B2B Paid Actions Toggle Dropdown" [ref=e1648] [cursor=pointer]:
+                        - gridcell "10/24/2025 11:25" [ref=e1649]
+                        - gridcell "0073" [ref=e1650]
+                        - gridcell "Anwar Basha new" [ref=e1651]:
+                          - link "Anwar Basha new" [ref=e1652]:
+                            - /url: /contacts/40?type=customer
+                        - gridcell "3214569870" [ref=e1653]
+                        - gridcell "Smokevana Prime B2B" [ref=e1654]
+                        - gridcell [ref=e1655]
+                        - gridcell "Paid" [ref=e1656]:
+                          - link "Paid" [ref=e1657]:
+                            - /url: "#"
+                        - gridcell "Actions Toggle Dropdown" [ref=e1658]:
+                          - generic [ref=e1660]:
+                            - button "Actions Toggle Dropdown" [ref=e1661]:
+                              - text: Actions
+                              - generic [ref=e1663]: Toggle Dropdown
+                            - text:        
+                      - row "10/24/2025 11:17 0072 Anwar Basha new 3214569870 Smokevana Prime B2B Paid Actions Toggle Dropdown" [ref=e1664] [cursor=pointer]:
+                        - gridcell "10/24/2025 11:17" [ref=e1665]
+                        - gridcell "0072" [ref=e1666]
+                        - gridcell "Anwar Basha new" [ref=e1667]:
+                          - link "Anwar Basha new" [ref=e1668]:
+                            - /url: /contacts/40?type=customer
+                        - gridcell "3214569870" [ref=e1669]
+                        - gridcell "Smokevana Prime B2B" [ref=e1670]
+                        - gridcell [ref=e1671]
+                        - gridcell "Paid" [ref=e1672]:
+                          - link "Paid" [ref=e1673]:
+                            - /url: "#"
+                        - gridcell "Actions Toggle Dropdown" [ref=e1674]:
+                          - generic [ref=e1676]:
+                            - button "Actions Toggle Dropdown" [ref=e1677]:
+                              - text: Actions
+                              - generic [ref=e1679]: Toggle Dropdown
+                            - text:        
+                      - row "10/21/2025 17:52 0071 Anwar Basha new 3214569870 Smokevana Prime B2B Paid Actions Toggle Dropdown" [ref=e1680] [cursor=pointer]:
+                        - gridcell "10/21/2025 17:52" [ref=e1681]
+                        - gridcell "0071" [ref=e1682]
+                        - gridcell "Anwar Basha new" [ref=e1683]:
+                          - link "Anwar Basha new" [ref=e1684]:
+                            - /url: /contacts/40?type=customer
+                        - gridcell "3214569870" [ref=e1685]
+                        - gridcell "Smokevana Prime B2B" [ref=e1686]
+                        - gridcell [ref=e1687]
+                        - gridcell "Paid" [ref=e1688]:
+                          - link "Paid" [ref=e1689]:
+                            - /url: "#"
+                        - gridcell "Actions Toggle Dropdown" [ref=e1690]:
+                          - generic [ref=e1692]:
+                            - button "Actions Toggle Dropdown" [ref=e1693]:
+                              - text: Actions
+                              - generic [ref=e1695]: Toggle Dropdown
+                            - text:        
+                      - row "10/21/2025 11:58 0070 Anwar Basha new 3214569870 Smokevana Prime B2B Paid Actions Toggle Dropdown" [ref=e1696] [cursor=pointer]:
+                        - gridcell "10/21/2025 11:58" [ref=e1697]
+                        - gridcell "0070" [ref=e1698]
+                        - gridcell "Anwar Basha new" [ref=e1699]:
+                          - link "Anwar Basha new" [ref=e1700]:
+                            - /url: /contacts/40?type=customer
+                        - gridcell "3214569870" [ref=e1701]
+                        - gridcell "Smokevana Prime B2B" [ref=e1702]
+                        - gridcell [ref=e1703]
+                        - gridcell "Paid" [ref=e1704]:
+                          - link "Paid" [ref=e1705]:
+                            - /url: "#"
+                        - gridcell "Actions Toggle Dropdown" [ref=e1706]:
+                          - generic [ref=e1708]:
+                            - button "Actions Toggle Dropdown" [ref=e1709]:
+                              - text: Actions
+                              - generic [ref=e1711]: Toggle Dropdown
+                            - text:        
+                - status [ref=e1712]: Showing 1 to 10 of 16 entries
+                - list [ref=e1714]:
+                  - listitem:
+                    - link "Previous" [ref=e1715]:
+                      - /url: "#"
+                  - listitem:
+                    - link "1" [ref=e1716]:
+                      - /url: "#"
+                  - listitem:
+                    - link "2" [ref=e1717] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem:
+                    - link "Next" [ref=e1718] [cursor=pointer]:
+                      - /url: "#"
+        - text: 
+      - dialog [ref=e1719]:
+        - generic [ref=e1720]:
+          - generic [ref=e1721]:
+            - img [ref=e1722]
+            - heading [level=2] [ref=e1724]: Quick Actions
+          - button [ref=e1725] [cursor=pointer]:
+            - img [ref=e1726]
+        - generic [ref=e1729]:
+          - generic [ref=e1730]:
+            - heading [level=3] [ref=e1731]: Pinned
+            - paragraph [ref=e1732]: Select items from search results to add to Quick Actions
+          - link [ref=e1734] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/contacts?type=customer&open_create=1
+            - img [ref=e1736]
+            - generic [ref=e1738]: Add a new contact
+            - img [ref=e1739]
+          - link [ref=e1741] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/products/create
+            - img [ref=e1743]
+            - generic [ref=e1745]: Add new product
+            - img [ref=e1746]
+          - link [ref=e1748] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/sells/create?sale_type=sales_order
+            - img [ref=e1750]
+            - generic [ref=e1752]: Add Sales Order
+            - img [ref=e1753]
+          - link [ref=e1755] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/sells/create
+            - img [ref=e1757]
+            - generic [ref=e1759]: Add sales invoice
+            - img [ref=e1760]
+          - link [ref=e1762] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/custom-discounts
+            - img [ref=e1764]
+            - generic [ref=e1766]: Add Discount
+            - img [ref=e1767]
+          - link [ref=e1769] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/brands?open_create=1
+            - img [ref=e1771]
+            - generic [ref=e1773]: Add brand
+            - img [ref=e1774]
+          - link [ref=e1776] [cursor=pointer]:
+            - /url: https://smokevanaerp.phantasm-agents.ai/taxonomies?type=product&open_create=1
+            - img [ref=e1778]
+            - generic [ref=e1780]: Add Category
+            - img [ref=e1781]
+    - contentinfo [ref=e1783]:
+      - generic [ref=e1786]:
+        - generic [ref=e1787]: Smokevana (ERP Suit)
+        - generic [ref=e1788]: "- V6.4"
+        - generic [ref=e1789]: ·
+        - generic [ref=e1790]: Copyright © 2026 All rights reserved.
+  - generic [ref=e1792]:
+    - heading "Application Tour" [level=3] [ref=e1793]
+    - generic [ref=e1794]: Let's go through the application in 7 quick steps...
+    - generic [ref=e1795]:
+      - button "« Prev" [disabled] [ref=e1796]
+      - button "Next »" [ref=e1797] [cursor=pointer]
+      - button "End tour" [ref=e1798] [cursor=pointer]
+```

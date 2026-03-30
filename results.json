@@ -78,20 +78,20 @@
   },
   "suites": [
     {
-      "title": "AddProduct.test.ts",
-      "file": "AddProduct.test.ts",
+      "title": "PurchaseOrder.test.ts",
+      "file": "PurchaseOrder.test.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Smokevana ERP Product Automation",
-          "file": "AddProduct.test.ts",
-          "line": 8,
+          "title": "Smokevana ERP Purchase Order Automation",
+          "file": "PurchaseOrder.test.ts",
+          "line": 4,
           "column": 6,
           "specs": [
             {
-              "title": "Scenario: Add New Variable Product - Success Flow",
+              "title": "Scenario: Add Purchase Order and Create PR",
               "ok": true,
               "tags": [],
               "tests": [
@@ -106,12 +106,9 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 29901,
+                      "duration": 22977,
                       "errors": [],
                       "stdout": [
-                        {
-                          "text": "LOG: Login...\n"
-                        },
                         {
                           "text": "Filling username: admin...\n"
                         },
@@ -120,81 +117,27 @@
                         },
                         {
                           "text": "Clicking Sign in...\n"
-                        },
-                        {
-                          "text": "LOG: Navigating to Add Product page...\n"
-                        },
-                        {
-                          "text": "LOG: Filling Basic Info for TEST-THCPA-1774630401336...\n"
-                        },
-                        {
-                          "text": "LOG: Filling product name: TEST-THCPA-1774630401336\n"
-                        },
-                        {
-                          "text": "LOG: Filling SKU: SKU-1774630401336\n"
-                        },
-                        {
-                          "text": "LOG: Selecting brand: 4 KINGS Test\n"
-                        },
-                        {
-                          "text": "LOG: Selecting category: THCA\n"
-                        },
-                        {
-                          "text": "LOG: Setting Additional Info...\n"
-                        },
-                        {
-                          "text": "LOG: Configuring Variable Product details...\n"
-                        },
-                        {
-                          "text": "LOG: Selecting Variation Template: Flavor\n"
-                        },
-                        {
-                          "text": "LOG: Selecting Variation Values...\n"
-                        },
-                        {
-                          "text": "LOG: Filling Variation Pricing...\n"
-                        },
-                        {
-                          "text": "LOG: Saving product...\n"
-                        },
-                        {
-                          "text": "LOG: Verifying product creation...\n"
-                        },
-                        {
-                          "text": "LOG: Reached products page. Searching...\n"
-                        },
-                        {
-                          "text": "LOG: Success! Product TEST-THCPA-1774630401336 created with Master SKU: SKU-1774630401336\n"
-                        },
-                        {
-                          "text": "LOG: Variation 1 SKU generated: SKU-1774630401336-1\n"
-                        },
-                        {
-                          "text": "LOG: Variation 2 SKU generated: SKU-1774630401336-2\n"
-                        },
-                        {
-                          "text": "LOG: Saved generated SKUs to test-results/generated_skus.json\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-27T16:53:13.583Z",
+                      "startTime": "2026-03-30T22:34:09.325Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\PurchaseOrder-Smokevana-ER-614b6-urchase-Order-and-Create-PR-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\\video.webm"
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\PurchaseOrder-Smokevana-ER-614b6-urchase-Order-and-Create-PR-chromium\\video.webm"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\AddProduct-Smokevana-ERP-P-2ff6f-able-Product---Success-Flow-chromium\\trace.zip"
+                          "path": "C:\\Users\\PSHCPU003\\Documents\\Automation Playwright\\Smokevana ERP\\test-results\\PurchaseOrder-Smokevana-ER-614b6-urchase-Order-and-Create-PR-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -202,9 +145,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "95f1f6d213f27853d5a8-90f57bf4f1c7e29c2453",
-              "file": "AddProduct.test.ts",
-              "line": 33,
+              "id": "df53fee55a332943215e-98210f7af0ee86fd730b",
+              "file": "PurchaseOrder.test.ts",
+              "line": 21,
               "column": 9
             }
           ]
@@ -214,8 +157,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-03-27T16:53:12.720Z",
-    "duration": 32584.548,
+    "startTime": "2026-03-30T22:34:08.626Z",
+    "duration": 24592.631999999998,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
